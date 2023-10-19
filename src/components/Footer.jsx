@@ -224,7 +224,17 @@ export default function Footer() {
                 as="a"
                 href={"#"}
               >
-                Satus
+                Status
+              </Box>
+              <Box
+                _hover={{
+                  color: "red.500", // Change text color to red on hover
+                  cursor: "pointer", // Change cursor to pointer on hover (optional)
+                }}
+                as="a"
+                href={"/privacy-policy"}
+              >
+                Privacy Policy
               </Box>
             </Stack>
             <Stack align={"flex-start"}>

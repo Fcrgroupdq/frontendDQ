@@ -29,6 +29,7 @@ import DoctorResetPassword from "../pages/doctor-reset-password";
 import UserResetPassword from "../pages/UserResetPassword";
 import NotFound from "../pages/NotFound";
 import UpdateBlog from "../pages/UpdateBlog";
+import Privecy from "../pages/Privecy";
 
 const Allroute = () => {
   return (
@@ -57,6 +58,7 @@ const Allroute = () => {
       <Route path="/admin/login" element={<AdminLogin />} />
       <Route path="/hospitals" element={<Hospital />} />
       <Route path="/admin/doctors" element={<Add_doctors />} />
+      <Route path="/privacy-policy" element={<Privecy />} />
 
       <Route path="/hospitals/:id" element={<SingleHospital />} />
       <Route path="/blog/:MetaTitle" element={<SingleBlogPage />} />
