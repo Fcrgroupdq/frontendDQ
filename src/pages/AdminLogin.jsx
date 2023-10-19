@@ -40,6 +40,7 @@ const AdminLogin = () => {
     axios
       .post("https://drab-blue-mite-belt.cyclic.app/admin/login", input)
       .then((res) => {
+        console.log(res)
         toast({
           title: res.data.msg,
           position: "top-right",

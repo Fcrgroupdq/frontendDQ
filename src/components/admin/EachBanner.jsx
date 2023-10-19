@@ -43,22 +43,13 @@ const EachBanner = ({ item }) => {
         widthDisplay.textContent = `Image Width: ${width} pixels`;
   
         const imageSize = file.size; // Get the size of the image in bytes
-  
-        if (width < 150 || width > 400) {
-          alert("Image width must be between 350 and 400 pixels.");
-          // Clear the selected file (optional)
+
+
+        if (imageSize < 20480 || imageSize > 153600) {
+          alert(`Image size must be between 20 KB and 150 KB. and given size is ${imageSize/1024} kB`);
           e.target.value = "";
-          widthDisplay.textContent = ""; // Clear the displayed width
-          setPostImage({ ...postImage, image: null }); // Clear the image in your state
-          return; // Exit the function if width is not as expected
-        }
-  
-        if (imageSize < 20480 || imageSize > 212000) {
-          alert("Image size must be between 20 KB and 200 KB.");
-          // Clear the selected file (optional)
-          e.target.value = "";
-          widthDisplay.textContent = ""; // Clear the displayed width
-          setPostImage({ ...postImage, image: null }); // Clear the image in your state
+          widthDisplay.textContent = "";
+          setPostImage({ ...postImage, image: null });
         }
       };
   
@@ -96,7 +87,7 @@ const EachBanner = ({ item }) => {
   return (
     <div>
       <Box mt={"20px"}>
-        <Image src={item.Image} alt="banner" />
+        <Image  src={item.Image} alt="banner" />
         <Text>{item.name}</Text>
         <Button onClick={onOpen} colorScheme="red">
           Update Banner

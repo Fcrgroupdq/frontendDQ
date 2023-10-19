@@ -35,6 +35,7 @@ const SearchSection = ({ getLocationFromChild }) => {
   // Array of headings
   const [currentHeadingIndex, setCurrentHeadingIndex] = useState(0); // Initial index
 
+
   let dropDowns = [
     "Urology",
     "Laparoscopic Surgeon",
@@ -63,7 +64,21 @@ const SearchSection = ({ getLocationFromChild }) => {
     "Pulmonology",
     "Senior Consultant",
     "Thoracic Surgeon",
+    "Anesthesiology",
+    "Audiology and Speech",
+    "Internal Medicine",
+    "IVF and Infertility",
+    "Lab Medicine",
+    "Obstetrics and Gynecology",
+    "Ophthalmology",
+    "Physiotherapy",
+    "Plastic Surgery & Cosmetology",
+    "Psychiatrist",
+    "Radiology",
+    "Rheumatology",
+    "Homeopathy"
   ];
+
 
   const [currentHeading, setCurrentHeading] = useState(dropDowns[0]);
 

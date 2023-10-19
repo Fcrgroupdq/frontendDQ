@@ -63,6 +63,19 @@ const HospitalSearch = ({ getLocationFromChild }) => {
     "Pulmonology",
     "Senior Consultant",
     "Thoracic Surgeon",
+    "Anesthesiology",
+    "Audiology and Speech",
+    "Internal Medicine",
+    "IVF and Infertility",
+    "Lab Medicine",
+    "Obstetrics and Gynecology",
+    "Ophthalmology",
+    "Physiotherapy",
+    "Plastic Surgery & Cosmetology",
+    "Psychiatrist",
+    "Radiology",
+    "Rheumatology",
+    "Homeopathy"
   ];
 
   const [currentHeading, setCurrentHeading] = useState(dropDowns[0]);
@@ -240,7 +253,6 @@ const HospitalSearch = ({ getLocationFromChild }) => {
     }
   };
 
-
   const handleUserLocation = (e) => {
     setCurrentLocation(true);
     setSearch(e.target.value);
@@ -303,11 +315,21 @@ const HospitalSearch = ({ getLocationFromChild }) => {
           flexDirection={{ base: "column", md: "row" }}
           justifyContent="space-between"
         >
-          <Box mt={"40px"} height={["100px","150px","200px"]}>
-            <Heading as="h2" size={["lg","2xl","3xl"]} noOfLines={1} fontWeight="medium">
+          <Box mt={"40px"} height={["100px", "150px", "200px"]}>
+            <Heading
+              as="h2"
+              size={["lg", "2xl", "3xl"]}
+              noOfLines={1}
+              fontWeight="medium"
+            >
               Book Your <span style={{ color: "red" }}>{currentHeading}</span>
             </Heading>
-            <Heading as="h2" size={["lg","2xl","3xl"]} noOfLines={1} fontWeight="medium">
+            <Heading
+              as="h2"
+              size={["lg", "2xl", "3xl"]}
+              noOfLines={1}
+              fontWeight="medium"
+            >
               Find Your Nearest Hospitals
             </Heading>
           </Box>
@@ -328,15 +350,14 @@ const HospitalSearch = ({ getLocationFromChild }) => {
           >
             {/* Left section */}
 
-
             <Flex
               gap={"5px"}
               flexDirection="row"
               width={{ base: "100%", md: "30%" }}
-              m={'20px'}
+              m={"20px"}
             >
               {/* Location icon */}
-              <Box >
+              <Box>
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   style={{ width: "25px" }}
@@ -347,14 +368,10 @@ const HospitalSearch = ({ getLocationFromChild }) => {
                 onChange={handleUserLocation}
                 value={search}
                 name="search"
-               
                 variant="unstyled"
                 placeholder="Enter Your Location"
               />
             </Flex>
-
-
-            
 
             {/* Middle section */}
             {window.innerWidth >= 768 && (
@@ -366,7 +383,7 @@ const HospitalSearch = ({ getLocationFromChild }) => {
               ></Box>
             )}
             <Flex
-              m={'20px'}
+              m={"20px"}
               flexDirection="row"
               width={{ base: "100%", md: "30%" }}
             >
@@ -406,13 +423,13 @@ const HospitalSearch = ({ getLocationFromChild }) => {
               ></Box>
             )}
 
-            <Box  >
+            <Box>
               <Button
-              padding={["15px",""]}
+                padding={["15px", ""]}
                 onClick={handleSearch}
                 colorScheme="red"
-                height={'100%'}
-                borderRadius={'none'}
+                height={"100%"}
+                borderRadius={"none"}
                 size="md" // Set the button size to "md" for all screen sizes
                 width={{ base: "100%", md: "auto" }} // Set the width to "100%" on mobile screens and "auto" on larger screens
                 fontSize="md" // Adjust the font size if needed

@@ -78,7 +78,7 @@ export default function DoctorCart({ data }) {
             >
               <Box>
                 <Text fontSize="lg" color="teal.500" fontWeight="bold" mb={2}>
-                  {data.location}
+                  {data.city ? `${data?.city},${data?.state}`:''}
                 </Text>
               </Box>
               <Box>
@@ -92,7 +92,7 @@ export default function DoctorCart({ data }) {
               </Box>
             </SimpleGrid>
             <Text fontSize="lg" color="red.500" fontWeight="bold" mb={2}>
-           { data.spacility.charAt(0).toUpperCase() + data.spacility.slice(1)}
+           { data?.spacility?.charAt(0).toUpperCase() + data?.spacility?.slice(1)}
             </Text>
             <Text fontSize="lg" fontWeight="bold" mb={2}>
               Fees: ₹{data.fees}

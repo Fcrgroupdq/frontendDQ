@@ -17,7 +17,11 @@ export default function Add_doctors() {
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState("");
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
+
   const [file, setFile] = useState(null);
+  const [Expertise, setExpertise] = useState("");
   const [profilePictureUrl, setProfilePictureUrl] = useState("");
 
   const handleFileChange = (e) => {
@@ -66,36 +70,35 @@ export default function Add_doctors() {
     setPostImage({ ...postImage, image: base64 });
 
     if (file) {
-        const imageSize = file.size; // Get the size of the image in bytes
-        const image = new Image();
+      const imageSize = file.size; // Get the size of the image in bytes
+      const image = new Image();
 
-        image.onload = function () {
-            const width = image.width; // Get the width of the image
-            const widthDisplay = document.getElementById("image-width");
-            widthDisplay.textContent = `Image Width: ${width} pixels`;
+      image.onload = function () {
+        const width = image.width; // Get the width of the image
+        const widthDisplay = document.getElementById("image-width");
+        widthDisplay.textContent = `Image Width: ${width} pixels`;
 
-            if (width < 150 || width > 400) {
-                alert("Image width must be between 350 and 400 pixels.");
-                // Clear the selected file (optional)
-                e.target.value = "";
-                widthDisplay.textContent = ""; // Clear the displayed width
-                setPostImage({ ...postImage, image: null }); // Clear the image in your state
-                return; // Exit the function if width is not as expected
-            }
+        if (width < 150 || width > 400) {
+          alert("Image width must be between 350 and 400 pixels.");
+          // Clear the selected file (optional)
+          e.target.value = "";
+          widthDisplay.textContent = ""; // Clear the displayed width
+          setPostImage({ ...postImage, image: null }); // Clear the image in your state
+          return; // Exit the function if width is not as expected
+        }
 
-            if (imageSize < 20480 || imageSize > 212000) {
-                alert("Image size must be between 20 KB and 200 KB.");
-                // Clear the selected file (optional)
-                e.target.value = "";
-                widthDisplay.textContent = ""; // Clear the displayed width
-                setPostImage({ ...postImage, image: null }); // Clear the image in your state
-            }
-        };
+        if (imageSize < 20480 || imageSize > 212000) {
+          alert("Image size must be between 20 KB and 200 KB.");
+          // Clear the selected file (optional)
+          e.target.value = "";
+          widthDisplay.textContent = ""; // Clear the displayed width
+          setPostImage({ ...postImage, image: null }); // Clear the image in your state
+        }
+      };
 
-        image.src = URL.createObjectURL(file);
+      image.src = URL.createObjectURL(file);
     }
-};
-
+  };
 
   const handleSelectTime = (e) => {
     const selectedTimeSlot = e.target.value;
@@ -158,6 +161,7 @@ export default function Add_doctors() {
     newDoctor["timeSlots"] = selectedTimeSlots;
   }
 
+
   let dropDowns = [
     "Urology",
     "Laparoscopic Surgeon",
@@ -186,7 +190,21 @@ export default function Add_doctors() {
     "Pulmonology",
     "Senior Consultant",
     "Thoracic Surgeon",
+    "Anesthesiology",
+    "Audiology and Speech",
+    "Internal Medicine",
+    "IVF and Infertility",
+    "Lab Medicine",
+    "Obstetrics and Gynecology",
+    "Ophthalmology",
+    "Physiotherapy",
+    "Plastic Surgery & Cosmetology",
+    "Psychiatrist",
+    "Radiology",
+    "Rheumatology",
+    "Homeopathy"
   ];
+
 
   dropDowns = dropDowns.sort((a, b) => b.localeCompare(a)).reverse();
 
@@ -202,6 +220,9 @@ export default function Add_doctors() {
         setAbout(res.data[0].about);
         setEmail(res.data[0].email);
         setExp(res.data[0].exp);
+        setCity(res.data[0].city);
+        setState(res.data[0].state);
+        setExpertise(res.data[0].expertise);
         setFees(res.data[0].fees);
         setImage(res.data[0].image);
         setLocation(res.data[0].location);
@@ -210,6 +231,40 @@ export default function Add_doctors() {
         setSelectedDays(res.data[0].Availability);
         setSelectedTimeSlots(res.data[0].timeSlots);
         setPostImage({ ...postImage, image: res.data[0].image });
+        let feat = "";
+        let feFind = res.data[0];
+        if (feFind.feature1) {
+          feat += feFind.feature1 + "#";
+        }
+        if (feFind.feature2) {
+          feat += feFind.feature2 + "#";
+        }
+        if (feFind.feature3) {
+          feat += feFind.feature3 + "#";
+        }
+        if (feFind.feature4) {
+          feat += feFind.feature4 + "#";
+        }
+        if (feFind.feature5) {
+          feat += feFind.feature5 + "#";
+        }
+        if (feFind.feature6) {
+          feat += feFind.feature6 + "#";
+        }
+        if (feFind.feature7) {
+          feat += feFind.feature7 + "#";
+        }
+        if (feFind.feature8) {
+          feat += feFind.feature8 + "#";
+        }
+        if (feFind.feature9) {
+          feat += feFind.feature9 + "#";
+        }
+        if (feFind.feature10) {
+          feat += feFind.feature10 + "#";
+        }
+
+        setFeatures(feat);
       });
   }, []);
 
@@ -217,8 +272,12 @@ export default function Add_doctors() {
     const fetureObj = {};
 
     let fetureArr = features.trim().split("#");
+    let run = 9;
+    if (fetureArr.length < run) {
+      run = fetureArr.length;
+    }
 
-    for (let i = 0; i < fetureArr.length; i++) {
+    for (let i = 0; i < run; i++) {
       fetureObj[`feature${i + 1}`] = fetureArr[i];
     }
     return fetureObj;
@@ -246,7 +305,7 @@ export default function Add_doctors() {
         `https://drab-blue-mite-belt.cyclic.app/doctors/update?token=${localStorage.getItem(
           "dqDoctorAu"
         )}`,
-        updatedData
+        { ...updatedData, city: city, state: state, expertise: Expertise }
       )
       .then((res) => {
         console.log(res);
@@ -287,7 +346,6 @@ export default function Add_doctors() {
               </label>
               <div className="mt-2">
                 <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                  
                   <input
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -325,6 +383,54 @@ export default function Add_doctors() {
               </p>
             </div>
           </div>
+
+          <br />
+          <div className="col-span-full">
+            <label
+              htmlFor="Expertise"
+              className="block text-sm font-medium leading-6 text-gray-900"
+            >
+              Expertise
+            </label>
+            <div className="mt-2">
+              <textarea
+                value={Expertise}
+                onChange={(e) => setExpertise(e.target.value)}
+                id="Expertise"
+                name="Expertise"
+                rows={4}
+                className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                defaultValue={""}
+              />
+            </div>
+            <p className="mt-3 text-sm leading-6 text-gray-600">
+              add `#` between two Expertise.
+            </p>
+          </div>
+          <br />
+
+          <div className="col-span-full">
+            <label
+              htmlFor="about"
+              className="block text-sm font-medium leading-6 text-gray-900"
+            >
+              Add more details about the Doctor
+            </label>
+            <div className="mt-2">
+              <textarea
+                value={features}
+                onChange={(e) => setFeatures(e.target.value)}
+                id="about"
+                name="about"
+                rows={5}
+                className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                defaultValue={""}
+              />
+            </div>
+            <p className="mt-3 text-sm leading-6 text-gray-600">
+              add `#` between two Details.
+            </p>
+          </div>
         </div>
 
         <div className="border-b border-gray-900/10 pb-12">
@@ -347,7 +453,8 @@ export default function Add_doctors() {
 
           <label htmlFor="file-upload" className="custom-file-upload">
             <img src={postImage.image} alt="" />
-          </label><br/>
+          </label>
+          <br />
 
           <label for="file-upload">Image:</label>
           <input
@@ -359,7 +466,7 @@ export default function Add_doctors() {
             class="custom-file-input"
             onChange={(e) => handleFileUpload(e)}
           />
-          <div style={{color:'red',padding:'10px'}} id="image-width"></div>
+          <div style={{ color: "red", padding: "10px" }} id="image-width"></div>
 
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             {/* <div className="sm:col-span-3">
@@ -405,7 +512,7 @@ export default function Add_doctors() {
               </div>
             </div>
 
-            <div  className="col-span-full ">
+            <div className="col-span-full ">
               <label
                 htmlFor="street-address"
                 className="block text-sm font-medium leading-6 text-gray-900"
@@ -437,6 +544,8 @@ export default function Add_doctors() {
                   type="text"
                   name="city"
                   id="city"
+                  value={city}
+                  onChange={(e) => setCity(e.target.value)}
                   autoComplete="address-level2"
                   className="block pl-4 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -452,29 +561,13 @@ export default function Add_doctors() {
               </label>
               <div className="mt-2">
                 <input
+                  value={state}
+                  onChange={(e) => setState(e.target.value)}
                   type="text"
                   name="region"
                   id="region"
                   autoComplete="address-level1"
                   className="block pl-4 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
-              </div>
-            </div>
-
-            <div className="sm:col-span-2">
-              <label
-                htmlFor="postal-code"
-                className="block text-sm font-medium leading-6 text-gray-900"
-              >
-                ZIP / Postal code
-              </label>
-              <div className="mt-2">
-                <input
-                  type="text"
-                  name="postal-code"
-                  id="postal-code"
-                  autoComplete="postal-code"
-                  className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -678,29 +771,6 @@ export default function Add_doctors() {
               {/* <p className="text-green-600">Selected time slots:</p> */}
             </div>
           )}
-        </div>
-
-        <div className="col-span-full">
-          <label
-            htmlFor="about"
-            className="block text-sm font-medium leading-6 text-gray-900"
-          >
-            Add more details about the Doctor
-          </label>
-          <div className="mt-2">
-            <textarea
-              value={features}
-              onChange={(e) => setFeatures(e.target.value)}
-              id="about"
-              name="about"
-              rows={5}
-              className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              defaultValue={""}
-            />
-          </div>
-          <p className="mt-3 text-sm leading-6 text-gray-600">
-            add `#` between two Details.
-          </p>
         </div>
       </div>
 

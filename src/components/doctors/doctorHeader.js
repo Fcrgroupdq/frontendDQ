@@ -4,7 +4,7 @@ import axios from "axios";
 import DoctorCart from "./doctorCart";
 import searchContext from "../../context/searchContext";
 
-export default function DoctorHeader() {
+export default function DoctorHeader({setFilterVisible}) {
   const { search } = useContext(searchContext);
 
   const [doctors, setDoctors] = useState([]);
@@ -53,6 +53,7 @@ export default function DoctorHeader() {
       );
       setDoctors(response.data);
       setShowPagination(false);
+      setFilterVisible(true)
     } catch (error) {
       console.error(error.message);
     } finally {

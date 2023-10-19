@@ -19,6 +19,10 @@ export default function AdminAddDoctor() {
   const [file, setFile] = useState(null);
   const [profilePictureUrl, setProfilePictureUrl] = useState("");
 
+  const [city, setCity] = useState("");
+  const [state, setState] = useState("");
+  const [Expertise, setExpertise] = useState("");
+
   const [selectedDays, setSelectedDays] = useState([]);
   const daysOfWeek = [
     "Monday",
@@ -138,13 +142,27 @@ export default function AdminAddDoctor() {
     "Pulmonology",
     "Senior Consultant",
     "Thoracic Surgeon",
+    "Anesthesiology",
+    "Audiology and Speech",
+    "Internal Medicine",
+    "IVF and Infertility",
+    "Lab Medicine",
+    "Obstetrics and Gynecology",
+    "Ophthalmology",
+    "Physiotherapy",
+    "Plastic Surgery & Cosmetology",
+    "Psychiatrist",
+    "Radiology",
+    "Rheumatology",
+    "Homeopathy"
   ];
+
   dropDowns = dropDowns.sort((a, b) => b.localeCompare(a)).reverse();
 
   const fetureFunction = () => {
     const fetureObj = {};
 
-    let fetureArr = features.trim().split("###");
+    let fetureArr = features.trim().split("#");
 
     for (let i = 0; i < fetureArr.length; i++) {
       fetureObj[`feature${i + 1}`] = fetureArr[i];
@@ -156,6 +174,12 @@ export default function AdminAddDoctor() {
     e.preventDefault();
 
     const newDoctor = {};
+    if(!city){
+      alert('please enter city')
+    }
+    if(!state){
+      alert('please enter state')
+    }
     if (name) {
       newDoctor["name"] = name;
     } else {
@@ -240,13 +264,12 @@ export default function AdminAddDoctor() {
       return;
     }
 
-    console.log(updatedData)
 
     // setLoading(true);
     axios
-      .post(`https://drab-blue-mite-belt.cyclic.app/doctors/`, updatedData)
+      .post(`https://drab-blue-mite-belt.cyclic.app/doctors/`, {...updatedData,city: city, state: state, expertise: Expertise})
       .then((res) => {
-        console.log(res.data)
+        
         setLoading(false);
         toast({
           title: res.data.msg,
@@ -323,6 +346,55 @@ export default function AdminAddDoctor() {
                 Write a few sentences about yourself.
               </p>
             </div>
+
+         
+          <div className="col-span-full">
+            <label
+              htmlFor="Expertise"
+              className="block text-sm font-medium leading-6 text-gray-900"
+            >
+              Expertise
+            </label>
+            <div className="mt-2">
+              <textarea
+                value={Expertise}
+                onChange={(e) => setExpertise(e.target.value)}
+                id="Expertise"
+                name="Expertise"
+                rows={4}
+                className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                defaultValue={""}
+              />
+            </div>
+            <p className="mt-3 text-sm leading-6 text-gray-600">
+              add `#` between two Expertise.
+            </p>
+          </div>
+        
+
+            <div className="col-span-full">
+          <label
+            htmlFor="about"
+            className="block text-sm font-medium leading-6 text-gray-900"
+          >
+            Add more details about the Doctor
+          </label>
+          <div className="mt-2">
+            <textarea
+              value={features}
+              required
+              onChange={(e) => setFeatures(e.target.value)}
+              id="about"
+              name="about"
+              rows={5}
+              className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+              defaultValue={""}
+            />
+          </div>
+          <p className="mt-3 text-sm leading-6 text-gray-600">
+            add `#` between two Details.
+          </p>
+        </div>
           </div>
         </div>
 
@@ -434,12 +506,13 @@ export default function AdminAddDoctor() {
               </label>
               <div className="mt-2">
                 <input
-                  required
                   type="text"
                   name="city"
                   id="city"
+                  value={city}
+                  onChange={(e) => setCity(e.target.value)}
                   autoComplete="address-level2"
-                  className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block pl-4 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -453,31 +526,13 @@ export default function AdminAddDoctor() {
               </label>
               <div className="mt-2">
                 <input
-                  required
+                  value={state}
+                  onChange={(e) => setState(e.target.value)}
                   type="text"
                   name="region"
                   id="region"
                   autoComplete="address-level1"
-                  className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
-              </div>
-            </div>
-
-            <div className="sm:col-span-2">
-              <label
-                htmlFor="postal-code"
-                className="block text-sm font-medium leading-6 text-gray-900"
-              >
-                ZIP / Postal code
-              </label>
-              <div className="mt-2">
-                <input
-                  required
-                  type="text"
-                  name="postal-code"
-                  id="postal-code"
-                  autoComplete="postal-code"
-                  className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block pl-4 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -732,29 +787,7 @@ export default function AdminAddDoctor() {
           )}
         </div>
 
-        <div className="col-span-full">
-          <label
-            htmlFor="about"
-            className="block text-sm font-medium leading-6 text-gray-900"
-          >
-            Add more details about the Doctor
-          </label>
-          <div className="mt-2">
-            <textarea
-              value={features}
-              required
-              onChange={(e) => setFeatures(e.target.value)}
-              id="about"
-              name="about"
-              rows={5}
-              className="block w-full pl-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              defaultValue={""}
-            />
-          </div>
-          <p className="mt-3 text-sm leading-6 text-gray-600">
-            add `###` between two Details.
-          </p>
-        </div>
+        
       </div>
 
       <div className="mt-6 flex items-center justify-end gap-x-6">

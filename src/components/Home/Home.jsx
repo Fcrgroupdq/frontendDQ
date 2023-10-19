@@ -148,10 +148,10 @@ export default function HomeMain() {
         <Homeadd/>
       </div>
 
-      <div style={{ margin: "20px",marginBottom:'0px' }}>
+      {/* <div style={{ margin: "20px",marginBottom:'0px' }}> */}
         {/* <ClientSpeak /> */}
-        <BlogCart />
-      </div>
+        {/* <BlogCart /> */}
+      {/* </div> */}
 
       <div style={{ margin: "20px",marginTop:'0px' }}>
         <GetStarted />
