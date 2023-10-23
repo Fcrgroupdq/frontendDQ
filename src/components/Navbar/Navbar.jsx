@@ -2,7 +2,7 @@ import { Fragment, useEffect, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-import { Box, Button, border, useDisclosure, useToast } from "@chakra-ui/react";
+import { Box, Button, border, useDisclosure, useToast,Avatar } from "@chakra-ui/react";
 import dq from "../../assets/Logo Dq.png"
 
 
@@ -115,7 +115,7 @@ export default function Navbar() {
                         <span className="sr-only">Open user menu</span>
 
                         {windowWidth < 610 ? (
-                          <img
+                          <Avatar
                             className="h-8 w-8 rounded-full"
                             src=""
                             alt=""

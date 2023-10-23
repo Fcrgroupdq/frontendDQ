@@ -15,6 +15,7 @@ const imageHeight = "300px"; // Set your desired height
 
 const Carouse = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -39,45 +40,48 @@ const Carouse = () => {
       res.data.map((item, index) => {
         images[index] = res.data[index].Image;
       });
+      setLoading(false);
     });
   }, []);
 
-  return (
-    <>
-      <Box
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        w={["100%", "80%"]}
-        margin={"auto"}
-      >
-        {/* <Box p={["6px", "12px"]}>
+  if (!loading) {
+    return (
+      <>
+        <Box
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          w={["100%", "80%"]}
+          margin={"auto"}
+        >
+          {/* <Box p={["6px", "12px"]}>
           <Button p={"5px"} colorScheme="red" onClick={handlePrevClick}>
             <FiSkipBack />
           </Button>
         </Box> */}
-        <Image
-          h={["120px", "200px", "300px"]}
-          objectFit={"fill"}
-          borderRadius={["10px", "20px", "30px"]}
-          src={images[currentImageIndex]}
-          alt={`Image ${currentImageIndex + 1}`}
-          // style={{
-          //   objectFit: "fill",
-          //   height: "120px",
-          //   borderRadius: "10px",
-          // }}
-        />
-        {/* <Box p={["6px", "12px"]}>
+          <Image
+            h={["120px", "200px", "300px"]}
+            objectFit={"fill"}
+            borderRadius={["10px", "20px", "30px"]}
+            src={images[currentImageIndex]}
+            alt={`Image ${currentImageIndex + 1}`}
+            // style={{
+            //   objectFit: "fill",
+            //   height: "120px",
+            //   borderRadius: "10px",
+            // }}
+          />
+          {/* <Box p={["6px", "12px"]}>
           <Button p={"5px"} colorScheme="red" onClick={handleNextClick}>
             <FiSkipForward />
           </Button>
         </Box> */}
-      </Box>
-      <br />
-      <br />
-    </>
-  );
+        </Box>
+        <br />
+        <br />
+      </>
+    );
+  }
 };
 
 export default Carouse;
