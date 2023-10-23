@@ -46,7 +46,7 @@ const Carouse = () => {
 
   return (
     <>
-      <Box display="flex" alignItems="center" justifyContent="center" w={["90%","80%"]} margin={'auto'}>
+      <Box display="flex" alignItems="center" justifyContent="center" w={["100%","80%"]} margin={'auto'}>
         {/* <Box p={["6px", "12px"]}>
           <Button p={"5px"} colorScheme="red" onClick={handlePrevClick}>
             <FiSkipBack />
@@ -55,6 +55,7 @@ const Carouse = () => {
         <Image
         h={['100px','200px','300px']}
         objectFit={'cover'}
+        
           borderRadius={["10px","20px","30px"]}
           // border="2px solid red"
           // w={imageWidth} // Set the width
