@@ -116,7 +116,7 @@ export default function Navbar() {
 
                         {windowWidth < 610 ? (
                           <Avatar
-                            className="h-8 w-8 rounded-full"
+                            className="h-4 w-4 rounded-full"
                             src=""
                             alt=""
                           />
