@@ -266,7 +266,3 @@ export default function Navbar() {
   );
 }
 
-
-// mam dq project is compleated.
-// i have done all the taskes whatever are assined
-// so mam i just want to know about my salery

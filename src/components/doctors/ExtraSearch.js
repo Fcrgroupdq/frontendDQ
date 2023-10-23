@@ -307,7 +307,7 @@ const ExtraSearch = ({ getLocationFromChild }) => {
 
   return (
     <>
-      <Box p={"20px"} backgroundColor={"#fef6f6"} height={"500px"}>
+      <Box p={"20px"} backgroundColor={"#fef6f6"} height={["350px","500px"]}>
         {/* <Flex
           width={"80%"}
           margin={"auto"}

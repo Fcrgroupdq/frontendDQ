@@ -53,6 +53,7 @@ const Carouse = () => {
           </Button>
         </Box> */}
         <Image
+        h={['100px','200px','300px']}
         objectFit={'cover'}
           borderRadius={["10px","20px","30px"]}
           // border="2px solid red"
