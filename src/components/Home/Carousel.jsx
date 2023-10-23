@@ -35,33 +35,38 @@ const Carouse = () => {
   };
 
   useEffect(() => {
-    axios
-      .get("https://drab-blue-mite-belt.cyclic.app/banner")
-      .then((res) => {
-        res.data.map((item,index) => {
-          images[index] = res.data[index].Image
-        })
+    axios.get("https://drab-blue-mite-belt.cyclic.app/banner").then((res) => {
+      res.data.map((item, index) => {
+        images[index] = res.data[index].Image;
       });
+    });
   }, []);
 
   return (
     <>
-      <Box display="flex" alignItems="center" justifyContent="center" w={["100%","80%"]} margin={'auto'}>
+      <Box
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        w={["100%", "80%"]}
+        margin={"auto"}
+      >
         {/* <Box p={["6px", "12px"]}>
           <Button p={"5px"} colorScheme="red" onClick={handlePrevClick}>
             <FiSkipBack />
           </Button>
         </Box> */}
         <Image
-        h={['100px','200px','300px']}
-        objectFit={'cover'}
-        
-          borderRadius={["10px","20px","30px"]}
-          // border="2px solid red"
-          // w={imageWidth} // Set the width
-          // h={imageHeight} // Set the height
+          h={["120px", "200px", "300px"]}
+          objectFit={"fill"}
+          borderRadius={["10px", "20px", "30px"]}
           src={images[currentImageIndex]}
           alt={`Image ${currentImageIndex + 1}`}
+          // style={{
+          //   objectFit: "fill",
+          //   height: "120px",
+          //   borderRadius: "10px",
+          // }}
         />
         {/* <Box p={["6px", "12px"]}>
           <Button p={"5px"} colorScheme="red" onClick={handleNextClick}>
