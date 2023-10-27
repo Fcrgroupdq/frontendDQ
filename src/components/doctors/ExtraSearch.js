@@ -20,7 +20,7 @@ import { Search2Icon } from "@chakra-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Carouse from "../Home/Carousel";
-const API_KEY = "15106e32380f4441a9e659ec6346fa9c";
+const API_KEY = "125c85ac34cf44adb8a0dedab61ca3da";
 
 const ExtraSearch = ({ getLocationFromChild }) => {
   const { search: contextSearch, setSearch: contextSetSearch } =
