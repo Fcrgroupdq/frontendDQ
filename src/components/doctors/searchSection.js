@@ -35,7 +35,6 @@ const SearchSection = ({ getLocationFromChild }) => {
   // Array of headings
   const [currentHeadingIndex, setCurrentHeadingIndex] = useState(0); // Initial index
 
-
   let dropDowns = [
     "Urology",
     "Laparoscopic Surgeon",
@@ -76,9 +75,8 @@ const SearchSection = ({ getLocationFromChild }) => {
     "Psychiatrist",
     "Radiology",
     "Rheumatology",
-    "Homeopathy"
+    "Homeopathy",
   ];
-
 
   const [currentHeading, setCurrentHeading] = useState(dropDowns[0]);
 
@@ -158,6 +156,16 @@ const SearchSection = ({ getLocationFromChild }) => {
   }
 
   const handleSearch = async () => {
+    if (category === "") {
+      toast({
+        title: `please enter your location`,
+        position: "top-right",
+        isClosable: true,
+        status: "error",
+        duration: 4000,
+      });
+      return;
+    }
     if (search === "") {
       toast({
         title: `please enter your location`,
@@ -352,7 +360,6 @@ const SearchSection = ({ getLocationFromChild }) => {
           >
             {/* Left section */}
 
-
             <Flex
               gap={"5px"}
               flexDirection="row"
@@ -376,8 +383,6 @@ const SearchSection = ({ getLocationFromChild }) => {
               />
             </Flex>
 
-          
-
             {/* Middle section */}
             {window.innerWidth >= 768 && (
               <Box
@@ -387,7 +392,7 @@ const SearchSection = ({ getLocationFromChild }) => {
                 height={{ base: "50px", md: "auto" }}
               ></Box>
             )}
-             <Flex
+            <Flex
               m={"20px"}
               flexDirection="row"
               width={{ base: "100%", md: "30%" }}
@@ -430,7 +435,7 @@ const SearchSection = ({ getLocationFromChild }) => {
 
             <Box>
               <Button
-              padding={["15px",""]}
+                padding={["15px", ""]}
                 onClick={handleSearch}
                 colorScheme="red"
                 height={"100%"}
@@ -452,7 +457,6 @@ const SearchSection = ({ getLocationFromChild }) => {
           )}
         </Box>
       </Box>
-      
     </>
   );
 };
