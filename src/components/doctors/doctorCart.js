@@ -82,13 +82,13 @@ export default function DoctorCart({ data }) {
                 </Text>
               </Box>
               <Box>
-                <Text fontSize="2xl" color="blue.500" fontWeight="bold" mb={2}>
+                {/* <Text fontSize="2xl" color="blue.500" fontWeight="bold" mb={2}>
                   {Math.floor(data.distance)
                     ? Math.floor(data.distance) === 0
                       ? "1 Km"
                       : `${Math.floor(data.distance)} Km`
                     : ""}
-                </Text>
+                </Text> */}
               </Box>
             </SimpleGrid>
             <Text fontSize="lg" color="red.500" fontWeight="bold" mb={2}>

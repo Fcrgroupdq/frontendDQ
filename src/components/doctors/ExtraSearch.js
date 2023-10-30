@@ -157,7 +157,7 @@ const ExtraSearch = ({ getLocationFromChild }) => {
   const handleSearch = async () => {
     if (category === "") {
       toast({
-        title: `please enter your location`,
+        title: `Please select Treatment Category`,
         position: "top-right",
         isClosable: true,
         status: "error",

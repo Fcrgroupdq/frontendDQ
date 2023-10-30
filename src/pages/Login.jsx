@@ -21,7 +21,7 @@ import {
 } from "@chakra-ui/react";
 import axios from "axios";
 import { useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate, useLocation } from "react-router-dom";
 
 const avatars = [
   {
@@ -81,21 +81,24 @@ export default function Login() {
   const [otpVisible, setOtpVisible] = useState(false);
   const [pinValues, setPinValues] = useState(["", "", "", ""]);
   const [otpLoding, setOtpLoding] = useState(false);
-  const [verify,setVerify] = useState(false)
-  const [msg,setmsg] = useState(false)
+  const [verify, setVerify] = useState(false);
+  const [msg, setmsg] = useState(false);
+
+  const location = useLocation();
+  console.log(location)
 
   const handleChange = (e) => {
     setLogin({ ...login, [e.target.name]: e.target.value });
   };
 
   const handleSubmitLogin = async (e) => {
-    setLoading(true)
+    setLoading(true);
 
-    if(msg){
+    if (msg) {
       await axios
-      .post("https://drab-blue-mite-belt.cyclic.app/user/forget", login)
-      .then((res) => {
-        console.log(res)
+        .post("https://drab-blue-mite-belt.cyclic.app/user/forget", login)
+        .then((res) => {
+          console.log(res);
           toast({
             title: `${res.data.msg}`,
             position: "top-right",
@@ -103,43 +106,43 @@ export default function Login() {
             status: "error",
             duration: 4000,
           });
-         setmsg(false)
-         setVerify(false)
-         setOtpVisible(false)
-         setLoading(false)
-      })
-    }else{
-      setLoading(true);
-    await axios
-      .post("https://drab-blue-mite-belt.cyclic.app/user/login", login)
-      .then((res) => {
-        console.log(res.data);
-        if (res.data.token) {
-          localStorage.setItem("dqAuthTo", res.data.token);
-          navigate("/doctors");
-          toast({
-            title: `${res.data.msg}`,
-            position: "top-right",
-            isClosable: true,
-            status: "success",
-            duration: 4000,
-          });
-        } else {
-          toast({
-            title: `${res.data.msg}`,
-            position: "top-right",
-            isClosable: true,
-            status: "error",
-            duration: 4000,
-          });
-        }
-        setLogin({
-          email: "",
-          password: "",
+          setmsg(false);
+          setVerify(false);
+          setOtpVisible(false);
+          setLoading(false);
         });
-        setLoading(false);
-      })
-      .catch((res) => console.log(res));
+    } else {
+      setLoading(true);
+      await axios
+        .post("https://drab-blue-mite-belt.cyclic.app/user/login", login)
+        .then((res) => {
+          console.log(res.data);
+          if (res.data.token) {
+            localStorage.setItem("dqAuthTo", res.data.token);
+            navigate(location.navigate);
+            toast({
+              title: `${res.data.msg}`,
+              position: "top-right",
+              isClosable: true,
+              status: "success",
+              duration: 4000,
+            });
+          } else {
+            toast({
+              title: `${res.data.msg}`,
+              position: "top-right",
+              isClosable: true,
+              status: "error",
+              duration: 4000,
+            });
+          }
+          setLogin({
+            email: "",
+            password: "",
+          });
+          setLoading(false);
+        })
+        .catch((res) => console.log(res));
     }
   };
 
@@ -150,34 +153,33 @@ export default function Login() {
   };
 
   const handleOtpVerify = () => {
-    setVerify(true)
+    setVerify(true);
     axios
-    .post("https://drab-blue-mite-belt.cyclic.app/otp/verify", {
-      email: login.email,
-      otp: pinValues.join(""),
-    })
-    .then((res) => {
-      toast({
-        title: res.data.msg,
-        description: "",
-        position: "top-right",
-        status: res.data.msg === "otp verify success" ? "success" : "error",
-        duration: 4000,
-        isClosable: true,
+      .post("https://drab-blue-mite-belt.cyclic.app/otp/verify", {
+        email: login.email,
+        otp: pinValues.join(""),
+      })
+      .then((res) => {
+        toast({
+          title: res.data.msg,
+          description: "",
+          position: "top-right",
+          status: res.data.msg === "otp verify success" ? "success" : "error",
+          duration: 4000,
+          isClosable: true,
+        });
+        if (res.data.msg === "otp verify success") {
+          setVerify(false);
+          setmsg(true);
+        }
       });
-      if (res.data.msg === "otp verify success") {
-        setVerify(false)
-         setmsg(true)
-      }
-
-    });
   };
   const handleForget = () => {
-    if(login.email===""){
-      alert("Please enter your email")
+    if (login.email === "") {
+      alert("Please enter your email");
       return;
     }
-    setOtpLoding(true)
+    setOtpLoding(true);
     axios
       .post("https://drab-blue-mite-belt.cyclic.app/otp/send", {
         email: login.email,
@@ -203,7 +205,7 @@ export default function Login() {
         })
       )
       .finally(() => {
-        setOtpLoding(false)
+        setOtpLoding(false);
         setOtpVisible(true);
       });
   };
@@ -330,7 +332,11 @@ export default function Login() {
                   color: "gray.500",
                 }}
               />
-              {msg?<h3 style={{color:'red'}}>Please Enter New Password</h3>:""}
+              {msg ? (
+                <h3 style={{ color: "red" }}>Please Enter New Password</h3>
+              ) : (
+                ""
+              )}
               <Input
                 name="password"
                 value={password}
@@ -371,39 +377,38 @@ export default function Login() {
                   Please Signup
                 </Link>
               </div>
-              <Button  colorScheme="red" variant={"link"}>
-                <Link to={'/user-reset-password'}>Forget Password</Link>
+              <Button colorScheme="red" variant={"link"}>
+                <Link to={"/user-reset-password"}>Forget Password</Link>
               </Button>
             </div>
             {otpVisible ? (
-          <Box
-            marginTop={"12px"}
-            display={"flex"}
-            justifyContent={"space-between"}
-            width={"400px"}
-          >
-            <HStack>
-              <PinInput>
-                {pinValues.map((value, index) => (
-                  <PinInputField
-                    key={index}
-                    value={value}
-                    onChange={(e) => handlePinChange(index, e.target.value)}
-                  />
-                ))}
-              </PinInput>
-            </HStack>
-            <Button onClick={handleOtpVerify} colorScheme="red">
-              {verify ? <Spinner /> : "verify OTP"}
-            </Button>
-          </Box>
-        ) : (
-          ""
-        )}
+              <Box
+                marginTop={"12px"}
+                display={"flex"}
+                justifyContent={"space-between"}
+                width={"400px"}
+              >
+                <HStack>
+                  <PinInput>
+                    {pinValues.map((value, index) => (
+                      <PinInputField
+                        key={index}
+                        value={value}
+                        onChange={(e) => handlePinChange(index, e.target.value)}
+                      />
+                    ))}
+                  </PinInput>
+                </HStack>
+                <Button onClick={handleOtpVerify} colorScheme="red">
+                  {verify ? <Spinner /> : "verify OTP"}
+                </Button>
+              </Box>
+            ) : (
+              ""
+            )}
           </Box>
           form
         </Stack>
-        
       </Container>
       <Blur
         position={"absolute"}

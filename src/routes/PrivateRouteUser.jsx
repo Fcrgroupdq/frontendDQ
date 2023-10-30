@@ -1,14 +1,15 @@
 import React from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, useParams, useLocation } from "react-router-dom";
 
 const PrivateRouteUser = ({ children }) => {
   let isAuth = localStorage.getItem("dqAuthTo");
-  // alert(isAuth)
-console.log(!isAuth)
-  if(isAuth===undefined){
+  const location = useLocation();
+  location.navigate = location.pathname;
+
+  if (isAuth === undefined) {
     return <Navigate to={"/login"} />;
   }
-  
+
   if (!isAuth) {
     return <Navigate to={"/login"} />;
   }
