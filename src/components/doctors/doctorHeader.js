@@ -6,6 +6,8 @@ import searchContext from "../../context/searchContext";
 
 export default function DoctorHeader({setFilterVisible}) {
   const { search } = useContext(searchContext);
+  // alert(location,search)
+ 
 
   const [doctors, setDoctors] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -40,10 +42,11 @@ export default function DoctorHeader({setFilterVisible}) {
   };
 
   const getNearestDoctor = async () => {
+    // console.log(search)
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?lat=${search.latitude}&lon=${search.longitude}&cat=${search.category}&status=approved&day=${search.day}&min=${search.min}&max=${search.max}`,
+        `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?lat=${search.latitude}&lon=${search.longitude}&cat=${search.category}&status=approved&day=${search.day}&min=${search.min}&max=${search.max}&query=${search.location}`,
         {
           headers: {
             token:

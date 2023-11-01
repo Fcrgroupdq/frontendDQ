@@ -92,6 +92,8 @@ const SearchSection = ({ getLocationFromChild }) => {
     };
   }, []);
 
+  
+
   useEffect(() => {
     setCurrentHeading(dropDowns[currentHeadingIndex]);
   }, [currentHeadingIndex]);
@@ -190,12 +192,14 @@ const SearchSection = ({ getLocationFromChild }) => {
       if (search === "Near Me") {
         GetLocation();
       } else {
-        const location = await geocodeCity(`${search},India,india`);
+        // const location = await geocodeCity(`${search},India,india`);
+        const location = {}
         getLocationFromChild(
           location.latitude,
           location.longitude,
           category,
-          loading
+          search,
+          loading,
         );
       }
       setLoading(false);
