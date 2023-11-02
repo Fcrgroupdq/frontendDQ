@@ -130,7 +130,7 @@ const DoctorDashboardSignup = () => {
             alt="Your Company"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-            Sign up to beacome a doctor on doctorQueiry
+            Signup to Become part of Doctors Queries
           </h2>
         </div>
 
@@ -207,7 +207,7 @@ const DoctorDashboardSignup = () => {
                   </PinInput>
                 </HStack>
                 <Button onClick={handleOtpVerify} colorScheme="red">
-                  {otpLoding ? <Spinner /> : "verify OTP"}
+                  {otpLoding ? <Spinner /> : "Verify OTP"}
                 </Button>
               </Box>
             ) : (
