@@ -98,7 +98,7 @@ export default function Login() {
       await axios
         .post("https://drab-blue-mite-belt.cyclic.app/user/forget", login)
         .then((res) => {
-          console.log(res);
+          // console.log(res);
           toast({
             title: `${res.data.msg}`,
             position: "top-right",
@@ -116,10 +116,11 @@ export default function Login() {
       await axios
         .post("https://drab-blue-mite-belt.cyclic.app/user/login", login)
         .then((res) => {
-          console.log(res.data);
+          // console.log(res.data);
           if (res.data.token) {
             localStorage.setItem("dqAuthTo", res.data.token);
-            navigate(location.navigate);
+            window.history.back()
+            // navigate(location.navigate);
             toast({
               title: `${res.data.msg}`,
               position: "top-right",
