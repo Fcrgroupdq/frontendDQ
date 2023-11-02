@@ -165,7 +165,6 @@ export default function Add_doctors() {
   let dropDowns = [
     "Urology",
     "Laparoscopic Surgeon",
-    "Gastroenterology",
     "General Surgeon",
     "Cardiac Surgeon",
     "Dentist",

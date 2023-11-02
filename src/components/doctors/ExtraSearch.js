@@ -36,7 +36,6 @@ const ExtraSearch = ({ getLocationFromChild }) => {
   let dropDowns = [
     "Urology",
     "Laparoscopic Surgeon",
-    "Gastroenterology",
     "General Surgeon",
     "Cardiac Surgeon",
     "Dentist",

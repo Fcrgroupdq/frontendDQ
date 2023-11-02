@@ -44,7 +44,6 @@ const SearchSection = ({ getLocationFromChild }) => {
     "Dentist",
     "Dermatologist",
     "Endoscopy",
-    "Gastroenterology",
     "Ent",
     "Eye Surgeon",
     "General Physician",

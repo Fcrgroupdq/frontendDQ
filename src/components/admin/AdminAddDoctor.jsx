@@ -117,7 +117,6 @@ export default function AdminAddDoctor() {
   let dropDowns = [
     "Urology",
     "Laparoscopic Surgeon",
-    "Gastroenterology",
     "General Surgeon",
     "Cardiac Surgeon",
     "Dentist",
