@@ -191,14 +191,12 @@ const SearchSection = ({ getLocationFromChild }) => {
       if (search === "Near Me") {
         GetLocation();
       } else {
-        // const location = await geocodeCity(`${search},India,india`);
-        const location = {}
+        const location = await geocodeCity(`${search},India,india`);
         getLocationFromChild(
           location.latitude,
           location.longitude,
           category,
-          search,
-          loading,
+          loading
         );
       }
       setLoading(false);
@@ -209,6 +207,7 @@ const SearchSection = ({ getLocationFromChild }) => {
       });
     }
   };
+
 
   const handleCurrentLocation = () => {
     if ("geolocation" in navigator) {
