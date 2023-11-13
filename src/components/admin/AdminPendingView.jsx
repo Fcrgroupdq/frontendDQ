@@ -96,7 +96,7 @@ const AdminPendingView = () => {
           </Text>
           <Text as="span">{item.doctor}</Text>
           <Text fontWeight="bold" color="gray.600">
-            Specialty:
+            Speciality:
           </Text>
           <Text as="span">{item.specilaty}</Text>
           <Text fontWeight="bold" color="gray.600">
