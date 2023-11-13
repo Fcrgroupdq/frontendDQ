@@ -85,7 +85,7 @@ const DoctorDashboardLogin = () => {
         </div>
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <img   width={'120px'} height={'120px'} src={dq}/>
-          <h2 className="text-gray-900 text-lg mb-1 mt-5 font-medium title-font">Log in to your Doctor Dashboard</h2>
+          <h2 className="text-gray-900 text-lg mb-1 mt-5 font-medium title-font">Hey Doc!! Please Login to See your Appointments </h2>
           
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
@@ -118,7 +118,7 @@ const DoctorDashboardLogin = () => {
               to="/doctor-dashboard-signup"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
-              please Signup
+              Create an Account
             </Link>
           </p>
         </div>
