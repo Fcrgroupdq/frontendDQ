@@ -42,7 +42,7 @@ const AdminPendingView = () => {
           {`Total ${userAppointment.length} appointment are pending now`}
         </Heading>
         <Text color={"red"}>
-        See all pendind appointment details on below the page.
+        See all pending appointment details below the page.
         </Text>
       </Box>
 
@@ -96,7 +96,7 @@ const AdminPendingView = () => {
           </Text>
           <Text as="span">{item.doctor}</Text>
           <Text fontWeight="bold" color="gray.600">
-            Speciality:
+            Speciality :
           </Text>
           <Text as="span">{item.specilaty}</Text>
           <Text fontWeight="bold" color="gray.600">
