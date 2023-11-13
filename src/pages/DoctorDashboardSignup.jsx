@@ -225,12 +225,12 @@ const DoctorDashboardSignup = () => {
           </form>
 
           <p className="mt-10 text-center text-sm text-gray-500">
-            Allready a member?{" "}
+            Already a Member?{" "}
             <Link
               to="/doctor-dashboard-login"
               className="font-semibold leading-6 text-purpul2 hover:text-purpul4"
             >
-              please Login
+              Please Login
             </Link>
           </p>
         </div>
