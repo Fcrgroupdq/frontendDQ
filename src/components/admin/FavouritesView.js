@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import {useMediaQuery} from "@chakra-ui/react"; // Corrected import
+import { Button, Stack, useMediaQuery } from "@chakra-ui/react"; // Corrected import
 import NewDoctorCart from "./doctor/NewDoctorCart";
 
 const FavouritesView = () => {
-
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [page, setPage] = useState(1);
+  const [totalPages,setTotalPages] = useState(1)
 
   const [isLargerThanTablet] = useMediaQuery("(min-width: 868px)");
   const [showAllFeatures, setShowAllFeatures] = useState(false);
   const [showAllText, setShowAllText] = useState("See More");
-  const [refrace,setRefrace] = useState(false);
+  const [refrace, setRefrace] = useState(false);
 
   const refract = () => {
-    setRefrace(!refrace)
-  }
+    setRefrace(!refrace);
+  };
 
   const toggleShowFeatures = () => {
     setShowAllFeatures(!showAllFeatures);
@@ -41,12 +42,18 @@ const FavouritesView = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`https://drab-blue-mite-belt.cyclic.app/doctors/all`)
+      .get(
+        `https://drab-blue-mite-belt.cyclic.app/doctors/pending/?page=${page}`
+      )
       .then((res) => {
-        setData(res.data);
+        console.log(res);
+        setData(res.data.pendingDoctors);
+        setTotalPages(res.data.totalPages);
         setLoading(false);
       });
-  }, [refrace]);
+  }, [refrace,page]);
+
+  // console.log(data)
 
   if (loading) {
     return (
@@ -56,21 +63,40 @@ const FavouritesView = () => {
     );
   }
 
-  let fouund = [];
-  data.forEach(item => 
-    item.status === "Not Verified" ? fouund.push(item):""
-  )
-
-
-  if(fouund.length === 0){
-    return <div style={{textAlign:'center',fontSize:'20px',color:'red'}}>Not found any Data</div>
-  }
-
   return (
     <div>
-      {fouund.map((data) => (
-       data.status === "Not Verified" ? <NewDoctorCart refract={refract} data={data} /> :""
+      {data.map((data) => (
+        <NewDoctorCart refract={refract} data={data} />
       ))}
+
+      <Stack
+        direction={{ base: "row", md: "row", lg: "row" }} // Stack horizontally on small and medium screens, vertically on large screens
+        justifyContent="center"
+        alignItems="center"
+        mt={{ base: "4", md: "0" }} // Adjust margin-top for different screen sizes
+        spacing={2} // Adjust the spacing between pagination buttons
+        flexWrap="wrap" // Allow buttons to wrap to the next row on small screens
+      >
+        <Button
+          size="sm"
+          colorScheme="red"
+          onClick={() => setPage(page - 1)}
+          isDisabled={page === 1}
+        >
+          Previous
+        </Button>
+        <Button size="sm" colorScheme="red" disabled>
+          {page}
+        </Button>
+        <Button
+          size="sm"
+          colorScheme="red"
+          onClick={() => setPage(page + 1)}
+          isDisabled={page === totalPages}
+        >
+          Next
+        </Button>
+      </Stack>
     </div>
   );
 };

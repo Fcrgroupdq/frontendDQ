@@ -372,8 +372,7 @@ const SidebarWithHeader = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeView, setActiveView] = useState("DoctorView");
 
-  // console.log(activeView)
-
+  
   function setView(val) {
     setActiveView(val);
   }
