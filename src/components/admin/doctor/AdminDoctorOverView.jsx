@@ -8,7 +8,6 @@ import TableOne from "./TableRecent";
 const AdminDoctorOverView = () => {
   const [doctor, setDoctor] = useState([]);
   const [loading, setLoading] = useState(false);
-  
 
   useEffect(() => {
     setLoading(true);
