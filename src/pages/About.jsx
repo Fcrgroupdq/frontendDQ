@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "../components/About/Contact";
-import LetestBlog from "../components/About/LetestBlog";
+// import LetestBlog from "../components/About/LetestBlog";
 import ArticleList from "../components/About/Blog";
 import AboutTop from "../components/About/AboutTop";
 import {Helmet} from "react-helmet";
@@ -21,7 +21,7 @@ const About = () => {
                 <meta name="twitter:image" content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png" />
             </Helmet>
       <AboutTop />
-      <LetestBlog />
+{/*       <LetestBlog /> */}
       {/* <Contact /> */}
     </div>
   );
