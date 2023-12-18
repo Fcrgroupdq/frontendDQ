@@ -6,6 +6,8 @@ import searchContext from "../context/searchContext";
 import ExtraSearch from "../components/doctors/ExtraSearch";
 import Carouse from "../components/Home/Carousel";
 import { Box, GridItem, Select, SimpleGrid } from "@chakra-ui/react";
+import {Helmet} from "react-helmet";
+
 
 export default function DoctorsMain() {
   const [latitude, setLatitude] = useState(null);
@@ -55,6 +57,19 @@ export default function DoctorsMain() {
 
   return (
     <div>
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>List of Best Doctors Near You: Doctors Queries</title>
+                <meta name="description" content=" Find the best doctors near you with Doctors Queries - your trusted source for the top healthcare professionals in your area. Quickly and easily access a list of the best doctors near you." />
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="keywords" content=" best doctors near you, find best doctors near you" />
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:site" content="@doctorsqueries" />
+                <meta name="twitter:title" content="Become a Partner with Doctors Queries: doctorsqueries.com" />
+                <meta name="twitter:description" content="Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com." />
+                <meta name="twitter:image" content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png" />
+            </Helmet>
+      
       <ExtraSearch getLocationFromChild={getLocationFromChild} />
 
       {filterVisible ? (
