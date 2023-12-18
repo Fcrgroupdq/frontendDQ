@@ -61,7 +61,7 @@ export default function DoctorsMain() {
                 <meta charSet="utf-8" />
                 <title>List of Best Doctors Near You: Doctors Queries</title>
                 <meta name="description" content=" Find the best doctors near you with Doctors Queries - your trusted source for the top healthcare professionals in your area. Quickly and easily access a list of the best doctors near you." />
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="https://www.doctorsqueries.com/doctors" />
                 <meta name="keywords" content=" best doctors near you, find best doctors near you" />
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@doctorsqueries" />
