@@ -13,7 +13,7 @@ const About = () => {
                 <title>Doctors Queries | About </title>
                 <meta name="description" content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com" />
                 <link rel="canonical" href="http://mysite.com/example" />
-                <meta name="keywrods" content=" Doctors Queries, Partner with Doctors Queries" />
+                <meta name="keywords" content=" Doctors Queries, Partner with Doctors Queries" />
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@doctorsqueries" />
                 <meta name="twitter:title" content="Become a Partner with Doctors Queries: doctorsqueries.com" />
