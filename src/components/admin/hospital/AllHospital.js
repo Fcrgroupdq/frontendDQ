@@ -12,11 +12,14 @@ import {
 } from "@chakra-ui/react";
 import axios from "axios";
 import AllHospitalCart from "./AllHospitalCart";
+import { useNavigate } from "react-router-dom";
 
 const AllHospital = () => {
   const [hospital, setHospital] = useState([]);
   const [loding, setLoding] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+
+  const navigate = useNavigate();
 
   const getHospital = async () => {
     setLoding(true);
@@ -59,6 +62,10 @@ const AllHospital = () => {
     getHospital();
   }, []);
 
+  const handleAddNewDoctor = () => {
+    navigate("/admin/hospital/add-new")
+  }
+
   const handleSearch = () => {
     if (searchTerm === "") {
       getHospital()
@@ -90,10 +97,10 @@ const AllHospital = () => {
             Search
           </Button>
         </Box>
-        <Spacer />
-        <Button colorScheme="teal" size="md" mb={[2, 0]}>
+        <Spacer /> */}
+        <Button onClick={handleAddNewDoctor} colorScheme="teal" size="md" mb={[2, 0]}>
           Add a new hospital
-        </Button> */}
+        </Button>
       </Flex>
       {hospital.length === 0 ? (
         <h2>No Doctor Fount With id:${searchTerm}</h2>

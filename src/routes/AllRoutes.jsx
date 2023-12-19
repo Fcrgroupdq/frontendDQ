@@ -30,6 +30,7 @@ import UserResetPassword from "../pages/UserResetPassword";
 import NotFound from "../pages/NotFound";
 import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
+import AddHospital from "../pages/AddHospital";
 
 const Allroute = () => {
   return (
@@ -59,6 +60,14 @@ const Allroute = () => {
       <Route path="/hospitals" element={<Hospital />} />
       <Route path="/admin/doctors" element={<Add_doctors />} />
       <Route path="/privacy-policy" element={<Privecy />} />
+      <Route
+        path="/admin/hospital/add-new"
+        element={
+          <PrivateRouteAdmin>
+            <AddHospital />
+          </PrivateRouteAdmin>
+        }
+      />
 
       <Route path="/hospitals/:id" element={<SingleHospital />} />
       <Route path="/blog/:MetaTitle" element={<SingleBlogPage />} />
@@ -70,7 +79,7 @@ const Allroute = () => {
         element={
           <PrivateRouteDoctorDashboard>
             <DoctorDashboard />
-           </PrivateRouteDoctorDashboard>
+          </PrivateRouteDoctorDashboard>
         }
       />
       <Route
@@ -90,8 +99,8 @@ const Allroute = () => {
           </PrivateRouteUser>
         }
       />
-      <Route path="/admin-reset-password" element={<AdminResetPassword/>} />
-      <Route path="/doctor-reset-password" element={<DoctorResetPassword/>} />
+      <Route path="/admin-reset-password" element={<AdminResetPassword />} />
+      <Route path="/doctor-reset-password" element={<DoctorResetPassword />} />
       <Route path="/user-reset-password" element={<UserResetPassword />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
