@@ -1,30 +1,22 @@
-import React from "react";
-import Contact from "../components/About/Contact";
-// import LetestBlog from "../components/About/LetestBlog";
-import ArticleList from "../components/About/Blog";
-import AboutTop from "../components/About/AboutTop";
-import {Helmet} from "react-helmet";
+import { useEffect, useState } from "react";
+import DoctorCart from "../components/doctors/doctorCart";
+import axios from "axios";
 
-const About = () => {
-  return (
-    <div>
-       <Helmet>
-                <meta charSet="utf-8" />
-                <title>About | Doctors Queries</title>
-                <meta name="description" content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com" />
-                <link rel="canonical" href="https://www.doctorsqueries.com/about" />
-                <meta name="keywords" content=" Doctors Queries, Partner with Doctors Queries" />
-                <meta name="twitter:card" content="summary" />
-                <meta name="twitter:site" content="@doctorsqueries" />
-                <meta name="twitter:title" content="Become a Partner with Doctors Queries: doctorsqueries.com" />
-                <meta name="twitter:description" content="Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com." />
-                <meta name="twitter:image" content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png" />
-            </Helmet>
-      <AboutTop />
-{/*       <LetestBlog /> */}
-      {/* <Contact /> */}
-    </div>
-  );
-};
+function Dentist() {
 
-export default About;
+    const [doctors,setDoctors] = useState([]);
+
+    useEffect(()=>{
+        axios.get(`https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${'dentist'}&status=approved&query=${'delhi'}`)
+        .then(res => {
+            console.log(res.data)
+        })
+    },[])
+
+
+  return <>{
+    doctors.map(item => <DoctorCart  data={item} />)
+  }</>;
+}
+
+export default Dentist;
