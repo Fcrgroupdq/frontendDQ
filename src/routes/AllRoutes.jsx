@@ -33,7 +33,7 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
-import dentist from "../delhi/dentist";
+// import dentist from "../delhi/dentist";
 import dentist from "../pages/delhi/dentist";
 
 const Allroute = () => {
