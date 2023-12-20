@@ -33,7 +33,6 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
-// import dentist from "../delhi/dentist";
 import dentist from "../pages/delhi/dentist";
 
 const Allroute = () => {
@@ -77,7 +76,7 @@ const Allroute = () => {
       <Route path="/blog/:MetaTitle" element={<SingleBlogPage />} />
       <Route path="/blog/:MetaTitle/edit" element={<UpdateBlog />} />
       <Route path="/about" element={<About />} />
-      <Route path="/de" element={<About2 />} />
+      {/* <Route path="/de" element={<About2 />} /> */}
       <Route path="dentist-in-delhi" element={<dentist />} />
       <Route path="/doctorappointment" element={<DoctorAppointment />} />
       <Route
