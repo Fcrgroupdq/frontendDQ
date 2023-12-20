@@ -16,6 +16,9 @@ function Dentist() {
 
   return <>{
     doctors.map(item => <DoctorCart  data={item} />)
+
+    <h1>Dentist Route test</h1>
+
   }</>;
 }
 
