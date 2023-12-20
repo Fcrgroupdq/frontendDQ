@@ -32,7 +32,7 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
-
+import dentist from "../delhi/dentist";
 
 
 const Allroute = () => {
@@ -94,6 +94,12 @@ const Allroute = () => {
         element={<DoctorDashboardSignup />}
       />
       <Route path="/blog" element={<Blog />} />
+
+      {/* New Route */}
+      <Route path="/delhi" element={<dentist />} />
+      
+      {/* End */}
+
       <Route
         path="/user-dashboard"
         element={
