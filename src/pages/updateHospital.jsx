@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import { Spinner } from "@chakra-ui/react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { Spinner, useToast } from "@chakra-ui/react";
 import axios from "axios";
 
-export default function AddHospital ()  {
+const UpdateHospital = () => {
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
   const [established, setEstablished] = useState(0);
@@ -13,14 +14,40 @@ export default function AddHospital ()  {
   const [file, setFile] = useState(null);
   const [postImage, setPostImage] = useState({ image: "" });
   const [profilePictureUrl, setProfilePictureUrl] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [updateLoading, setUpdateLoading] = useState(false)
 
+  const { id } = useParams();
 
+  const getData = () => {
+    axios
+      .get(`https://drab-blue-mite-belt.cyclic.app/hospital/${id}`)
+      .then((res) => {
+        setName(res.data.name);
+        setLocation(res.data.location);
+        setAbout(res.data.about);
+        setSpecialist(res.data.specialist);
+        setBeds(res.data.beds);
+        setFeatures(res.data.features);
+        setEstablished(res.data.established);
+        setPostImage({ image: res.data.image });
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  };
+
+  useEffect(() => {
+    setLoading(true);
+    getData();
+  }, []);
+
+  const toast = useToast();
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     setFile(selectedFile);
 
-    // Display the selected profile picture
     const url = URL.createObjectURL(selectedFile);
     setProfilePictureUrl(url);
   };
@@ -62,37 +89,41 @@ export default function AddHospital ()  {
     }
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // Check if the required fields are populated
-    if (!name || !location || !about || !features || !specialist || !postImage.image) {
-      // Display an error message or handle accordingly
-      console.error("Please fill in all the required fields.");
-      return;
-    }
-
-    const newHospital = {
-      name,
-      location,
-      about,
-      features,
-      specialist,
-      beds,
-      established,
-      image: postImage.image,
-    };
-
-    axios.post("https://drab-blue-mite-belt.cyclic.app/hospital", newHospital)
-      .then((res) => {
-        console.log(res.data); // Handle the response as needed
-      })
-      .catch((error) => {
-        console.error(error); // Handle errors if the request fails
-      });
+  const newHospital = {
+    name,
+    location,
+    about,
+    features,
+    specialist,
+    beds,
+    established,
+    image: postImage.image,
   };
-  const loading = false;
 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setUpdateLoading(true)
+    axios
+      .patch(
+        `https://drab-blue-mite-belt.cyclic.app/hospital/update/${id}`,
+        newHospital
+      )
+      .then((res) => {
+        toast({
+            title:res.data.msg,
+            description: "We've created your account for you.",
+            status: 'success',
+            duration: 9000,
+            isClosable: true,
+          })
+      }).finally(()=>{
+        setUpdateLoading(false)
+      })
+  };
+
+  if (loading) {
+    return <h1 style={{ textAlign: "center" }}>{<Spinner />}</h1>;
+  }
   return (
     <form>
       <div className="space-y-12 p-8">
@@ -300,13 +331,14 @@ export default function AddHospital ()  {
           onClick={handleSubmit}
           className="rounded-md bg-purpul4 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
-          {loading ? <Spinner /> : "update"}
+          {updateLoading ? <Spinner /> : "update"}
         </button>
       </div>
     </form>
   );
 };
 
+export default UpdateHospital;
 
 function convertToBase64(file) {
   return new Promise((resolve, reject) => {

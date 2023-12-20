@@ -31,6 +31,7 @@ import NotFound from "../pages/NotFound";
 import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
+import UpdateHospital from "../pages/updateHospital";
 
 const Allroute = () => {
   return (
@@ -68,7 +69,7 @@ const Allroute = () => {
           </PrivateRouteAdmin>
         }
       />
-
+      <Route path="/admin/hospital/update/:id" element={<UpdateHospital />} />
       <Route path="/hospitals/:id" element={<SingleHospital />} />
       <Route path="/blog/:MetaTitle" element={<SingleBlogPage />} />
       <Route path="/blog/:MetaTitle/edit" element={<UpdateBlog />} />

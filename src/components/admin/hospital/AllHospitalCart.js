@@ -22,6 +22,7 @@ import {
   ModalCloseButton,
 } from "@chakra-ui/react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const AllHospitalCart = ({ hospital }) => {
   const { name, image1, image2, location, isPremium, _id } = hospital;
@@ -29,6 +30,7 @@ const AllHospitalCart = ({ hospital }) => {
   const [loading, setLoading] = useState(false)
 
   const toast = useToast();
+  const navigate = useNavigate()
 
   const handleDelete =  (id) => {
     setLoading(true)
@@ -43,6 +45,10 @@ const AllHospitalCart = ({ hospital }) => {
         duration: 4000,
       });
     })
+  }
+
+  const handleUpdate = (id) => {
+    navigate(`/admin/hospital/update/${id}`)
   }
 
   return (
@@ -88,7 +94,7 @@ const AllHospitalCart = ({ hospital }) => {
           )}
         </Box>
         <Flex w={["100%", "100%", "30%"]} gap={["10px", "10px", "20px"]}>
-          <Button colorScheme="blue">Update</Button>
+          <Button onClick={() => handleUpdate(_id)} colorScheme="blue">Update</Button>
           <Button color={"red"} onClick={onOpen}>
             Delete
           </Button>
