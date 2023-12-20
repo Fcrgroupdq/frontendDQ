@@ -6,6 +6,7 @@ import Signup from "../pages/Signup";
 import Doctors from "../pages/Doctors";
 import Hospital from "../pages/Hospital";
 import About from "../pages/About";
+import About2 from "../pages/About2";
 import SingleDoctor from "../pages/SingleDoctor";
 import SingleHospital from "../pages/SingleHospital";
 import Appointment from "../pages/Appointment";
