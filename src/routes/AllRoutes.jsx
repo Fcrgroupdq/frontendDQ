@@ -32,7 +32,7 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
-import dentist from "delhi/dentist";
+
 
 
 const Allroute = () => {
@@ -107,12 +107,7 @@ const Allroute = () => {
       <Route path="/user-reset-password" element={<UserResetPassword />} />
       <Route path="*" element={<NotFound />} />
 
-      {/*       Static Routes */}
-           <Route
-        path="/dentist-in-delhi"
-        element={<dentist />}
-      />
-      {/*    End     */}
+
       
     </Routes>
   );
