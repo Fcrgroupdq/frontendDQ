@@ -5,8 +5,7 @@ import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Doctors from "../pages/Doctors";
 import Hospital from "../pages/Hospital";
-import About from "../pages/About2";
-import About2 from "../pages/About";
+import About from "../pages/About";
 import SingleDoctor from "../pages/SingleDoctor";
 import SingleHospital from "../pages/SingleHospital";
 import Appointment from "../pages/Appointment";
@@ -33,7 +32,7 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
-import dentist from "../delhi/dentist";
+import dentist from "delhi/dentist";
 
 
 const Allroute = () => {
@@ -77,7 +76,6 @@ const Allroute = () => {
       <Route path="/blog/:MetaTitle" element={<SingleBlogPage />} />
       <Route path="/blog/:MetaTitle/edit" element={<UpdateBlog />} />
       <Route path="/about" element={<About />} />
-      <Route path="/dentist2" element={<About2 />} />
       <Route path="/doctorappointment" element={<DoctorAppointment />} />
       <Route
         path="/doctor-dashboard"
@@ -96,11 +94,6 @@ const Allroute = () => {
         element={<DoctorDashboardSignup />}
       />
       <Route path="/blog" element={<Blog />} />
-
-      {/* New Route */}
-      <Route path="/dentist" element={<dentist />} />
-      {/* End */}
-
       <Route
         path="/user-dashboard"
         element={
@@ -114,7 +107,12 @@ const Allroute = () => {
       <Route path="/user-reset-password" element={<UserResetPassword />} />
       <Route path="*" element={<NotFound />} />
 
-
+      {/*       Static Routes */}
+           <Route
+        path="/dentist-in-delhi"
+        element={<dentist />}
+      />
+      {/*    End     */}
       
     </Routes>
   );
