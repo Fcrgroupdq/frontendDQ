@@ -32,6 +32,8 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
+import dentist from "delhi/dentist";
+
 
 const Allroute = () => {
   return (
@@ -104,6 +106,14 @@ const Allroute = () => {
       <Route path="/doctor-reset-password" element={<DoctorResetPassword />} />
       <Route path="/user-reset-password" element={<UserResetPassword />} />
       <Route path="*" element={<NotFound />} />
+
+      {/*       Static Routes */}
+           <Route
+        path="/dentist-in-delhi"
+        element={<dentist />}
+      />
+      {/*    End     */}
+      
     </Routes>
   );
 };
