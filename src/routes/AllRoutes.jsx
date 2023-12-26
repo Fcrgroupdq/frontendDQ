@@ -33,7 +33,7 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
-import dentistindelhi from "../pages/delhi/dentistindelhi";
+import Anesthesiology from "../pages/delhi/Anesthesiology";
 
 const Allroute = () => {
   return (
@@ -110,12 +110,8 @@ const Allroute = () => {
       <Route path="*" element={<NotFound />} />
 
       {/*       Static Routes */}
-           <Route
-        path="/dentist-in-delhi"
-        element={<dentist />}
-      />
+      <Route path="/anesthesiology-in-delhi" element={<Anesthesiology />} />
       {/*    End     */}
-      
     </Routes>
   );
 };
