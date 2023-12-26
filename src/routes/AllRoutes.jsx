@@ -34,6 +34,7 @@ import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
 import Anesthesiology from "../pages/delhi/Anesthesiology";
+import Dentist from "../pages/delhi/Dentist";
 
 const Allroute = () => {
   return (
@@ -111,6 +112,7 @@ const Allroute = () => {
 
       {/*       Static Routes */}
       <Route path="/anesthesiology-in-delhi" element={<Anesthesiology />} />
+      <Route path="/dentist-in-delhi" element={<Dentist/>} />
       {/*    End     */}
     </Routes>
   );
