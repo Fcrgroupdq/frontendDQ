@@ -36,6 +36,7 @@ import UpdateHospital from "../pages/updateHospital";
 
 
 import Anesthesiology from "../pages/delhi/Anesthesiology";
+<<<<<<< HEAD
 import AudiologyandSpeech from "../pages/delhi/AudiologyandSpeech";
 import CardiacSurgeon from "../pages/delhi/CardiacSurgeon";
 import Dentist from "../pages/delhi/Dentist";
@@ -112,6 +113,9 @@ import NoidaRheumatology from "../pages/noida/Rheumatology";
 import NoidaSeniorConsultant from "../pages/noida/SeniorConsultant";
 import NoidaThoracicSurgeon from "../pages/noida/ThoracicSurgeon";
 import NoidaUrology from "../pages/noida/Urology";
+=======
+import Dentist from "../pages/delhi/Dentist";
+>>>>>>> 1754893a6d89001bf362b634829d56cbb0c48d57
 
 const Allroute = () => {
   return (
@@ -189,6 +193,7 @@ const Allroute = () => {
 
       {/*       Static Routes */}
       <Route path="/anesthesiology-in-delhi" element={<Anesthesiology />} />
+<<<<<<< HEAD
       <Route path="/audiologyandSpeech-in-delhi" element={<AudiologyandSpeech />} />
       <Route path="/cardiacsurgeon-in-delhi" element={<CardiacSurgeon />} />
       <Route path="/dentist-in-delhi" element={<Dentist />} />
@@ -269,6 +274,9 @@ const Allroute = () => {
       <Route path="/ThoracicSurgeon-in-noida" element={<NoidaThoracicSurgeon />} />
       <Route path="/Urology-in-noida" element={<NoidaUrology />} />
 
+=======
+      <Route path="/dentist-in-delhi" element={<Dentist/>} />
+>>>>>>> 1754893a6d89001bf362b634829d56cbb0c48d57
       {/*    End     */}
     </Routes>
   );
