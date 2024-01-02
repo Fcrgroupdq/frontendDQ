@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-import { useEffect, useState } from "react";
-import DoctorCart from "../../components/doctors/doctorCart";
-import axios from "axios";
-
-function Dentist() {
-
-    const [doctors,setDoctors] = useState([]);
-
-    useEffect(()=>{
-        axios.get(`https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${'dentist'}&status=approved&query=${'delhi'}`)
-        .then(res => {
-           setDoctors(res.data)
-        })
-    },[])
-
-
-  return <>{
-    doctors.map(item => <DoctorCart  data={item} />)
-  }</>;
-}
-
-export default Dentist;
-=======
 import { useEffect, useState } from "react";
 import DoctorCart from "../../components/doctors/doctorCart";
 import axios from "axios";
@@ -51,7 +27,7 @@ function Dentist() {
             name="description"
             content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/dentist-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/Dentist-in-delhi" />
           <meta
             name="keywords"
             content=" Doctors Queries, Partner with Doctors Queries"
@@ -159,4 +135,3 @@ function Dentist() {
 }
 
 export default Dentist;
->>>>>>> 1754893a6d89001bf362b634829d56cbb0c48d57

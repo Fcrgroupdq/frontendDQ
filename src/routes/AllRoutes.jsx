@@ -34,9 +34,7 @@ import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
 
-
 import Anesthesiology from "../pages/delhi/Anesthesiology";
-<<<<<<< HEAD
 import AudiologyandSpeech from "../pages/delhi/AudiologyandSpeech";
 import CardiacSurgeon from "../pages/delhi/CardiacSurgeon";
 import Dentist from "../pages/delhi/Dentist";
@@ -75,8 +73,46 @@ import ThoracicSurgeon from "../pages/delhi/ThoracicSurgeon";
 import Urology from "../pages/delhi/Urology";
 
 
+import GurgaonAnesthesiology from "../pages/gurgaon/Anesthesiology";
+import GurgaonAudiologyandSpeech from "../pages/gurgaon/AudiologyandSpeech";
+import GurgaonCardiacSurgeon from "../pages/gurgaon/CardiacSurgeon";
+import GurgaonDentist from "../pages/gurgaon/Dentist";
+import GurgaonDermatologist from "../pages/gurgaon/Dermatologist";
+import GurgaonEndoscopy from "../pages/gurgaon/Endoscopy";
+import GurgaonEnt from "../pages/gurgaon/Ent";
+import GurgaonEyeSurgeon from "../pages/gurgaon/EyeSurgeon";
+import GurgaonGastroenterology from "../pages/gurgaon/Gastroenterology";
+import GurgaonGeneralPhysician from "../pages/gurgaon/GeneralPhysician";
+import GurgaonGeneralSurgeon from "../pages/gurgaon/GeneralSurgeon";
+import GurgaonHairTransplant from "../pages/gurgaon/HairTransplant";
+import GurgaonHematology from "../pages/gurgaon/Hematology";
+import GurgaonHomeopathy from "../pages/gurgaon/Homeopathy";
+import GurgaonInfectiousDisease from "../pages/gurgaon/InfectiousDisease";
+import GurgaonInternalMedicine from "../pages/gurgaon/InternalMedicine";
+import GurgaonIVFandinfertility from "../pages/gurgaon/IVFandInfertility";
+import GurgaonKidneyTransplant from "../pages/gurgaon/KidneyTransplant";
+import GurgaonLabMedicine from "../pages/gurgaon/LabMedicine";
+import GurgaonLaparoscopicSurgeon from "../pages/gurgaon/LaparoscopicSurgeon";
+import GurgaonMdMedicine from "../pages/gurgaon/MdMedicine";
+import GurgaonNephrology from "../pages/gurgaon/Nephrology";
+import GurgaonNeurologist from "../pages/gurgaon/Neurologist";
+import GurgaonNeuroSurgeon from "../pages/gurgaon/NeuroSurgeon";
+import GurgaonOncologist from "../pages/gurgaon/Oncologist";
+import GurgaonOphthalmology from "../pages/gurgaon/Ophthalmology";
+import GurgaonOrthopedic from "../pages/gurgaon/Orthopedic";
+import GurgaonPediatric from "../pages/gurgaon/Pediatric";
+import GurgaonPhysiotherapy from "../pages/gurgaon/Physiotherapy";
+import GurgaonPlasticSurgeon from "../pages/gurgaon/PlasticSurgeon";
+import GurgaonPsychiatrist from "../pages/gurgaon/Psychiatrist";
+import GurgaonPulmonology from "../pages/gurgaon/Pulmonology";
+import GurgaonRadiology from "../pages/gurgaon/Radiology";
+import GurgaonRheumatology from "../pages/gurgaon/Rheumatology";
+import GurgaonSeniorConsultant from "../pages/gurgaon/SeniorConsultant";
+import GurgaonThoracicSurgeon from "../pages/gurgaon/ThoracicSurgeon";
+import GurgaonUrology from "../pages/gurgaon/Urology";
 
-import NoidaAnesthesiology  from "../pages/noida/Anesthesiology";
+
+import NoidaAnesthesiology from "../pages/noida/Anesthesiology";
 import NoidaAudiologyandSpeech from "../pages/noida/AudiologyandSpeech";
 import NoidaCardiacSurgeon from "../pages/noida/CardiacSurgeon";
 import NoidaDentist from "../pages/noida/Dentist";
@@ -113,9 +149,9 @@ import NoidaRheumatology from "../pages/noida/Rheumatology";
 import NoidaSeniorConsultant from "../pages/noida/SeniorConsultant";
 import NoidaThoracicSurgeon from "../pages/noida/ThoracicSurgeon";
 import NoidaUrology from "../pages/noida/Urology";
-=======
-import Dentist from "../pages/delhi/Dentist";
->>>>>>> 1754893a6d89001bf362b634829d56cbb0c48d57
+
+
+
 
 const Allroute = () => {
   return (
@@ -191,93 +227,167 @@ const Allroute = () => {
       <Route path="/user-reset-password" element={<UserResetPassword />} />
       <Route path="*" element={<NotFound />} />
 
-      {/*       Static Routes */}
-      <Route path="/anesthesiology-in-delhi" element={<Anesthesiology />} />
-<<<<<<< HEAD
-      <Route path="/audiologyandSpeech-in-delhi" element={<AudiologyandSpeech />} />
-      <Route path="/cardiacsurgeon-in-delhi" element={<CardiacSurgeon />} />
-      <Route path="/dentist-in-delhi" element={<Dentist />} />
-      <Route path="/dermatologist-in-delhi" element={<Dermatologist />} />
-      <Route path="/endoscopy-in-delhi" element={<Endoscopy />} />
-      <Route path="/ent-in-delhi" element={<Ent />} />
-      <Route path="/eye-surgeon-in-delhi" element={<EyeSurgeon />} />
-      <Route path="/gastroenterology-in-delhi" element={<Gastroenterology />} />
-      <Route path="/generalPhysician-in-delhi" element={<GeneralPhysician />} />
-      <Route path="/generalSurgeon-in-delhi" element={<GeneralSurgeon />} />
-      <Route path="/hairTransplant-in-delhi" element={<HairTransplant />} />
-      <Route path="/Hematology-in-delhi" element={<Hematology />} />
-      <Route path="/Homeopathy-in-delhi" element={<Homeopathy />} />
-      <Route path="/InfectiousDisease-in-delhi" element={<InfectiousDisease />} />
-      <Route path="/InternalMedicine-in-delhi" element={<InternalMedicine />} />
-      <Route path="/IVFandinfertility-in-delhi" element={<IVFandinfertility />} />
-      <Route path="/KidneyTransplant-in-delhi" element={<KidneyTransplant />} />
-      <Route path="/LabMedicine-in-delhi" element={<LabMedicine />} />
-      <Route path="/LaparoscopicSurgeon-in-delhi" element={<LaparoscopicSurgeon />} />
-      <Route path="/MdMedicine-in-delhi" element={<MdMedicine />} />
-      <Route path="/Nephrology-in-delhi" element={<Nephrology />} />
-      <Route path="/Neurologist-in-delhi" element={<Neurologist />} />
-      <Route path="/NeuroSurgeon-in-delhi" element={<NeuroSurgeon />} />
-      <Route path="/Oncologist-in-delhi" element={<Oncologist />} />
-      <Route path="/Ophthalmology-in-delhi" element={<Ophthalmology />} />
-      <Route path="/Orthopedic-in-delhi" element={<Orthopedic />} />
-      <Route path="/Pediatric-in-delhi" element={<Pediatric />} />
-      <Route path="/Physiotherapy-in-delhi" element={<Physiotherapy />} />
-      <Route path="/PlasticSurgeon-in-delhi" element={<PlasticSurgeon />} />
-      <Route path="/Psychiatrist-in-delhi" element={<Psychiatrist />} />
-      <Route path="/Pulmonology-in-delhi" element={<Pulmonology />} />
-      <Route path="/Radiology-in-delhi" element={<Radiology />} />
-      <Route path="/Rheumatology-in-delhi" element={<Rheumatology />} />
-      <Route path="/SeniorConsultant-in-delhi" element={<SeniorConsultant />} />
-      <Route path="/ThoracicSurgeon-in-delhi" element={<ThoracicSurgeon />} />
-      <Route path="/Urology-in-delhi" element={<Urology />} />
 
-      {/*    End     */}
+      /Anesthesiology-in-Gurgaon
+      /AudiologyandSpeech-in-Gurgaon
+      /CardiacSurgeon-in-Gurgaon
+      /Dentist-in-Gurgaon
+      /Dermatologist-in-Gurgaon
+      /Dermatologist-in-Gurgaon
+      /Endoscopy-in-Gurgaon
+      /Ent-in-Gurgaon
+      /EyeSurgeon-in-Gurgaon
+      /Gastroenterology-in-Gurgaon
+      /GeneralPhysician-in-Gurgaon
+      /GeneralSurgeon-in-Gurgaon
+      /HairTransplant-in-Gurgaon
+      /Hematology-in-Gurgaon
+      /Homeopathy-in-Gurgaon
+      /InfectiousDisease-in-Gurgaon
+      /InternalMedicine-in-Gurgaon
+      /IVFandinfertility-in-Gurgaon
+      /KidneyTransplant-in-Gurgaon
+      /LabMedicine-in-Gurgaon
+      /LaparoscopicSurgeon-in-Gurgaon
+      /MdMedicine-in-Gurgaon
+      /Nephrology-in-Gurgaon
+      /Neurologist-in-Gurgaon
+      /NeuroSurgeon-in-Gurgaon
+      /Oncologist-in-Gurgaon
+      /Ophthalmology-in-Gurgaon
+      /Orthopedic-in-Gurgaon
+      /Pediatric-in-Gurgaon
+      /Physiotherapy-in-Gurgaon
+      /PlasticSurgeon-in-Gurgaon
+      /Psychiatrist-in-Gurgaon
+      /Pulmonology-in-Gurgaon
+      /Radiology-in-Gurgaon
+      /Rheumatology-in-Gurgaon
+      /SeniorConsultant-in-Gurgaon
+      /ThoracicSurgeon-in-Gurgaon
+      /Urology-in-Gurgaon
 
 
 
-       {/*       Static Routes */}
-       <Route path="/anesthesiology-in-noida" element={<NoidaAnesthesiology />} />
-      <Route path="/audiologyandSpeech-in-noida" element={<NoidaAudiologyandSpeech />} />
-      <Route path="/cardiacsurgeon-in-noida" element={<NoidaCardiacSurgeon />} />
-      <Route path="/dentist-in-noida" element={<NoidaDentist />} />
-      <Route path="/dermatologist-in-noida" element={<NoidaDermatologist />} />
-      <Route path="/endoscopy-in-noida" element={<NoidaEndoscopy />} />
-      <Route path="/ent-in-noida" element={<NoidaEnt />} />
-      <Route path="/eye-surgeon-in-noida" element={<NoidaEyeSurgeon />} />
-      <Route path="/gastroenterology-in-noida" element={<NoidaGastroenterology />} />
-      <Route path="/generalPhysician-in-noida" element={<NoidaGeneralPhysician />} />
-      <Route path="/generalSurgeon-in-noida" element={<NoidaGeneralSurgeon />} />
-      <Route path="/hairTransplant-in-noida" element={<NoidaHairTransplant />} />
-      <Route path="/Hematology-in-noida" element={<NoidaHematology />} />
-      <Route path="/Homeopathy-in-noida" element={<NoidaHomeopathy />} />
-      <Route path="/InfectiousDisease-in-noida" element={<NoidaInfectiousDisease />} />
-      <Route path="/InternalMedicine-in-noida" element={<NoidaInternalMedicine />} />
-      <Route path="/IVFandinfertility-in-noida" element={<NoidaIVFandinfertility />} />
-      <Route path="/KidneyTransplant-in-noida" element={<NoidaKidneyTransplant />} />
-      <Route path="/LabMedicine-in-noida" element={<NoidaLabMedicine />} />
-      <Route path="/LaparoscopicSurgeon-in-noida" element={<NoidaLaparoscopicSurgeon />} />
-      <Route path="/MdMedicine-in-noida" element={<NoidaMdMedicine />} />
-      <Route path="/Nephrology-in-noida" element={<NoidaNephrology />} />
-      <Route path="/Neurologist-in-noida" element={<NoidaNeurologist />} />
-      <Route path="/NeuroSurgeon-in-noida" element={<NoidaNeuroSurgeon />} />
-      <Route path="/Oncologist-in-noida" element={<NoidaOncologist />} />
-      <Route path="/Ophthalmology-in-noida" element={<NoidaOphthalmology />} />
-      <Route path="/Orthopedic-in-noida" element={<NoidaOrthopedic />} />
-      <Route path="/Pediatric-in-noida" element={<NoidaPediatric />} />
-      <Route path="/Physiotherapy-in-noida" element={<NoidaPhysiotherapy />} />
-      <Route path="/PlasticSurgeon-in-noida" element={<NoidaPlasticSurgeon />} />
-      <Route path="/Psychiatrist-in-noida" element={<NoidaPsychiatrist />} />
-      <Route path="/Pulmonology-in-noida" element={<NoidaPulmonology />} />
-      <Route path="/Radiology-in-noida" element={<NoidaRadiology />} />
-      <Route path="/Rheumatology-in-noida" element={<NoidaRheumatology />} />
-      <Route path="/SeniorConsultant-in-noida" element={<NoidaSeniorConsultant />} />
-      <Route path="/ThoracicSurgeon-in-noida" element={<NoidaThoracicSurgeon />} />
-      <Route path="/Urology-in-noida" element={<NoidaUrology />} />
 
-=======
-      <Route path="/dentist-in-delhi" element={<Dentist/>} />
->>>>>>> 1754893a6d89001bf362b634829d56cbb0c48d57
-      {/*    End     */}
+
+      <Route path="/Anesthesiology-in-delhi" element={<Anesthesiology/>} />
+      <Route path="/AudiologyandSpeech-in-delhi" element={<AudiologyandSpeech/>} />
+      <Route path="/CardiacSurgeon-in-delhi" element={<CardiacSurgeon/>} />
+      <Route path="/Dentist-in-delhi" element={<Dentist/>} />
+      <Route path="/Dermatologist-in-delhi" element={<Dermatologist/>} />
+      <Route path="/Endoscopy-in-delhi" element={<Endoscopy/>} />
+      <Route path="/Ent-in-delhi" element={<Ent/>} />
+      <Route path="/EyeSurgeon-in-delhi" element={<EyeSurgeon/>} />
+      <Route path="/Gastroenterology-in-delhi" element={<Gastroenterology/>} />
+      <Route path="/GeneralPhysician-in-delhi" element={<GeneralPhysician/>} />
+      <Route path="/GeneralSurgeon-in-delhi" element={<GeneralSurgeon/>} />
+      <Route path="/HairTransplant-in-delhi" element={<HairTransplant/>} />
+      <Route path="/Hematology-in-delhi" element={<Hematology/>} />
+      <Route path="/Homeopathy-in-delhi" element={<Homeopathy/>} />
+      <Route path="/InfectiousDisease-in-delhi" element={<InfectiousDisease/>} />
+      <Route path="/InternalMedicine-in-delhi" element={<InternalMedicine/>} />
+      <Route path="/IVFandinfertility-in-delhi" element={<IVFandinfertility/>} />
+      <Route path="/KidneyTransplant-in-delhi" element={<KidneyTransplant/>} />
+      <Route path="/LabMedicine-in-delhi" element={<LabMedicine/>} />
+      <Route path="/LaparoscopicSurgeon-in-delhi" element={<LaparoscopicSurgeon/>} />
+      <Route path="/MdMedicine-in-delhi" element={<MdMedicine/>} />
+      <Route path="/Nephrology-in-delhi" element={<Nephrology/>} />
+      <Route path="/Neurologist-in-delhi" element={<Neurologist/>} />
+      <Route path="/NeuroSurgeon-in-delhi" element={<NeuroSurgeon/>} />
+      <Route path="/Oncologist-in-delhi" element={<Oncologist/>} />
+      <Route path="/Ophthalmology-in-delhi" element={<Ophthalmology/>} />
+      <Route path="/Orthopedic-in-delhi" element={<Orthopedic/>} />
+      <Route path="/Pediatric-in-delhi" element={<Pediatric/>} />
+      <Route path="/Physiotherapy-in-delhi" element={<Physiotherapy/>} />
+      <Route path="/PlasticSurgeon-in-delhi" element={<PlasticSurgeon/>} />
+      <Route path="/Psychiatrist-in-delhi" element={<Psychiatrist/>} />
+      <Route path="/Pulmonology-in-delhi" element={<Pulmonology/>} />
+      <Route path="/Radiology-in-delhi" element={<Radiology/>} />
+      <Route path="/Rheumatology-in-delhi" element={<Rheumatology/>} />
+      <Route path="/SeniorConsultant-in-delhi" element={<SeniorConsultant/>} />
+      <Route path="/ThoracicSurgeon-in-delhi" element={<ThoracicSurgeon/>} />
+      <Route path="/Urology-in-delhi" element={<Urology/>} />
+
+
+      <Route path="/Anesthesiology-in-Gurgaon" element={<GurgaonAnesthesiology/>} />
+      <Route path="/AudiologyandSpeech-in-Gurgaon" element={<GurgaonAudiologyandSpeech/>} />
+      <Route path="/CardiacSurgeon-in-Gurgaon" element={<GurgaonCardiacSurgeon/>} />
+      <Route path="/Dentist-in-Gurgaon" element={<GurgaonDentist/>} />
+      <Route path="/Dermatologist-in-Gurgaon" element={<GurgaonDermatologist/>} />
+      <Route path="/Endoscopy-in-Gurgaon" element={<GurgaonEndoscopy/>} />
+      <Route path="/Ent-in-Gurgaon" element={<GurgaonEnt/>} />
+      <Route path="/EyeSurgeon-in-Gurgaon" element={<GurgaonEyeSurgeon/>} />
+      <Route path="/Gastroenterology-in-Gurgaon" element={<GurgaonGastroenterology/>} />
+      <Route path="/GeneralPhysician-in-Gurgaon" element={<GurgaonGeneralPhysician/>} />
+      <Route path="/GeneralSurgeon-in-Gurgaon" element={<GurgaonGeneralSurgeon/>} />
+      <Route path="/HairTransplant-in-Gurgaon" element={<GurgaonHairTransplant/>} />
+      <Route path="/Hematology-in-Gurgaon" element={<GurgaonHematology/>} />
+      <Route path="/Homeopathy-in-Gurgaon" element={<GurgaonHomeopathy/>} />
+      <Route path="/InfectiousDisease-in-Gurgaon" element={<GurgaonInfectiousDisease/>} />
+      <Route path="/InternalMedicine-in-Gurgaon" element={<GurgaonInternalMedicine/>} />
+      <Route path="/IVFandinfertility-in-Gurgaon" element={<GurgaonIVFandinfertility/>} />
+      <Route path="/KidneyTransplant-in-Gurgaon" element={<GurgaonKidneyTransplant/>} />
+      <Route path="/LabMedicine-in-Gurgaon" element={<GurgaonLabMedicine/>} />
+      <Route path="/LaparoscopicSurgeon-in-Gurgaon" element={<GurgaonLaparoscopicSurgeon/>} />
+      <Route path="/MdMedicine-in-Gurgaon" element={<GurgaonMdMedicine/>} />
+      <Route path="/Nephrology-in-Gurgaon" element={<GurgaonNephrology/>} />
+      <Route path="/Neurologist-in-Gurgaon" element={<GurgaonNeurologist/>} />
+      <Route path="/NeuroSurgeon-in-Gurgaon" element={<GurgaonNeuroSurgeon/>} />
+      <Route path="/Oncologist-in-Gurgaon" element={<GurgaonOncologist/>} />
+      <Route path="/Ophthalmology-in-Gurgaon" element={<GurgaonOphthalmology/>} />
+      <Route path="/Orthopedic-in-Gurgaon" element={<GurgaonOrthopedic/>} />
+      <Route path="/Pediatric-in-Gurgaon" element={<GurgaonPediatric/>} />
+      <Route path="/Physiotherapy-in-Gurgaon" element={<GurgaonPhysiotherapy/>} />
+      <Route path="/PlasticSurgeon-in-Gurgaon" element={<GurgaonPlasticSurgeon/>} />
+      <Route path="/Psychiatrist-in-Gurgaon" element={<GurgaonPsychiatrist/>} />
+      <Route path="/Pulmonology-in-Gurgaon" element={<GurgaonPulmonology/>} />
+      <Route path="/Radiology-in-Gurgaon" element={<GurgaonRadiology/>} />
+      <Route path="/Rheumatology-in-Gurgaon" element={<GurgaonRheumatology/>} />
+      <Route path="/SeniorConsultant-in-Gurgaon" element={<GurgaonSeniorConsultant/>} />
+      <Route path="/ThoracicSurgeon-in-Gurgaon" element={<GurgaonThoracicSurgeon/>} />
+      <Route path="/Urology-in-Gurgaon" element={<GurgaonUrology/>} />
+
+
+      
+      <Route path="/Anesthesiology-in-Noida" element={<NoidaAnesthesiology/>} />
+      <Route path="/AudiologyandSpeech-in-Noida" element={<NoidaAudiologyandSpeech/>} />
+      <Route path="/CardiacSurgeon-in-Noida" element={<NoidaCardiacSurgeon/>} />
+      <Route path="/Dentist-in-Noida" element={<NoidaDentist/>} />
+      <Route path="/Dermatologist-in-Noida" element={<NoidaDermatologist/>} />
+      <Route path="/Endoscopy-in-Noida" element={<NoidaEndoscopy/>} />
+      <Route path="/Ent-in-Noida" element={<NoidaEnt/>} />
+      <Route path="/EyeSurgeon-in-Noida" element={<NoidaEyeSurgeon/>} />
+      <Route path="/Gastroenterology-in-Noida" element={<NoidaGastroenterology/>} />
+      <Route path="/GeneralPhysician-in-Noida" element={<NoidaGeneralPhysician/>} />
+      <Route path="/GeneralSurgeon-in-Noida" element={<NoidaGeneralSurgeon/>} />
+      <Route path="/HairTransplant-in-Noida" element={<NoidaHairTransplant/>} />
+      <Route path="/Hematology-in-Noida" element={<NoidaHematology/>} />
+      <Route path="/Homeopathy-in-Noida" element={<NoidaHomeopathy/>} />
+      <Route path="/InfectiousDisease-in-Noida" element={<NoidaInfectiousDisease/>} />
+      <Route path="/InternalMedicine-in-Noida" element={<NoidaInternalMedicine/>} />
+      <Route path="/IVFandinfertility-in-Noida" element={<NoidaIVFandinfertility/>} />
+      <Route path="/KidneyTransplant-in-Noida" element={<NoidaKidneyTransplant/>} />
+      <Route path="/LabMedicine-in-Noida" element={<NoidaLabMedicine/>} />
+      <Route path="/LaparoscopicSurgeon-in-Noida" element={<NoidaLaparoscopicSurgeon/>} />
+      <Route path="/MdMedicine-in-Noida" element={<NoidaMdMedicine/>} />
+      <Route path="/Nephrology-in-Noida" element={<NoidaNephrology/>} />
+      <Route path="/Neurologist-in-Noida" element={<NoidaNeurologist/>} />
+      <Route path="/NeuroSurgeon-in-Noida" element={<NoidaNeuroSurgeon/>} />
+      <Route path="/Oncologist-in-Noida" element={<NoidaOncologist/>} />
+      <Route path="/Ophthalmology-in-Noida" element={<NoidaOphthalmology/>} />
+      <Route path="/Orthopedic-in-Noida" element={<NoidaOrthopedic/>} />
+      <Route path="/Pediatric-in-Noida" element={<NoidaPediatric/>} />
+      <Route path="/Physiotherapy-in-Noida" element={<NoidaPhysiotherapy/>} />
+      <Route path="/PlasticSurgeon-in-Noida" element={<NoidaPlasticSurgeon/>} />
+      <Route path="/Psychiatrist-in-Noida" element={<NoidaPsychiatrist/>} />
+      <Route path="/Pulmonology-in-Noida" element={<NoidaPulmonology/>} />
+      <Route path="/Radiology-in-Noida" element={<NoidaRadiology/>} />
+      <Route path="/Rheumatology-in-Noida" element={<NoidaRheumatology/>} />
+      <Route path="/SeniorConsultant-in-Noida" element={<NoidaSeniorConsultant/>} />
+      <Route path="/ThoracicSurgeon-in-Noida" element={<NoidaThoracicSurgeon/>} />
+      <Route path="/Urology-in-Noida" element={<NoidaUrology/>} />
+      
     </Routes>
   );
 };
