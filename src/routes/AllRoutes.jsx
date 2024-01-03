@@ -228,50 +228,7 @@ const Allroute = () => {
       <Route path="*" element={<NotFound />} />
 
 
-      /Anesthesiology-in-Gurgaon
-      /AudiologyandSpeech-in-Gurgaon
-      /CardiacSurgeon-in-Gurgaon
-      /Dentist-in-Gurgaon
-      /Dermatologist-in-Gurgaon
-      /Dermatologist-in-Gurgaon
-      /Endoscopy-in-Gurgaon
-      /Ent-in-Gurgaon
-      /EyeSurgeon-in-Gurgaon
-      /Gastroenterology-in-Gurgaon
-      /GeneralPhysician-in-Gurgaon
-      /GeneralSurgeon-in-Gurgaon
-      /HairTransplant-in-Gurgaon
-      /Hematology-in-Gurgaon
-      /Homeopathy-in-Gurgaon
-      /InfectiousDisease-in-Gurgaon
-      /InternalMedicine-in-Gurgaon
-      /IVFandinfertility-in-Gurgaon
-      /KidneyTransplant-in-Gurgaon
-      /LabMedicine-in-Gurgaon
-      /LaparoscopicSurgeon-in-Gurgaon
-      /MdMedicine-in-Gurgaon
-      /Nephrology-in-Gurgaon
-      /Neurologist-in-Gurgaon
-      /NeuroSurgeon-in-Gurgaon
-      /Oncologist-in-Gurgaon
-      /Ophthalmology-in-Gurgaon
-      /Orthopedic-in-Gurgaon
-      /Pediatric-in-Gurgaon
-      /Physiotherapy-in-Gurgaon
-      /PlasticSurgeon-in-Gurgaon
-      /Psychiatrist-in-Gurgaon
-      /Pulmonology-in-Gurgaon
-      /Radiology-in-Gurgaon
-      /Rheumatology-in-Gurgaon
-      /SeniorConsultant-in-Gurgaon
-      /ThoracicSurgeon-in-Gurgaon
-      /Urology-in-Gurgaon
-
-
-
-
-
-      <Route path="/Anesthesiology-in-delhi" element={<Anesthesiology/>} />
+      <Route path="delhi/Anesthesiology-in-delhi" element={<Anesthesiology/>} />
       <Route path="/AudiologyandSpeech-in-delhi" element={<AudiologyandSpeech/>} />
       <Route path="/CardiacSurgeon-in-delhi" element={<CardiacSurgeon/>} />
       <Route path="/Dentist-in-delhi" element={<Dentist/>} />
