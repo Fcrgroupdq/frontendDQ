@@ -17,7 +17,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function DoctorCart({ data }) {
-  const [isLargerThanTablet] = useMediaQuery("(min-width: 968px)");
+ 
+    const [isLargerThanTablet] = useMediaQuery("(min-width: 968px)");
   const [showAllFeatures, setShowAllFeatures] = useState(false);
   const [showAllText, setShowAllText] = useState("See More");
 
@@ -42,6 +43,7 @@ export default function DoctorCart({ data }) {
     ? extractFeatures()
     : extractFeatures().slice(0, 3);
 
+  
   return (
     <ChakraProvider>
       <Container py={10} maxW={isLargerThanTablet ? "container.xl" : "100%"}>

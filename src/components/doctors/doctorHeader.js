@@ -31,23 +31,7 @@ export default function DoctorHeader({setFilterVisible}) {
           },
         }
       );
-      let filtered = [];
-      let premium = [];
-      let NotPremium = [];
-
-      for(let i=0;i<response.data.doctor.length;i++){
-        if(response.data.doctor[i].isPremium === true){
-          premium.push(response.data.doctor[i])
-        }
-        else{
-          NotPremium.push(response.data.doctor[i])
-        }
-      }
-      filtered.push(premium)
-      filtered.push(NotPremium)
-      setDoctors(filtered)
-      
-      // setDoctors(response.data.doctor);
+      setDoctors(response.data.doctor);
       setTotalPages(response.data.totalPages);
       setCurrentPage(response.data.currentPage);
     } catch (error) {
@@ -58,20 +42,28 @@ export default function DoctorHeader({setFilterVisible}) {
   };
 
   const getNearestDoctor = async () => {
+    // console.log(search)
     setLoading(true);
     try {
       const response = await axios.get(
         `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?lat=${search.latitude}&lon=${search.longitude}&cat=${search.category}&status=approved&day=${search.day}&min=${search.min}&max=${search.max}&query=${search.location}`,
         {
           headers: {
-            token:
-              "YOUR_API_TOKEN_HERE",
+            token: "YOUR_API_TOKEN_HERE",
           },
         }
       );
-      setDoctors(response.data);
+    
+      // Splitting doctors into premium and non-premium arrays
+      const premiumDoctors = response.data.filter(doctor => doctor.isPremium);
+      const nonPremiumDoctors = response.data.filter(doctor => !doctor.isPremium);
+    
+      // Concatenating premium and non-premium doctors (premium first)
+      const sortedDoctors = premiumDoctors.concat(nonPremiumDoctors);
+    
+      setDoctors(sortedDoctors);
       setShowPagination(false);
-      setFilterVisible(true)
+      setFilterVisible(true);
     } catch (error) {
       console.error(error.message);
     } finally {
