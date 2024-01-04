@@ -11,7 +11,7 @@ const Alldoctor = () => {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState()
 
-  useEffect(() => {
+  const getData = () => {
     setLoading(true);
     axios
       .get(
@@ -22,9 +22,15 @@ const Alldoctor = () => {
         setDoctor(res.data.pendingDoctors);
         setTotalPages(res.data.totalPages)
       });
+  }
+
+  useEffect(() => {
+   getData()
   }, [page]);
 
-  const refrace = () => {};
+  const refrace = () => {
+    getData()
+  };
 
   if (loading) {
     return (

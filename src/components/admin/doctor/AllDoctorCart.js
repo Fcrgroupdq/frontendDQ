@@ -40,7 +40,8 @@ const AllDoctorCart = ({ doctor: data, refrace }) => {
   const [isLargerThanTablet] = useMediaQuery("(min-width: 868px)");
   const [showAllFeatures, setShowAllFeatures] = useState(false);
   const [showAllText, setShowAllText] = useState("See More");
-  const [activeLoadind,setActiveLoading] = useState(false)
+  const [activeLoadind, setActiveLoading] = useState(false);
+  const [premiumLoading, setPremiumLoading] = useState(false);
   const toast = useToast();
 
   const toggleShowFeatures = () => {
@@ -49,22 +50,25 @@ const AllDoctorCart = ({ doctor: data, refrace }) => {
   };
 
   const handleActive = (id) => {
-    setActiveLoading(true)
-    axios.patch(`https://drab-blue-mite-belt.cyclic.app/doctors/update/${id}`,{
-      status:'Not Verified'
-    })
-    .then(res => {
-      toast({
-        title: `Inactive successfully updated`,
-        position: "top-right",
-        isClosable: true,
-        status: "success",
-        duration: 4000,
+    setActiveLoading(true);
+    axios
+      .patch(`https://drab-blue-mite-belt.cyclic.app/doctors/update/${id}`, {
+        status: "Not Verified",
+      })
+      .then((res) => {
+        toast({
+          title: `Inactive successfully updated`,
+          position: "top-right",
+          isClosable: true,
+          status: "success",
+          duration: 4000,
+        });
+      })
+      .finally(() => {
+        setActiveLoading(false);
+        refrace();
       });
-      setActiveLoading(false)
-      refrace()
-    })
-  }
+  };
 
   const extractFeatures = () => {
     const features = [];
@@ -103,6 +107,30 @@ const AllDoctorCart = ({ doctor: data, refrace }) => {
       .catch((err) => alert(err))
       .finally(() => {
         setLoading(false);
+        refrace();
+      });
+  };
+
+  const handlePremium = () => {
+    setPremiumLoading(true);
+    axios
+      .patch(
+        `https://drab-blue-mite-belt.cyclic.app/doctors/update/${data._id}`,
+        {
+          isPremium: !data.isPremium,
+        }
+      )
+      .then((res) => {
+        toast({
+          title: `Premium updation successfully`,
+          position: "top-right",
+          isClosable: true,
+          status: "success",
+          duration: 4000,
+        });
+      })
+      .finally(() => {
+        setPremiumLoading(false);
         refrace();
       });
   };
@@ -184,8 +212,37 @@ const AllDoctorCart = ({ doctor: data, refrace }) => {
             <Button mt={2} mr={3} size="sm" colorScheme="red" onClick={onOpen}>
               Delete
             </Button>
-            <Button onClick={()=>handleActive(data._id)} variant={'outline'} mt={2} mr={3} size="sm" colorScheme="red">
-              {activeLoadind?<Spinner/> : data.status==="approved"?"Make Inactive":"Make Active"}
+            <Button
+              onClick={() => handleActive(data._id)}
+              variant={"outline"}
+              mt={2}
+              mr={3}
+              size="sm"
+              colorScheme="red"
+            >
+              {activeLoadind ? (
+                <Spinner />
+              ) : data.status === "approved" ? (
+                "Make Inactive"
+              ) : (
+                "Make Active"
+              )}
+            </Button>
+            <Button
+              mt={2}
+              mr={3}
+              size="sm"
+              variant={"outline"}
+              colorScheme="blue"
+              onClick={handlePremium}
+            >
+              {premiumLoading ? (
+                <Spinner />
+              ) : data.isPremium ? (
+                "Remove premium"
+              ) : (
+                "Make premium"
+              )}
             </Button>
             <Modal isOpen={isOpen} onClose={onClose}>
               <ModalOverlay />
