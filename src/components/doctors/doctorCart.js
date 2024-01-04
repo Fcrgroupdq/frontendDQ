@@ -10,7 +10,7 @@ import {
   ChakraProvider,
   useMediaQuery,
   Button,
-  SimpleGrid,
+  SimpleGrid,Badge
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
 import { useState } from "react";
@@ -57,6 +57,20 @@ export default function DoctorCart({ data }) {
             boxShadow: "lg",
           }}
         >
+           {data.isPremium ?  // Check if the doctor is premium
+            <Badge
+            // fontSize={['px','18px','20px']}
+              borderRadius="full"
+              px={2}
+              colorScheme="red"
+              position="absolute"
+              // top={2}
+              // right={2}
+            >
+              Premium
+            </Badge>:""
+          }
+          {/* <Badge  borderRadius={'full'} position={'absolute'} fontSize={['20px']} colorScheme='red'>New</Badge> */}
           <Avatar
             size={isLargerThanTablet ? "3xl" : "2xl"}
             w={["150px","250px"]}

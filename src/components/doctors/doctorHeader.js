@@ -31,7 +31,23 @@ export default function DoctorHeader({setFilterVisible}) {
           },
         }
       );
-      setDoctors(response.data.doctor);
+      let filtered = [];
+      let premium = [];
+      let NotPremium = [];
+
+      for(let i=0;i<response.data.doctor.length;i++){
+        if(response.data.doctor[i].isPremium === true){
+          premium.push(response.data.doctor[i])
+        }
+        else{
+          NotPremium.push(response.data.doctor[i])
+        }
+      }
+      filtered.push(premium)
+      filtered.push(NotPremium)
+      setDoctors(filtered)
+      
+      // setDoctors(response.data.doctor);
       setTotalPages(response.data.totalPages);
       setCurrentPage(response.data.currentPage);
     } catch (error) {
@@ -42,7 +58,6 @@ export default function DoctorHeader({setFilterVisible}) {
   };
 
   const getNearestDoctor = async () => {
-    // console.log(search)
     setLoading(true);
     try {
       const response = await axios.get(
