@@ -19,15 +19,15 @@ function EyeSurgeon() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>EyeSurgeon in Delhi | Doctors Queries</title>
+          <title>Best Eye Surgeon in Delhi – Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content=" Find the best eye surgeon in Delhi for all your eye care needs. Get an updated list of top eye surgeons in Delhi for 2024."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/EyeSurgeon-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/eye-surgeon-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content=" eye surgeon in Delhi, best eye surgeon in Delhi, eye surgeon doctor in Delhi, best eye surgeon doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -52,7 +52,7 @@ function EyeSurgeon() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best EyeSurgeon in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Eye Surgeon in Delhi</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>
