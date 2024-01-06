@@ -21,15 +21,15 @@ function HairTransplant() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>HairTransplant in Delhi | Doctors Queries</title>
+          <title>Best Hair Transplant in Delhi – DoctorsQueries</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best hair transplant in Delhi? Look no further than DoctorsQueries, with an updated list in 2024, Book your appointment today"
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/HairTransplant-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/hair-transplant-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="hair transplant in Delhi, best hair transplant in Delhi, hair transplant doctor in Delhi, best hair transplant doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
