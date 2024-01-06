@@ -26,7 +26,7 @@ function LaparoscopicSurgeon() {
               name="description"
               content="Find the best laparoscopic surgeon in Delhi in 2024 with our updated list. Trust our expertise for all your laparoscopic surgery needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/LaparoscopicSurgeon-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/laparoscopic-surgeon-in-delhi" />
           <meta
               name="keywords"
               content="  laparoscopic surgeon in Delhi, best laparoscopic surgeon in Delhi, laparoscopic in Delhi, best laparoscopic Delhi"
