@@ -21,15 +21,15 @@ function Hematology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Hematology in Delhi | Doctors Queries</title>
+          <title>Best Hematologists in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best hematologists in Delhi with our updated list for 2024. Choose from the top experts to address your hematological needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Hematology-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/hematologists-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="hematologists in Delhi, best hematologists in Delhi, hematologists doctor in Delhi, best hematologists doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
