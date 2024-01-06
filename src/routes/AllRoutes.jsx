@@ -230,29 +230,29 @@ const Allroute = () => {
 
       <Route path="delhi/Anesthesiology-in-delhi" element={<Anesthesiology/>} />
       <Route path="delhi/AudiologyandSpeech-in-delhi" element={<AudiologyandSpeech/>} />
-      <Route path="delhi/CardiacSurgeon-in-delhi" element={<CardiacSurgeon/>} />
-      <Route path="delhi/Dentist-in-delhi" element={<Dentist/>} />
-      <Route path="delhi/Dermatologist-in-delhi" element={<Dermatologist/>} />
-      <Route path="delhi/Endoscopy-in-delhi" element={<Endoscopy/>} />
-      <Route path="delhi/Ent-in-delhi" element={<Ent/>} />
-      <Route path="delhi/EyeSurgeon-in-delhi" element={<EyeSurgeon/>} />
-      <Route path="delhi/Gastroenterology-in-delhi" element={<Gastroenterology/>} />
-      <Route path="delhi/GeneralPhysician-in-delhi" element={<GeneralPhysician/>} />
+      <Route path="delhi/cardiac-surgeon-in-delhi" element={<CardiacSurgeon/>} />
+      <Route path="delhi/dentist-in-delhi" element={<Dentist/>} />
+      <Route path="delhi/dermatologist-specialist-in-delhi" element={<Dermatologist/>} />
+      <Route path="delhi/endoscopy-doctors-in-delhi" element={<Endoscopy/>} />
+      <Route path="delhi/ent-specialist-doctors-in-delhi" element={<Ent/>} />
+      <Route path="delhi/eye-surgeon-in-delhi" element={<EyeSurgeon/>} />
+      <Route path="delhi/gastroenterology-doctor-in-delhi" element={<Gastroenterology/>} />
+      <Route path="delhi/general-physician-in-delhi" element={<GeneralPhysician/>} />
       <Route path="delhi/GeneralSurgeon-in-delhi" element={<GeneralSurgeon/>} />
-      <Route path="delhi/HairTransplant-in-delhi" element={<HairTransplant/>} />
-      <Route path="delhi/Hematology-in-delhi" element={<Hematology/>} />
+      <Route path="delhi/hair-transplant-in-delhi" element={<HairTransplant/>} />
+      <Route path="delhi/hematologists-in-delhi" element={<Hematology/>} />
       <Route path="delhi/Homeopathy-in-delhi" element={<Homeopathy/>} />
-      <Route path="delhi/InfectiousDisease-in-delhi" element={<InfectiousDisease/>} />
+      <Route path="delhi/infectious-disease-specialists-in-delhi" element={<InfectiousDisease/>} />
       <Route path="delhi/InternalMedicine-in-delhi" element={<InternalMedicine/>} />
       <Route path="delhi/IVFandinfertility-in-delhi" element={<IVFandinfertility/>} />
-      <Route path="delhi/KidneyTransplant-in-delhi" element={<KidneyTransplant/>} />
+      <Route path="delhi/kidney-transplant-specialist-in-delhi" element={<KidneyTransplant/>} />
       <Route path="delhi/LabMedicine-in-delhi" element={<LabMedicine/>} />
-      <Route path="delhi/LaparoscopicSurgeon-in-delhi" element={<LaparoscopicSurgeon/>} />
-      <Route path="delhi/MdMedicine-in-delhi" element={<MdMedicine/>} />
-      <Route path="delhi/Nephrology-in-delhi" element={<Nephrology/>} />
-      <Route path="delhi/Neurologist-in-delhi" element={<Neurologist/>} />
-      <Route path="delhi/NeuroSurgeon-in-delhi" element={<NeuroSurgeon/>} />
-      <Route path="delhi/Oncologist-in-delhi" element={<Oncologist/>} />
+      <Route path="delhi/laparoscopic-surgeon-in-delhi" element={<LaparoscopicSurgeon/>} />
+      <Route path="delhi/md-medicine-in-delhi" element={<MdMedicine/>} />
+      <Route path="delhi/nephrologist-in-delhi" element={<Nephrology/>} />
+      <Route path="delhi/neurologist-in-delhi" element={<Neurologist/>} />
+      <Route path="delhi/neuro-surgeon-in-delhi" element={<NeuroSurgeon/>} />
+      <Route path="delhi/oncologist-in-delhi" element={<Oncologist/>} />
       <Route path="delhi/Ophthalmology-in-delhi" element={<Ophthalmology/>} />
       <Route path="delhi/Orthopedic-in-delhi" element={<Orthopedic/>} />
       <Route path="delhi/Pediatric-in-delhi" element={<Pediatric/>} />
@@ -264,7 +264,7 @@ const Allroute = () => {
       <Route path="delhi/Rheumatology-in-delhi" element={<Rheumatology/>} />
       <Route path="delhi/SeniorConsultant-in-delhi" element={<SeniorConsultant/>} />
       <Route path="delhi/ThoracicSurgeon-in-delhi" element={<ThoracicSurgeon/>} />
-      <Route path="delhi/Urology-in-delhi" element={<Urology/>} />
+      <Route path="delhi/urologist-doctor-in-delhi" element={<Urology/>} />
 
 
       <Route path="gurgaon/Anesthesiology-in-Gurgaon" element={<GurgaonAnesthesiology/>} />
