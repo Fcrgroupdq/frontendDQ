@@ -268,6 +268,10 @@ const Allroute = () => {
       <Route path="delhi/urologist-doctor-in-delhi" element={<Urology/>} />
 
 
+
+      <Route path="delhi/blog" element={<in/>} />
+
+
       <Route path="gurgaon/Anesthesiology-in-Gurgaon" element={<GurgaonAnesthesiology/>} />
       <Route path="gurgaon/AudiologyandSpeech-in-Gurgaon" element={<GurgaonAudiologyandSpeech/>} />
       <Route path="gurgaon/CardiacSurgeon-in-Gurgaon" element={<GurgaonCardiacSurgeon/>} />
