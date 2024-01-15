@@ -244,7 +244,7 @@ const Allroute = () => {
       <Route path="delhi/Homeopathy-in-delhi" element={<Homeopathy/>} />
       <Route path="delhi/infectious-disease-specialists-in-delhi" element={<InfectiousDisease/>} />
       <Route path="delhi/InternalMedicine-in-delhi" element={<InternalMedicine/>} />
-      <Route path="delhi/IVFandinfertility-in-delhi" element={<IVFandinfertility/>} />
+      <Route path="delhi/ivf-and-infertility-specialist-in-delhi" element={<IVFandinfertility/>} />
       <Route path="delhi/kidney-transplant-specialist-in-delhi" element={<KidneyTransplant/>} />
       <Route path="delhi/LabMedicine-in-delhi" element={<LabMedicine/>} />
       <Route path="delhi/laparoscopic-surgeon-in-delhi" element={<LaparoscopicSurgeon/>} />
