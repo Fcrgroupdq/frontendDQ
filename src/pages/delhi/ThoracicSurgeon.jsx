@@ -21,15 +21,15 @@ function ThoracicSurgeon() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>ThoracicSurgeon in Delhi | Doctors Queries</title>
+          <title>Best Thoracic Surgeon in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best thoracic surgeon in Delhi with our updated list for 2024. DoctorsQueries is your trusted source for top healthcare professionals."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/ThoracicSurgeon-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/thoracic-surgeon-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="thoracic surgeon in Delhi, best thoracic surgeon in Delhi, thoracic surgeon doctor in Delhi, best thoracic surgeon doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
