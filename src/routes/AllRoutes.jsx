@@ -336,7 +336,7 @@ const Allroute = () => {
       <Route path="noida/orthopedic-in-noida" element={<NoidaOrthopedic/>} />
       <Route path="noida/pediatricians-in-noida" element={<NoidaPediatric/>} />
       <Route path="noida/Physiotherapy-in-Noida" element={<NoidaPhysiotherapy/>} />
-      <Route path="noida/PlasticSurgeon-in-Noida" element={<NoidaPlasticSurgeon/>} />
+      <Route path="noida/plastic-surgeon-in-noida" element={<NoidaPlasticSurgeon/>} />
       <Route path="noida/Psychiatrist-in-Noida" element={<NoidaPsychiatrist/>} />
       <Route path="noida/Pulmonology-in-Noida" element={<NoidaPulmonology/>} />
       <Route path="noida/Radiology-in-Noida" element={<NoidaRadiology/>} />
