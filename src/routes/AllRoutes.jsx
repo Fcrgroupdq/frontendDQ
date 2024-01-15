@@ -33,6 +33,7 @@ import UpdateBlog from "../pages/UpdateBlog";
 import Privecy from "../pages/Privecy";
 import AddHospital from "../pages/AddHospital";
 import UpdateHospital from "../pages/updateHospital";
+import Blogde from "../delhi/dentist";
 
 import Anesthesiology from "../pages/delhi/Anesthesiology";
 import AudiologyandSpeech from "../pages/delhi/AudiologyandSpeech";
@@ -72,7 +73,7 @@ import SeniorConsultant from "../pages/delhi/SeniorConsultant";
 import ThoracicSurgeon from "../pages/delhi/ThoracicSurgeon";
 import Urology from "../pages/delhi/Urology";
 
-import in from "../pages/delhi/blog";
+
 
 import GurgaonAnesthesiology from "../pages/gurgaon/Anesthesiology";
 import GurgaonAudiologyandSpeech from "../pages/gurgaon/AudiologyandSpeech";
@@ -228,7 +229,8 @@ const Allroute = () => {
       <Route path="/user-reset-password" element={<UserResetPassword />} />
       <Route path="*" element={<NotFound />} />
 
-
+      <Route path="/blogde" element={<Blogde />} />
+  
       <Route path="delhi/Anesthesiology-in-delhi" element={<Anesthesiology/>} />
       <Route path="delhi/AudiologyandSpeech-in-delhi" element={<AudiologyandSpeech/>} />
       <Route path="delhi/cardiac-surgeon-in-delhi" element={<CardiacSurgeon/>} />
@@ -269,7 +271,7 @@ const Allroute = () => {
 
 
 
-      <Route path="delhi/blog" element={<in/>} />
+
 
 
       <Route path="gurgaon/Anesthesiology-in-Gurgaon" element={<GurgaonAnesthesiology/>} />
