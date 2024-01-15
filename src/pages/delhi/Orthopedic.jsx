@@ -21,15 +21,15 @@ function Orthopedic() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Orthopedic in Delhi | Doctors Queries</title>
+          <title>Best Orthopedic Doctor in Delhi- DoctorsQueries</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best orthopedic doctor in Delhi at DoctorsQueries. Ensuring quality treatment and care for all your orthopedic needs. Book your appointment."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Orthopedic-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/orthopedic-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="orthopedic in Delhi, best orthopedic in Delhi, orthopedic doctor in Delhi, best orthopedic doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
