@@ -72,6 +72,7 @@ import SeniorConsultant from "../pages/delhi/SeniorConsultant";
 import ThoracicSurgeon from "../pages/delhi/ThoracicSurgeon";
 import Urology from "../pages/delhi/Urology";
 
+import in from "../pages/delhi/blog";
 
 import GurgaonAnesthesiology from "../pages/gurgaon/Anesthesiology";
 import GurgaonAudiologyandSpeech from "../pages/gurgaon/AudiologyandSpeech";
