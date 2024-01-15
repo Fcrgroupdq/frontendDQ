@@ -21,15 +21,15 @@ function Homeopathy() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Homeopathy in Delhi | Doctors Queries</title>
+          <title>Best Homeopathy Doctor in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best homeopathy doctor in Delhi? Check out our updated list for 2024 on DoctorsQueries. Find the right doctor for your homeopathic needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Homeopathy-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/homeopathy-doctor-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="homeopathy in Delhi, best homeopathy in Delhi, homeopathy doctor in Delhi, best homeopathy doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
