@@ -21,15 +21,15 @@ function Pulmonology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Pulmonology in Delhi | Doctors Queries</title>
+          <title>Best Pulmonologist in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best pulmonologist in Delhi with our updated list for 2024. DoctorsQueries is your trusted source for top-rated pulmonologist in the city."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Pulmonology-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/pulmonologists-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="pulmonologist in Delhi, best pulmonologist in Delhi, pulmonologist doctor in Delhi, best pulmonologist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
