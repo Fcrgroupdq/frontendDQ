@@ -21,15 +21,15 @@ function Rheumatology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Rheumatology in Delhi | Doctors Queries</title>
+          <title>Best Rheumatology in Delhi - Updated 2024 - DoctorsQueries</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best Rheumatology in Delhi with updated information for 2024 on DoctorsQueries. Get an expert for rheumatic diseases."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Rheumatology-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/rheumatology-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="rheumatology in Delhi, best rheumatology in Delhi, rheumatology doctor in Delhi, best rheumatology doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
