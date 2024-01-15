@@ -3,7 +3,7 @@ import DoctorCart from "../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 
-function in() {
+function blogtest() {
 const [doctors, setDoctors] = useState([]);
 
 useEffect(() => {
@@ -134,4 +134,4 @@ return (
 );
 }
 
-export default in;
+export default blogtest;

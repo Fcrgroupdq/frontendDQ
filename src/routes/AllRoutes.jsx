@@ -72,6 +72,7 @@ import Rheumatology from "../pages/delhi/Rheumatology";
 import SeniorConsultant from "../pages/delhi/SeniorConsultant";
 import ThoracicSurgeon from "../pages/delhi/ThoracicSurgeon";
 import Urology from "../pages/delhi/Urology";
+import blogtest from "../pages/delhi/blogtest";
 
 
 
@@ -268,6 +269,7 @@ const Allroute = () => {
       <Route path="delhi/SeniorConsultant-in-delhi" element={<SeniorConsultant/>} />
       <Route path="delhi/ThoracicSurgeon-in-delhi" element={<ThoracicSurgeon/>} />
       <Route path="delhi/urologist-doctor-in-delhi" element={<Urology/>} />
+      <Route path="delhi/blogtest" element={<blogtest/>} />
 
 
 
