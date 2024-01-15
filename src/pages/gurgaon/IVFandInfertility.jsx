@@ -20,15 +20,15 @@ function GurgaonIVFandinfertility() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>IVFandinfertility in Gurgaon | Doctors Queries</title>
+          <title>Best IVF and Infertility Specialist in Gurgaon- Updated</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best ivf and infertility specialist in Gurgaon at DoctorsQueries. Our updated database of experts ensures quality care for your infertility issues."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/ivfandinfertility-in-Gurgaon" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/gurgaon/ivf-and-infertility-specialist-in-gurgaon" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content=" ivf and infertility specialist in Gurgaon, best ivf and infertility specialist in Gurgaon, ivf and infertility specialist doctor in Gurgaon, best ivf and infertility specialist doctor in Gurgaon"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
