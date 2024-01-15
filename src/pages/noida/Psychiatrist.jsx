@@ -21,15 +21,15 @@ function NoidaPsychiatrist() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Psychiatrist in Noida | Doctors Queries</title>
+          <title>Best Psychiatrist in Noida - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best psychiatrist in Noida? Check out our updated list for 2024 on DoctorsQueries. Find the right mental health professional for you."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Psychiatrist-in-Noida" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/noida/psychiatrist-surgeon-in-noida" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="psychiatrist in Noida, best psychiatrist in Noida, psychiatrist doctor in Noida, best psychiatrist doctor in Noida"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
