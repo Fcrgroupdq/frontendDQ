@@ -20,15 +20,15 @@ function GurgaonPlasticSurgeon() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>PlasticSurgeon in Gurgaon | Doctors Queries</title>
+          <title>Best Plastic Surgeon in Gurgaon - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best plastic surgeon in Gurgaon? Check out our updated list of top plastic surgeons in Gurgaon in 2024 on DoctorsQueries."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/PlasticSurgeon-in-Gurgaon" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/gurgaon/plastic-surgeon-in-gurgaon" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="plastic surgeon in Gurgaon, best plastic surgeon in Gurgaon, plastic surgeon doctor in Gurgaon, best plastic surgeon doctor in Gurgaon"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
