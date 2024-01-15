@@ -21,15 +21,15 @@ function Ophthalmology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Ophthalmology in Delhi | Doctors Queries</title>
+          <title>Best Ophthalmology in Delhi- Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best ophthalmology in Delhi with the updated list of top doctors at DoctorsQueries. Get expert and efficient eye care for all your vision."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Ophthalmology-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/ophthalmology-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="ophthalmology in Delhi, best ophthalmology in Delhi, ophthalmology doctor in Delhi, best ophthalmology doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
