@@ -21,15 +21,15 @@ function GurgaonOrthopedic() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Orthopedic in Gurgaon | Doctors Queries</title>
+          <title>Best Orthopedic Doctor in Gurgaon- DoctorsQueries</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best orthopedic doctor in Gurgaon at DoctorsQueries. Ensuring quality treatment and care for all your orthopedic needs. Book your appointment."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Orthopedic-in-Gurgaon" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/gurgaon/orthopedic-in-gurgaon" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="orthopedic in Gurgaon, best orthopedic in Gurgaon, orthopedic doctor in Gurgaon, best orthopedic doctor in Gurgaon"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
