@@ -20,15 +20,15 @@ function NoidaPlasticSurgeon() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Best Plastic Surgeon in Noida - Updated List 2024</title>
+          <title>Best Plastic and Cosmetic Surgeon in Noida</title>
           <meta
               name="description"
-              content="Looking for the best plastic surgeon in Noida? Check out our updated list of top plastic surgeons in Noida in 2024 on DoctorsQueries."
+              content="DoctorsQueries is the go-to platform for finding the best plastic and cosmetic surgeons in Noida. Get top-notch treatment for all your aesthetic needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/noida/plastic-surgeon-in-noida" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/noida/plastic-and-cosmetic-surgeon-in-noida" />
           <meta
               name="keywords"
-              content="plastic surgeon in Noida, best plastic surgeon in Noida, plastic surgeon doctor in Noida, best plastic surgeon doctor in Noida"
+              content=" plastic surgeon in Noida, best plastic surgeon in Noida, plastic surgeon doctor in Noida, best plastic surgeon doctor in Noida, cosmetic surgeon in Noida, best cosmetic surgeon in Noida, cosmetic surgeon doctor in Noida, best cosmetic surgeon doctor in Noida"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
