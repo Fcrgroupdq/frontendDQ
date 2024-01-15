@@ -20,15 +20,15 @@ function NoidaIVFandinfertility() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>IVFandinfertility in Noida | Doctors Queries</title>
+          <title>Best IVF and Infertility Specialist in Noida- Updated</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best ivf and infertility specialist in Noida at DoctorsQueries. Our updated database of experts ensures quality care for your infertility issues."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/ivfandinfertility-in-Noida" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/noida/ivf-and-infertility-specialist-in-noida" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content=" ivf and infertility specialist in Noida, best ivf and infertility specialist in Noida, ivf and infertility specialist doctor in Noida, best ivf and infertility specialist doctor in Noida"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
