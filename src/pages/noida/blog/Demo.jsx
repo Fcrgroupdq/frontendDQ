@@ -78,7 +78,7 @@ function Demo() {
                 referrals to medical specialists when needed. 
               </p>
 
-              <h2 class="text-3xl md:text-4xl font-medium mb-4 mt-6">Importance of General Physician in Delhi?</h2>
+              <h2 class="text-3xl font-medium mb-4 mt-6">Importance of General Physician in Delhi?</h2>
               <p>
                 With healthcare now becoming a priority to most, even the
                 smallest signs of sickness receive care. From an itchy throat to
