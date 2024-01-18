@@ -40,7 +40,7 @@ function Demo() {
       </div>
       {/*End SEO meta  */}
 
-      <div>
+      <div class="rounded-md border-2 border-red-500">
         <div class="text-gray-600 body-font">
           <div class="container px-3 py-12 mx-auto">
             <div class="flex flex-col text-center w-full mb-6">
