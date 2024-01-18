@@ -68,14 +68,14 @@ function Demo() {
                 This is where and when it makes sense to have the best general
                 physician in Delhi you can trust and who can act as a first
                 point of contact into a health care system. The best general
-                physician{" "}
+                physician
                 <a href="https://www.doctorsqueries.com/doctors"> doctor </a> in
                 Delhi can provide preventive care, teach healthy lifestyle
                 choices, identify and treat common medical conditions, and make
                 referrals to medical specialists when needed. 
               </p>
 
-              <h2>Importance of General Physician in Delhi?</h2>
+              <h2 class="text-3xl md:text-4xl font-medium mb-2">Importance of General Physician in Delhi?</h2>
               <p>
                 With healthcare now becoming a priority to most, even the
                 smallest signs of sickness receive care. From an itchy throat to
@@ -114,7 +114,7 @@ function Demo() {
               <h3 class="text-2xl font-bold my-5" >Referral to Specialists of General Physician in Delhi</h3>
               <p>
               General Physicians work closely with other healthcare professionals, including specialists, to provide comprehensive care to patients. They refer patients to specialist general physician in Delhi when necessary and coordinate care to ensure that patients receive the appropriate care and treatment.
-              <h4 class="text-1xl font-bold my-5" >Their role involves:</h4>
+              <h4 class="text-1xl font-bold" >Their role involves:</h4>
               <ul>
                 <li><b>Coordination of care:</b>General Physicians play a key role in coordinating care for patients with complex health needs. They work with other healthcare professionals to develop a care plan that meets the patient's needs and ensures continuity of care across different healthcare settings.</li>
                 <li><b>Regular health check-ups:</b>General Physicians conduct regular health check-ups to detect health problems early on and provide appropriate interventions</li>
