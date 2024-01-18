@@ -41,7 +41,7 @@ function Demo() {
       {/*End SEO meta  */}
 
       <div>
-        <section class="text-gray-600 body-font">
+        <div class="text-gray-600 body-font">
           <div class="container px-3 py-12 mx-auto">
             <div class="flex flex-col text-center w-full mb-6">
               <h2 class="text-indigo-500 tracking-widest font-medium title-font mb-1">
@@ -51,7 +51,7 @@ function Demo() {
               <h1 class="sm:text-5xl font-medium text-gray-900">Who Is the Best General Physician Doctor in Delhi?</h1>
 
                 
-              </h1>
+              
             </div>
 
             <div class="conatiner-fluid">
@@ -194,7 +194,7 @@ function Demo() {
               <p class="mt-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
             </div>
           </div>
-        </section>
+        </div>
       </div>
 
       {/* Quick Links */}
