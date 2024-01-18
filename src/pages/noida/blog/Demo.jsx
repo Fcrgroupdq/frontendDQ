@@ -93,7 +93,7 @@ function Demo() {
 
               <h3>Role of a General Physician</h3>
               <p>
-              A General Physician is a key member of the primary healthcare team. They are trained to provide comprehensive care to individuals and families, from preventive care to the management of acute and chronic illnesses.
+              A General Physician is a key member of the primary healthcare team. They are trained to provide comprehensive care to individuals and families, from preventive care to the management of acute and chronic illnesses. </p>
               <h4>Their role involves:</h4>
               <ul>
                 <li><b>Preventive care:</b>It is an important aspect of primary healthcare. General Physicians play a crucial role in promoting health and preventing diseases through.</li>
