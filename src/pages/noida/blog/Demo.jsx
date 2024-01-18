@@ -67,7 +67,7 @@ function Demo() {
 
             <div class="conatiner-fluid">
             <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" />
-</a> 
+
               <p>
                 
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
