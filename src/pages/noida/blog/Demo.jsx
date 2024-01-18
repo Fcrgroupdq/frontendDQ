@@ -36,9 +36,7 @@ function Demo() {
             content="general physician in Delhi, best general physician in Delhi, general physician doctor in Delhi, best general physician doctor in Delhi"
           />
         </Helmet>
-        <style>
-          
-        </style>
+        <style></style>
       </div>
       {/*End SEO meta  */}
 
@@ -50,6 +48,8 @@ function Demo() {
                 DoctorsQueries
               </h2>
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">
+              <h1 class="text-5xl font-medium">Heading 1</h1>
+
                 Who Is the Best General Physician Doctor in Delhi?
               </h1>
             </div>
@@ -78,7 +78,9 @@ function Demo() {
                 referrals to medical specialists when needed. 
               </p>
 
-              <h2 class="text-4xl font-bold dark:text-white">Importance of General Physician in Delhi?</h2>
+              <h2 class="text-4xl font-bold text-gray-900">
+                Importance of General Physician in Delhi?
+              </h2>
               <p>
                 With healthcare now becoming a priority to most, even the
                 smallest signs of sickness receive care. From an itchy throat to
@@ -94,40 +96,99 @@ function Demo() {
                 of life. 
               </p>
 
-              <h3 class="text-3xl font-bold dark:text-white" >Role of a General Physician</h3>
+              <h3 class="text-3xl font-bold dark:text-white">
+                Role of a General Physician
+              </h3>
               <p>
-              A General Physician is a key member of the primary healthcare team. They are trained to provide comprehensive care to individuals and families, from preventive care to the management of acute and chronic illnesses. </p>
+                A General Physician is a key member of the primary healthcare
+                team. They are trained to provide comprehensive care to
+                individuals and families, from preventive care to
+                the management of acute and chronic illnesses.{" "}
+              </p>
               <h4>Their role involves:</h4>
               <ul>
-                <li><b>Preventive care:</b>It is an important aspect of primary healthcare. General Physicians play a crucial role in promoting health and preventing diseases through.</li>
-                <li><b>Regular health check-ups:</b>General Physicians conduct regular health check-ups to detect health problems early on and provide appropriate interventions</li>
-                <li><b>Immunizations:</b>General Physicians provide vaccinations to prevent infectious diseases.</li>
-                <li><b>Health Education: </b>General Physicians educate patients about healthy lifestyle choices, such as healthy eating habits, regular exercise, and avoiding tobacco and alcohol.</li>
+                <li>
+                  <b>Preventive care:</b>It is an important aspect of primary
+                  healthcare. General Physicians play a crucial role in
+                  promoting health and preventing diseases through.
+                </li>
+                <li>
+                  <b>Regular health check-ups:</b>General Physicians conduct
+                  regular health check-ups to detect health problems early on
+                  and provide appropriate interventions
+                </li>
+                <li>
+                  <b>Immunizations:</b>General Physicians provide vaccinations
+                  to prevent infectious diseases.
+                </li>
+                <li>
+                  <b>Health Education: </b>General Physicians educate patients
+                  about healthy lifestyle choices, such as healthy eating
+                  habits, regular exercise, and avoiding tobacco and alcohol.
+                </li>
               </ul>
 
-              <h4 class="text-1xl font-bold my-5" >Diagnosis and treatment of illnesses</h4>
-              <p>General Physicians are trained to diagnose and treat a wide range of health conditions, including:</p>
-              <ul>
-                <li><b>Acute illnesses:</b>1.General Physicians treat acute illnesses, such as colds, flu, infections, and injuries.</li>
-                <li><b>Chronic illnesses:</b>General Physicians manage chronic illnesses, such as diabetes, hypertension, asthma, and arthritis.</li>
-                <li><b>Mental Health Conditions:</b>General Physicians diagnose and treat mental health conditions, such as depression, anxiety, and bipolar disorder.</li>
-                
-              </ul>
-
-              <h3 class="text-2xl font-bold my-5" >Referral to Specialists of General Physician in Delhi</h3>
+              <h4 class="text-1xl font-bold my-5">
+                Diagnosis and treatment of illnesses
+              </h4>
               <p>
-              General Physicians work closely with other healthcare professionals, including specialists, to provide comprehensive care to patients. They refer patients to specialist general physician in Delhi when necessary and coordinate care to ensure that patients receive the appropriate care and treatment.
-              <h4 class="text-1xl font-bold" >Their role involves:</h4>
+                General Physicians are trained to diagnose and treat a wide
+                range of health conditions, including:
+              </p>
               <ul>
-                <li><b>Coordination of care:</b>General Physicians play a key role in coordinating care for patients with complex health needs. They work with other healthcare professionals to develop a care plan that meets the patient's needs and ensures continuity of care across different healthcare settings.</li>
-                <li><b>Regular health check-ups:</b>General Physicians conduct regular health check-ups to detect health problems early on and provide appropriate interventions</li>
-                <li><b>Immunizations:</b>General Physicians provide vaccinations to prevent infectious diseases.</li>
-                <li><b>Health Education: </b>General Physicians educate patients about healthy lifestyle choices, such as healthy eating habits, regular exercise, and avoiding tobacco and alcohol.</li>
+                <li>
+                  <b>Acute illnesses:</b>1.General Physicians treat acute
+                  illnesses, such as colds, flu, infections, and injuries.
+                </li>
+                <li>
+                  <b>Chronic illnesses:</b>General Physicians manage chronic
+                  illnesses, such as diabetes, hypertension, asthma, and
+                  arthritis.
+                </li>
+                <li>
+                  <b>Mental Health Conditions:</b>General Physicians diagnose
+                  and treat mental health conditions, such as depression,
+                  anxiety, and bipolar disorder.
+                </li>
               </ul>
-              
+
+              <h3 class="text-2xl font-bold my-5">
+                Referral to Specialists of General Physician in Delhi
+              </h3>
+              <p>
+                General Physicians work closely with other healthcare
+                professionals, including specialists, to provide comprehensive
+                care to patients. They refer patients to specialist general
+                physician in Delhi when necessary and coordinate care to ensure
+                that patients receive the appropriate care and treatment.
+                <h4 class="text-1xl font-bold">Their role involves:</h4>
+                <ul>
+                  <li>
+                    <b>Coordination of care:</b>General Physicians play a key
+                    role in coordinating care for patients with complex health
+                    needs. They work with other healthcare professionals to
+                    develop a care plan that meets the patient's needs and
+                    ensures continuity of care across different healthcare
+                    settings.
+                  </li>
+                  <li>
+                    <b>Patient Advocacy:</b>General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families.
+                  </li>
+                 
+                </ul>
 
               </p>
-
+              <p>
+              General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families. <br/>              You may find the best doctors and more information about the best general physician in Delhi which are mentioned below sites –
+              <ul>
+                <li>Lybrate</li>
+                <li>Mediindia</li>
+                <li>Practo</li>
+                <li><a href="https://www.doctorsqueries.com/"></a> Doctorsqueries</li>
+                <li>Ourdoctors</li>
+              </ul>
+              </p>
+              <p class="m-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
             </div>
           </div>
         </section>
