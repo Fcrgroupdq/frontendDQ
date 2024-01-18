@@ -4,20 +4,10 @@ import axios from "axios";
 import { Helmet } from "react-helmet";
 
 function Demo() {
-  const [doctors, setDoctors] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get(
-        `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${"dentist"}&status=approved&query=${"gurugram"}`
-      )
-      .then((res) => {
-        setDoctors(res.data);
-      });
-  }, []);
+ 
 
   return (
-    <>
+   
       {/* SEO Meta */}
       <div>
         <Helmet>
@@ -27,7 +17,10 @@ function Demo() {
             name="description"
             content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Dentist-in-Noida" />
+          <link
+            rel="canonical"
+            href="https://www.doctorsqueries.com/Dentist-in-Noida"
+          />
           <meta
             name="keywords"
             content=" Doctors Queries, Partner with Doctors Queries"
@@ -51,20 +44,32 @@ function Demo() {
       {/*End SEO meta  */}
 
       <div>
-      <section class="text-gray-600 body-font">
-  <div class="container px-3 py-12 mx-auto">
-    <div class="flex flex-col text-center w-full mb-6">
-      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Dentist in Noida</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
-</p>
-    </div>
-  </div>
-</section>
+        <section class="text-gray-600 body-font">
+          <div class="container px-3 py-12 mx-auto">
+            <div class="flex flex-col text-center w-full mb-6">
+              <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
+                DoctorsQueries
+              </h2>
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">
+                Best Dentist in Noida
+              </h1>
+              <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+                DOCTORSQUERIES is a brand new platform, our mission is to make
+                quality healthcare affordable and accessible from
+                anywhere.DOCTORSQUERIES is a brand new platform, our mission is
+                to make quality healthcare affordable and accessible from
+                anywhere.
+              </p>
+
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">
+                Best Dentist in Noida
+              </h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed quo quibusdam eligendi sequi eos illum distinctio animi itaque omnis, quasi id, a ex necessitatibus officiis ab consequatur voluptatibus repellendus cupiditate! Quidem consequuntur, itaque magni ut aspernatur sunt dolor sed et cumque iure aliquam nesciunt officia maxime quos sint perspiciatis quia distinctio sequi soluta explicabo. Non soluta doloremque sequi, architecto earum ad possimus doloribus consectetur libero. Veritatis est laudantium expedita mollitia, non fugit nesciunt eligendi nostrum a illo animi nobis quibusdam distinctio velit porro eius consequatur exercitationem inventore neque aut deleniti repellat, facilis consequuntur corrupti! Obcaecati saepe voluptate voluptatibus officia? Magni possimus nemo sunt non veritatis ipsa voluptates illum corporis dolorem debitis quasi voluptatem praesentium ex voluptate odio eaque nobis officiis dolores, eius, maiores sed? Architecto rerum officiis libero quas!</p>
+            </div>
+          </div>
+        </section>
       </div>
-      {doctors.map((item) => (
-        <DoctorCart data={item} />
-      ))}
+     
 
       {/* Quick Links */}
       {/* <section class="text-gray-600 body-font">
@@ -129,8 +134,7 @@ function Demo() {
       </section> */}
 
       {/* End Quick Links */}
-
-    </>
+   
   );
 }
 
