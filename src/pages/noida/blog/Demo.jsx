@@ -78,7 +78,7 @@ function Demo() {
                 referrals to medical specialists when needed. 
               </p>
 
-              <h2 class="text-3xl font-medium mb-4 mt-6">Importance of General Physician in Delhi?</h2>
+              <h2 class="text-4xl font-bold dark:text-white">Importance of General Physician in Delhi?</h2>
               <p>
                 With healthcare now becoming a priority to most, even the
                 smallest signs of sickness receive care. From an itchy throat to
@@ -94,7 +94,7 @@ function Demo() {
                 of life. 
               </p>
 
-              <h3 class="text-2xl font-bold my-5" >Role of a General Physician</h3>
+              <h3 class="text-3xl font-bold dark:text-white" >Role of a General Physician</h3>
               <p>
               A General Physician is a key member of the primary healthcare team. They are trained to provide comprehensive care to individuals and families, from preventive care to the management of acute and chronic illnesses. </p>
               <h4>Their role involves:</h4>
