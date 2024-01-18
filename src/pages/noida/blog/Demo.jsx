@@ -91,7 +91,7 @@ function Demo() {
                 of life. 
               </p>
 
-              <h3>Role of a General Physician</h3>
+              <h3 class="text-2xl font-bold my-5" >Role of a General Physician</h3>
               <p>
               A General Physician is a key member of the primary healthcare team. They are trained to provide comprehensive care to individuals and families, from preventive care to the management of acute and chronic illnesses. </p>
               <h4>Their role involves:</h4>
@@ -102,7 +102,7 @@ function Demo() {
                 <li><b>Health Education: </b>General Physicians educate patients about healthy lifestyle choices, such as healthy eating habits, regular exercise, and avoiding tobacco and alcohol.</li>
               </ul>
 
-              <h4>Diagnosis and treatment of illnesses</h4>
+              <h4 class="text-1xl font-bold my-5" >Diagnosis and treatment of illnesses</h4>
               <p>General Physicians are trained to diagnose and treat a wide range of health conditions, including:</p>
               <ul>
                 <li><b>Acute illnesses:</b>1.General Physicians treat acute illnesses, such as colds, flu, infections, and injuries.</li>
@@ -111,10 +111,10 @@ function Demo() {
                 
               </ul>
 
-              <h3>Referral to Specialists of General Physician in Delhi</h3>
+              <h3 class="text-2xl font-bold my-5" >Referral to Specialists of General Physician in Delhi</h3>
               <p>
               General Physicians work closely with other healthcare professionals, including specialists, to provide comprehensive care to patients. They refer patients to specialist general physician in Delhi when necessary and coordinate care to ensure that patients receive the appropriate care and treatment.
-              <h4>Their role involves:</h4>
+              <h4 class="text-1xl font-bold my-5" >Their role involves:</h4>
               <ul>
                 <li><b>Coordination of care:</b>General Physicians play a key role in coordinating care for patients with complex health needs. They work with other healthcare professionals to develop a care plan that meets the patient's needs and ensures continuity of care across different healthcare settings.</li>
                 <li><b>Regular health check-ups:</b>General Physicians conduct regular health check-ups to detect health problems early on and provide appropriate interventions</li>
