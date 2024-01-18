@@ -21,15 +21,15 @@ function GurgaonPediatric() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Pediatric in Gurgaon | Doctors Queries</title>
+          <title>Best Pediatricans in Gurgaon- Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Discover the best pediatricians in Gurgaon with our updated list for 2024. Trust DoctorsQueries to find the top healthcare professionals for your child's needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Pediatric-in-Gurgaon" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/gurgaon/pediatricians-in-gurgaon" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="pediatricians in Gurgaon, best pediatricians in Gurgaon, pediatricians doctor in Gurgaon, best pediatricians doctor in Gurgaon"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

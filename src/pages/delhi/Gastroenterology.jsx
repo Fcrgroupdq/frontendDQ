@@ -21,15 +21,15 @@ function Gastroenterology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Gastroenterology in Delhi | Doctors Queries</title>
+          <title>Best Gastroenterology Doctor in Delhi - DoctorsQueries</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content=" Find the best gastroenterology doctor in Delhi at DoctorsQueries.com. Get expert medical advice and treatment for all your gastrointestinal issues."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Gastroenterology-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/gastroenterology-doctor-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="  gastroenterology doctor in Delhi, best gastroenterology doctor in Delhi, gastroenterology in Delhi, best gastroenterology in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -54,7 +54,7 @@ function Gastroenterology() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Gastroenterology in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Gastroenterology Doctor in Delhi</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>

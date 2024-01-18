@@ -23,15 +23,15 @@ return (
     <div>
         <Helmet>
         <meta charSet="utf-8" />
-        <title>Anesthesiology in Gurgaon | Doctors Queries</title>
+        <title>Best Anesthesiologist in Gurgaon - Updated List 2024</title>
         <meta
             name="description"
-            content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+            content="Find the best anesthesiologist in Gurgaon with the most updated list of 2024 on DoctorsQueries. Trust the experts for your anesthesia needs in Gurgaon."
         />
-        <link rel="canonical" href="https://www.doctorsqueries.com/Anesthesiology-in-Gurgaon" />
+        <link rel="canonical" href="https://www.doctorsqueries.com/gurgaon/anesthesiologist-in-gurgaon" />
         <meta
             name="keywords"
-            content=" Doctors Queries, Partner with Doctors Queries"
+            content="anesthesiologist in Gurgaon, best anesthesiologist in Gurgaon, anesthesiologist in Gurgaon, best anesthesiologist doctor in Gurgaon"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@doctorsqueries" />

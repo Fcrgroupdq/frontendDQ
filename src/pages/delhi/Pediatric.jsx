@@ -21,15 +21,15 @@ function Pediatric() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Pediatric in Delhi | Doctors Queries</title>
+          <title>Best Pediatricans in Delhi- Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.comDiscover the best pediatricians in Delhi with our updated list for 2024. Trust DoctorsQueries to find the top healthcare professionals for your child's needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Pediatric-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/pediatricians-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="pediatricians in Delhi, best pediatricians in Delhi, pediatricians doctor in Delhi, best pediatricians doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

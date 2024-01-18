@@ -21,15 +21,15 @@ function InfectiousDisease() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>InfectiousDisease in Delhi | Doctors Queries</title>
+          <title>Best Infectious Disease Specialists in Delhi</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the Best Infectious Disease Treatment Doctors in Delhi at DoctorsQueries. Get expert care from the top Infectious Disease specialists in Delhi."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/InfectiousDisease-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/infectious-disease-specialists-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="infectious disease specialists in Delhi, best infectious disease specialists in Delhi, infectious disease specialist doctor in Delhi, best infectious disease specialist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -54,7 +54,7 @@ function InfectiousDisease() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best InfectiousDisease in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Infectious Disease Specialists in Delhi</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>

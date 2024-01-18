@@ -21,15 +21,15 @@ function NoidaOphthalmology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Ophthalmology in Noida | Doctors Queries</title>
+          <title>Best Ophthalmology in Noida- Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best ophthalmology in Noida with the updated list of top doctors at DoctorsQueries. Get expert and efficient eye care for all your vision."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Ophthalmology-in-Noida" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/noida/ophthalmology-in-noida" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="ophthalmology in Noida, best ophthalmology in Noida, ophthalmology doctor in Noida, best ophthalmology doctor in Noida"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

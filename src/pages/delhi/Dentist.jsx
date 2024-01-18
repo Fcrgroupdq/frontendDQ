@@ -22,15 +22,15 @@ function Dentist() {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Dentist in Delhi | Doctors Queries</title>
+          <title>Dentist in Delhi: Updated List 2024 – DoctorsQueries</title>
           <meta
             name="description"
-            content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+            content="Find the best Dentist in Delhi for all your dental needs. Get an updated list of top dentists in Delhi for 2024 at DoctorsQueries. Book an appointment today!"
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Dentist-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/dentist-in-delhi" />
           <meta
             name="keywords"
-            content=" Doctors Queries, Partner with Doctors Queries"
+            content="Dentist in Delhi, best Dentist in Delhi, Dentist doctor in Delhi, best Dentist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -55,7 +55,7 @@ function Dentist() {
   <div class="container px-3 py-12 mx-auto">
     <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Dentist in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Dentist in Delhi: Updated List 2024 </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
 </p>
     </div>

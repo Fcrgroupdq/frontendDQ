@@ -20,15 +20,15 @@ function PlasticSurgeon() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>PlasticSurgeon in Delhi | Doctors Queries</title>
+          <title>Best Plastic and Cosmetic Surgeon in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="DoctorsQueries is the go-to platform for finding the best plastic and cosmetic surgeons in Delhi. Get top-notch treatment for all your aesthetic needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/PlasticSurgeon-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/plastic-and-cosmetic-surgeon-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="plastic surgeon in Delhi, best plastic surgeon in Delhi, plastic surgeon doctor in Delhi, best plastic surgeon doctor in Delhi, cosmetic surgeon in Delhi, best cosmetic surgeon in Delhi, cosmetic surgeon doctor in Delhi, best cosmetic surgeon doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

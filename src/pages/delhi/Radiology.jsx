@@ -20,15 +20,15 @@ function Radiology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Radiology in Delhi | Doctors Queries</title>
+          <title>Best Radiology in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best radiology doctor in Delhi with our updated list for 2024 at DoctorsQueries. Trust our comprehensive information to make the right choice."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Radiology-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/radiology-doctor-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="radiology in Delhi, best radiology in Delhi, psychiatrist doctor in Delhi, best psychiatrist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

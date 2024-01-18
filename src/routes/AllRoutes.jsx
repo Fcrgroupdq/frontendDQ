@@ -236,46 +236,46 @@ const Allroute = () => {
       <Route path="*" element={<NotFound />} />
 
 
-      <Route path="delhi/Anesthesiology-in-delhi" element={<Anesthesiology/>} />
+      <Route path="delhi/anesthesiologist-in-delhi" element={<Anesthesiology/>} />
       <Route path="delhi/AudiologyandSpeech-in-delhi" element={<AudiologyandSpeech/>} />
-      <Route path="delhi/CardiacSurgeon-in-delhi" element={<CardiacSurgeon/>} />
-      <Route path="delhi/Dentist-in-delhi" element={<Dentist/>} />
-      <Route path="delhi/Dermatologist-in-delhi" element={<Dermatologist/>} />
-      <Route path="delhi/Endoscopy-in-delhi" element={<Endoscopy/>} />
-      <Route path="delhi/Ent-in-delhi" element={<Ent/>} />
-      <Route path="delhi/EyeSurgeon-in-delhi" element={<EyeSurgeon/>} />
-      <Route path="delhi/Gastroenterology-in-delhi" element={<Gastroenterology/>} />
-      <Route path="delhi/GeneralPhysician-in-delhi" element={<GeneralPhysician/>} />
+      <Route path="delhi/cardiac-surgeon-in-delhi" element={<CardiacSurgeon/>} />
+      <Route path="delhi/dentist-in-delhi" element={<Dentist/>} />
+      <Route path="delhi/dermatologist-specialist-in-delhi" element={<Dermatologist/>} />
+      <Route path="delhi/endoscopy-doctors-in-delhi" element={<Endoscopy/>} />
+      <Route path="delhi/ent-specialist-doctors-in-delhi" element={<Ent/>} />
+      <Route path="delhi/eye-surgeon-in-delhi" element={<EyeSurgeon/>} />
+      <Route path="delhi/gastroenterology-doctor-in-delhi" element={<Gastroenterology/>} />
+      <Route path="delhi/general-physician-in-delhi" element={<GeneralPhysician/>} />
       <Route path="delhi/GeneralSurgeon-in-delhi" element={<GeneralSurgeon/>} />
-      <Route path="delhi/HairTransplant-in-delhi" element={<HairTransplant/>} />
-      <Route path="delhi/Hematology-in-delhi" element={<Hematology/>} />
-      <Route path="delhi/Homeopathy-in-delhi" element={<Homeopathy/>} />
-      <Route path="delhi/InfectiousDisease-in-delhi" element={<InfectiousDisease/>} />
+      <Route path="delhi/hair-transplant-in-delhi" element={<HairTransplant/>} />
+      <Route path="delhi/hematologists-in-delhi" element={<Hematology/>} />
+      <Route path="delhi/homeopathy-doctor-in-delhi" element={<Homeopathy/>} />
+      <Route path="delhi/infectious-disease-specialists-in-delhi" element={<InfectiousDisease/>} />
       <Route path="delhi/InternalMedicine-in-delhi" element={<InternalMedicine/>} />
-      <Route path="delhi/IVFandinfertility-in-delhi" element={<IVFandinfertility/>} />
-      <Route path="delhi/KidneyTransplant-in-delhi" element={<KidneyTransplant/>} />
+      <Route path="delhi/ivf-and-infertility-specialist-in-delhi" element={<IVFandinfertility/>} />
+      <Route path="delhi/kidney-transplant-specialist-in-delhi" element={<KidneyTransplant/>} />
       <Route path="delhi/LabMedicine-in-delhi" element={<LabMedicine/>} />
-      <Route path="delhi/LaparoscopicSurgeon-in-delhi" element={<LaparoscopicSurgeon/>} />
-      <Route path="delhi/MdMedicine-in-delhi" element={<MdMedicine/>} />
-      <Route path="delhi/Nephrology-in-delhi" element={<Nephrology/>} />
-      <Route path="delhi/Neurologist-in-delhi" element={<Neurologist/>} />
-      <Route path="delhi/NeuroSurgeon-in-delhi" element={<NeuroSurgeon/>} />
-      <Route path="delhi/Oncologist-in-delhi" element={<Oncologist/>} />
-      <Route path="delhi/Ophthalmology-in-delhi" element={<Ophthalmology/>} />
+      <Route path="delhi/laparoscopic-surgeon-in-delhi" element={<LaparoscopicSurgeon/>} />
+      <Route path="delhi/md-medicine-in-delhi" element={<MdMedicine/>} />
+      <Route path="delhi/nephrologist-in-delhi" element={<Nephrology/>} />
+      <Route path="delhi/neurologist-in-delhi" element={<Neurologist/>} />
+      <Route path="delhi/neuro-surgeon-in-delhi" element={<NeuroSurgeon/>} />
+      <Route path="delhi/oncologist-in-delhi" element={<Oncologist/>} />
+      <Route path="delhi/ophthalmology-in-delhi" element={<Ophthalmology/>} />
       <Route path="delhi/Orthopedic-in-delhi" element={<Orthopedic/>} />
-      <Route path="delhi/Pediatric-in-delhi" element={<Pediatric/>} />
-      <Route path="delhi/Physiotherapy-in-delhi" element={<Physiotherapy/>} />
-      <Route path="delhi/PlasticSurgeon-in-delhi" element={<PlasticSurgeon/>} />
-      <Route path="delhi/Psychiatrist-in-delhi" element={<Psychiatrist/>} />
-      <Route path="delhi/Pulmonology-in-delhi" element={<Pulmonology/>} />
-      <Route path="delhi/Radiology-in-delhi" element={<Radiology/>} />
-      <Route path="delhi/Rheumatology-in-delhi" element={<Rheumatology/>} />
+      <Route path="delhi/pediatricians-in-delhi" element={<Pediatric/>} />
+      <Route path="delhi/physiotherapist-in-delhi" element={<Physiotherapy/>} />
+      <Route path="delhi/plastic-and-cosmetic-surgeon-in-delhi" element={<PlasticSurgeon/>} />
+      <Route path="delhi/psychiatrist-surgeon-in-delhi" element={<Psychiatrist/>} />
+      <Route path="delhi/pulmonologists-in-delhi" element={<Pulmonology/>} />
+      <Route path="delhi/radiology-doctor-in-delhi" element={<Radiology/>} />
+      <Route path="delhi/rheumatology-in-delhi" element={<Rheumatology/>} />
       <Route path="delhi/SeniorConsultant-in-delhi" element={<SeniorConsultant/>} />
-      <Route path="delhi/ThoracicSurgeon-in-delhi" element={<ThoracicSurgeon/>} />
-      <Route path="delhi/Urology-in-delhi" element={<Urology/>} />
+      <Route path="delhi/thoracic-surgeon-in-delhi" element={<ThoracicSurgeon/>} />
+      <Route path="delhi/urologist-doctor-in-delhi" element={<Urology/>} />
 
 
-      <Route path="gurgaon/Anesthesiology-in-Gurgaon" element={<GurgaonAnesthesiology/>} />
+      <Route path="gurgaon/anesthesiologist-in-gurgaon" element={<GurgaonAnesthesiology/>} />
       <Route path="gurgaon/AudiologyandSpeech-in-Gurgaon" element={<GurgaonAudiologyandSpeech/>} />
       <Route path="gurgaon/CardiacSurgeon-in-Gurgaon" element={<GurgaonCardiacSurgeon/>} />
       <Route path="gurgaon/Dentist-in-Gurgaon" element={<GurgaonDentist/>} />
@@ -291,7 +291,7 @@ const Allroute = () => {
       <Route path="gurgaon/Homeopathy-in-Gurgaon" element={<GurgaonHomeopathy/>} />
       <Route path="gurgaon/InfectiousDisease-in-Gurgaon" element={<GurgaonInfectiousDisease/>} />
       <Route path="gurgaon/InternalMedicine-in-Gurgaon" element={<GurgaonInternalMedicine/>} />
-      <Route path="gurgaon/IVFandinfertility-in-Gurgaon" element={<GurgaonIVFandinfertility/>} />
+      <Route path="gurgaon/ivf-and-infertility-specialist-in-gurgaon" element={<GurgaonIVFandinfertility/>} />
       <Route path="gurgaon/KidneyTransplant-in-Gurgaon" element={<GurgaonKidneyTransplant/>} />
       <Route path="gurgaon/LabMedicine-in-Gurgaon" element={<GurgaonLabMedicine/>} />
       <Route path="gurgaon/LaparoscopicSurgeon-in-Gurgaon" element={<GurgaonLaparoscopicSurgeon/>} />
@@ -300,22 +300,22 @@ const Allroute = () => {
       <Route path="gurgaon/Neurologist-in-Gurgaon" element={<GurgaonNeurologist/>} />
       <Route path="gurgaon/NeuroSurgeon-in-Gurgaon" element={<GurgaonNeuroSurgeon/>} />
       <Route path="gurgaon/Oncologist-in-Gurgaon" element={<GurgaonOncologist/>} />
-      <Route path="gurgaon/Ophthalmology-in-Gurgaon" element={<GurgaonOphthalmology/>} />
+      <Route path="gurgaon/ophthalmology-in-gurgaon" element={<GurgaonOphthalmology/>} />
       <Route path="gurgaon/Orthopedic-in-Gurgaon" element={<GurgaonOrthopedic/>} />
-      <Route path="gurgaon/Pediatric-in-Gurgaon" element={<GurgaonPediatric/>} />
-      <Route path="gurgaon/Physiotherapy-in-Gurgaon" element={<GurgaonPhysiotherapy/>} />
-      <Route path="gurgaon/PlasticSurgeon-in-Gurgaon" element={<GurgaonPlasticSurgeon/>} />
+      <Route path="gurgaon/pediatricians-in-gurgaon" element={<GurgaonPediatric/>} />
+      <Route path="gurgaon/physiotherapist-in-gurgaon" element={<GurgaonPhysiotherapy/>} />
+      <Route path="gurgaon/plastic-surgeon-in-gurgaon" element={<GurgaonPlasticSurgeon/>} />
       <Route path="gurgaon/Psychiatrist-in-Gurgaon" element={<GurgaonPsychiatrist/>} />
-      <Route path="gurgaon/Pulmonology-in-Gurgaon" element={<GurgaonPulmonology/>} />
+      <Route path="gurgaon/pulmonologists-in-gurgaon" element={<GurgaonPulmonology/>} />
       <Route path="gurgaon/Radiology-in-Gurgaon" element={<GurgaonRadiology/>} />
       <Route path="gurgaon/Rheumatology-in-Gurgaon" element={<GurgaonRheumatology/>} />
       <Route path="gurgaon/SeniorConsultant-in-Gurgaon" element={<GurgaonSeniorConsultant/>} />
-      <Route path="gurgaon/ThoracicSurgeon-in-Gurgaon" element={<GurgaonThoracicSurgeon/>} />
+      <Route path="gurgaon/thoracic-surgeon-in-gurgaon" element={<GurgaonThoracicSurgeon/>} />
       <Route path="gurgaon/Urology-in-Gurgaon" element={<GurgaonUrology/>} />
 
 
       
-      <Route path="noida/Anesthesiology-in-Noida" element={<NoidaAnesthesiology/>} />
+      <Route path="noida/anesthesiologist-in-noida" element={<NoidaAnesthesiology/>} />
       <Route path="noida/AudiologyandSpeech-in-Noida" element={<NoidaAudiologyandSpeech/>} />
       <Route path="noida/CardiacSurgeon-in-Noida" element={<NoidaCardiacSurgeon/>} />
       <Route path="noida/Dentist-in-Noida" element={<NoidaDentist/>} />
@@ -331,7 +331,7 @@ const Allroute = () => {
       <Route path="noida/Homeopathy-in-Noida" element={<NoidaHomeopathy/>} />
       <Route path="noida/InfectiousDisease-in-Noida" element={<NoidaInfectiousDisease/>} />
       <Route path="noida/InternalMedicine-in-Noida" element={<NoidaInternalMedicine/>} />
-      <Route path="noida/IVFandinfertility-in-Noida" element={<NoidaIVFandinfertility/>} />
+      <Route path="noida/ivf-and-infertility-specialist-in-noida" element={<NoidaIVFandinfertility/>} />
       <Route path="noida/KidneyTransplant-in-Noida" element={<NoidaKidneyTransplant/>} />
       <Route path="noida/LabMedicine-in-Noida" element={<NoidaLabMedicine/>} />
       <Route path="noida/LaparoscopicSurgeon-in-Noida" element={<NoidaLaparoscopicSurgeon/>} />
@@ -340,17 +340,17 @@ const Allroute = () => {
       <Route path="noida/Neurologist-in-Noida" element={<NoidaNeurologist/>} />
       <Route path="noida/NeuroSurgeon-in-Noida" element={<NoidaNeuroSurgeon/>} />
       <Route path="noida/Oncologist-in-Noida" element={<NoidaOncologist/>} />
-      <Route path="noida/Ophthalmology-in-Noida" element={<NoidaOphthalmology/>} />
-      <Route path="noida/Orthopedic-in-Noida" element={<NoidaOrthopedic/>} />
-      <Route path="noida/Pediatric-in-Noida" element={<NoidaPediatric/>} />
-      <Route path="noida/Physiotherapy-in-Noida" element={<NoidaPhysiotherapy/>} />
-      <Route path="noida/PlasticSurgeon-in-Noida" element={<NoidaPlasticSurgeon/>} />
-      <Route path="noida/Psychiatrist-in-Noida" element={<NoidaPsychiatrist/>} />
-      <Route path="noida/Pulmonology-in-Noida" element={<NoidaPulmonology/>} />
+      <Route path="noida/ophthalmology-in-noida" element={<NoidaOphthalmology/>} />
+      <Route path="noida/orthopedic-in-noida" element={<NoidaOrthopedic/>} />
+      <Route path="noida/pediatricians-in-noida" element={<NoidaPediatric/>} />
+      <Route path="noida/physiotherapist-in-noida" element={<NoidaPhysiotherapy/>} />
+      <Route path="noida/plastic-and-cosmetic-surgeon-in-noida" element={<NoidaPlasticSurgeon/>} />
+      <Route path="noida/psychiatrist-surgeon-in-noida" element={<NoidaPsychiatrist/>} />
+      <Route path="noida/pulmonologists-in-noida" element={<NoidaPulmonology/>} />
       <Route path="noida/Radiology-in-Noida" element={<NoidaRadiology/>} />
       <Route path="noida/Rheumatology-in-Noida" element={<NoidaRheumatology/>} />
       <Route path="noida/SeniorConsultant-in-Noida" element={<NoidaSeniorConsultant/>} />
-      <Route path="noida/ThoracicSurgeon-in-Noida" element={<NoidaThoracicSurgeon/>} />
+      <Route path="noida/thoracic-surgeon-in-noida" element={<NoidaThoracicSurgeon/>} />
       <Route path="noida/Urology-in-Noida" element={<NoidaUrology/>} />
       
     </Routes>

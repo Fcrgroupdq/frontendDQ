@@ -21,15 +21,15 @@ function LaparoscopicSurgeon() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>LaparoscopicSurgeon in Delhi | Doctors Queries</title>
+          <title>Best Laparoscopic Surgeon in Delhi: Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best laparoscopic surgeon in Delhi in 2024 with our updated list. Trust our expertise for all your laparoscopic surgery needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/LaparoscopicSurgeon-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/laparoscopic-surgeon-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="  laparoscopic surgeon in Delhi, best laparoscopic surgeon in Delhi, laparoscopic in Delhi, best laparoscopic Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -54,7 +54,7 @@ function LaparoscopicSurgeon() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best LaparoscopicSurgeon in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Laparoscopic Surgeon in Delhi: Updated List 2024</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>

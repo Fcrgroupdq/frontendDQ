@@ -21,15 +21,15 @@ function Neurologist() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Neurologist in Delhi | Doctors Queries</title>
+          <title>Best Neurologist in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best neurologist in Delhi? Check out our updated list for 2024 on DoctorsQueries. Find the top-rated neurologists for neurological needs"
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Neurologist-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/neurologist-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="neurologist in Delhi, best neurologist in Delhi, neurologist doctor in Delhi, best neurologist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -54,7 +54,7 @@ function Neurologist() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Neurologist in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Neurologist in Delhi - Updated List 2024</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>

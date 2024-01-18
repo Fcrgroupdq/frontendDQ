@@ -21,15 +21,15 @@ function NoidaPediatric() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Pediatric in Noida | Doctors Queries</title>
+          <title>Best Pediatricans in Noida- Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Discover the best pediatricians in Noida with our updated list for 2024. Trust DoctorsQueries to find the top healthcare professionals for your child's needs."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Pediatric-in-Noida" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/noida/pediatricians-in-noida" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="pediatricians in Noida, best pediatricians in Noida, pediatricians doctor in Noida, best pediatricians doctor in Noida"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

@@ -21,15 +21,15 @@ function KidneyTransplant() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>KidneyTransplant in Delhi | Doctors Queries</title>
+          <title>Best Kidney Transplant Specialist in Delhi</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best kidney transplant specialist in Delhi at DoctorsQueries. On this website, highly skilled doctors, provide world-class care."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/KidneyTransplant-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/kidney-transplant-specialist-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="kidney transplant specialist in Delhi, best kidney transplant specialist in Delhi, kidney transplant specialist doctor in Delhi, best kidney transplant specialist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -54,7 +54,7 @@ function KidneyTransplant() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best KidneyTransplant in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Kidney Transplant Specialist in Delhi</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>

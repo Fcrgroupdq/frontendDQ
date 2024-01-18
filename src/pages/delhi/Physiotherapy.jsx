@@ -21,15 +21,15 @@ function Physiotherapy() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Physiotherapy in Delhi | Doctors Queries</title>
+          <title>Best Psychiatrist in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best psychiatrist in Delhi? Check out our updated list for 2024 on DoctorsQueries. Find the right mental health professional for you."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Physiotherapy-in-delhi" />
+          <link rel="canonical" href=" https://www.doctorsqueries.com/delhi/psychiatrist-surgeon-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="psychiatrist in Delhi, best psychiatrist in Delhi, psychiatrist doctor in Delhi, best psychiatrist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

@@ -21,15 +21,15 @@ function Oncologist() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Oncologist in Delhi | Doctors Queries</title>
+          <title>Best Oncologist in Delhi - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best oncologist in Delhi with our updated list for 2024. Trust the expertise of top-rated doctors for quality cancer care."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Oncologist-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/oncologist-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="oncologist in Delhi, best oncologist in Delhi, oncologist doctor in Delhi, best oncologist doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
@@ -54,7 +54,7 @@ function Oncologist() {
   <div class="container px-3 py-12 mx-auto">
       <div class="flex flex-col text-center w-full mb-6">
       <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Oncologist in Delhi</h1>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Oncologist in Delhi - Updated List 2024</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
   </p>
       </div>

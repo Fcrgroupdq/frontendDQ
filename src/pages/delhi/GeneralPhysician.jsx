@@ -21,15 +21,15 @@ function GeneralPhysician() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>GeneralPhysician in Delhi | Doctors Queries</title>
+          <title>Best General Physician in Delhi – Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Looking for the best general physician in Delhi? Find an updated list for 2024. Get reliable and quality healthcare from the top doctors in the city."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/GeneralPhysician-in-delhi" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/delhi/general-physician-in-delhi" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="general physician in Delhi, best general physician in Delhi, general physician doctor in Delhi, best general physician doctor in Delhi"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />

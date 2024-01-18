@@ -21,15 +21,15 @@ function NoidaPulmonology() {
       <div>
           <Helmet>
           <meta charSet="utf-8" />
-          <title>Pulmonology in Noida | Doctors Queries</title>
+          <title>Best Pulmonologist in Noida - Updated List 2024</title>
           <meta
               name="description"
-              content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+              content="Find the best pulmonologist in Noida with our updated list for 2024. DoctorsQueries is your trusted source for top-rated pulmonologist in the city."
           />
-          <link rel="canonical" href="https://www.doctorsqueries.com/Pulmonology-in-Noida" />
+          <link rel="canonical" href="https://www.doctorsqueries.com/noida/pulmonologists-in-noida" />
           <meta
               name="keywords"
-              content=" Doctors Queries, Partner with Doctors Queries"
+              content="pulmonologist in Noida, best pulmonologist in Noida, pulmonologist doctor in Noida, best pulmonologist doctor in Noida"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@doctorsqueries" />
