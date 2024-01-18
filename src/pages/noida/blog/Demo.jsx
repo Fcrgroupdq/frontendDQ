@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
-import DoctorCart from "../../../components/doctors/doctorCart";
-import axios from "axios";
-import { Helmet } from "react-helmet";
+import React from 'react'
+import BlogCart from '../components/Blog/BlogCart'
+import BlogModel from '../components/Blog/BlogModel'
+import LetestBlog from '../components/About/LetestBlog'
+import {Helmet} from "react-helmet";
 
-
-function Blog = () => {
+const Blog = () => {
    
   return (
     <div>
@@ -22,8 +22,6 @@ function Blog = () => {
             </Helmet>
        
         <BlogCart />
-
-        <h2>Test</h2>
         {/* <BlogModel /> */}
         {/* <LetestBlog /> */}
     </div>
