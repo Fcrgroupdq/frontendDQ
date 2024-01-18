@@ -40,8 +40,8 @@ function Demo() {
       </div>
       {/*End SEO meta  */}
 
-      <div class="rounded-md border-2 border-red-500">
-        <div class="text-gray-600 body-font">
+      <div>
+        <div class="rounded-md border-2 border-red-500 text-gray-600 body-font">
           <div class="container px-3 py-12 mx-auto">
             <div class="flex flex-col text-center w-full mb-6">
               <h2 class="text-indigo-500 tracking-widest font-medium title-font mb-1">
@@ -96,8 +96,9 @@ function Demo() {
                 of life. 
               </p>
 
-              <h3 class="sm-text-3xl font-medium text-gray-900 mb-5 mt-5">
-                Role of a General Physician
+            
+              <h3 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
+              Role of a General Physician
               </h3>
               <p>
                 A General Physician is a key member of the primary healthcare
