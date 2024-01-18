@@ -48,7 +48,7 @@ function Demo() {
                 DoctorsQueries
               </h2>
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">
-              <h1 class="text-5xl font-medium">Heading 1</h1>
+              <h1 class="text-5xl font-medium text-gray-900">Heading 1</h1>
 
                 Who Is the Best General Physician Doctor in Delhi?
               </h1>
@@ -78,7 +78,7 @@ function Demo() {
                 referrals to medical specialists when needed. 
               </p>
 
-              <h2 class="text-4xl font-bold text-gray-900">
+              <h2 class="text-4xl font-medium text-gray-900">
                 Importance of General Physician in Delhi?
               </h2>
               <p>
@@ -96,7 +96,7 @@ function Demo() {
                 of life. 
               </p>
 
-              <h3 class="text-3xl font-bold dark:text-white">
+              <h3 class="text-3xl font-medium text-gray-900 mb-5 mt-5">
                 Role of a General Physician
               </h3>
               <p>
@@ -128,7 +128,7 @@ function Demo() {
                 </li>
               </ul>
 
-              <h4 class="text-1xl font-bold my-5">
+              <h4 class="text-2xl font-medium text-gray-900">
                 Diagnosis and treatment of illnesses
               </h4>
               <p>
@@ -152,7 +152,7 @@ function Demo() {
                 </li>
               </ul>
 
-              <h3 class="text-2xl font-bold my-5">
+              <h3 class="text-3xl font-medium text-gray-900">
                 Referral to Specialists of General Physician in Delhi
               </h3>
               <p>
@@ -161,7 +161,7 @@ function Demo() {
                 care to patients. They refer patients to specialist general
                 physician in Delhi when necessary and coordinate care to ensure
                 that patients receive the appropriate care and treatment.
-                <h4 class="text-1xl font-bold">Their role involves:</h4>
+                <h4 class="text-2xl font-medium text-gray-900">Their role involves:</h4>
                 <ul>
                   <li>
                     <b>Coordination of care:</b>General Physicians play a key
