@@ -108,21 +108,21 @@ function Demo() {
               <h4 class="text-2xl font-medium text-gray-900 mb-5 mt-5">Their role involves:</h4>
               <ul class="pl-6">
                 <li>
-                  <b>Preventive care:</b>It is an important aspect of primary
+                  <b>☞ Preventive care:</b> It is an important aspect of primary
                   healthcare. General Physicians play a crucial role in
                   promoting health and preventing diseases through.
                 </li>
                 <li>
-                  <b>Regular health check-ups:</b>General Physicians conduct
+                  <b>☞ Regular health check-ups:</b> General Physicians conduct
                   regular health check-ups to detect health problems early on
                   and provide appropriate interventions
                 </li>
                 <li>
-                  <b>Immunizations:</b>General Physicians provide vaccinations
+                  <b>☞ Immunizations:</b> General Physicians provide vaccinations
                   to prevent infectious diseases.
                 </li>
                 <li>
-                  <b>Health Education: </b>General Physicians educate patients
+                  <b>☞ Health Education: </b> General Physicians educate patients
                   about healthy lifestyle choices, such as healthy eating
                   habits, regular exercise, and avoiding tobacco and alcohol.
                 </li>
@@ -136,17 +136,17 @@ function Demo() {
                 range of health conditions, including:
               </p>
               <ul class="pl-6">
-                <li>
-                  <b>Acute illnesses:</b>1.General Physicians treat acute
+                <li> 
+                  <b>☞ Acute illnesses:</b> General Physicians treat acute
                   illnesses, such as colds, flu, infections, and injuries.
                 </li>
                 <li>
-                  <b>Chronic illnesses:</b>General Physicians manage chronic
+                  <b> ☞ Chronic illnesses:</b> General Physicians manage chronic
                   illnesses, such as diabetes, hypertension, asthma, and
                   arthritis.
                 </li>
-                <li>
-                  <b>Mental Health Conditions:</b>General Physicians diagnose
+                <li> 
+                  <b> ☞ Mental Health Conditions:</b> General Physicians diagnose
                   and treat mental health conditions, such as depression,
                   anxiety, and bipolar disorder.
                 </li>
@@ -165,7 +165,7 @@ function Demo() {
                 <h4 class="text-2xl font-medium text-gray-900 mt-6">Their role involves:</h4>
                 <ul class="pl-6">
                   <li>
-                    <b>Coordination of care:</b>General Physicians play a key
+                    <b>☞ Coordination of care:</b> General Physicians play a key
                     role in coordinating care for patients with complex health
                     needs. They work with other healthcare professionals to
                     develop a care plan that meets the patient's needs and
@@ -173,7 +173,7 @@ function Demo() {
                     settings.
                   </li>
                   <li>
-                    <b>Patient Advocacy:</b>General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families.
+                    <b>☞ Patient Advocacy:</b> General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families.
                   </li>
                  
                 </ul>
@@ -182,14 +182,16 @@ function Demo() {
               <p>
               General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families. <br/>              You may find the best doctors and more information about the best general physician in Delhi which are mentioned below sites –
               <ul class="pl-6">
-                <li>Lybrate</li>
-                <li>Mediindia</li>
-                <li>Practo</li>
-                <li><a href="https://www.doctorsqueries.com/"></a> Doctorsqueries</li>
-                <li>Ourdoctors</li>
+                <b>
+                <li>☞ Lybrate</li>
+                <li>☞ Mediindia</li>
+                <li>☞ Practo</li>
+                <li>☞ <a href="https://www.doctorsqueries.com/" class="text-red-900"></a> Doctorsqueries</li>
+                <li>☞ Ourdoctors</li>
+                </b>
               </ul>
               </p>
-              <p class="m-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
+              <p class="mt-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
             </div>
           </div>
         </section>
