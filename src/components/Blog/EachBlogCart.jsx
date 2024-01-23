@@ -111,14 +111,14 @@ const EachBlogCart = ({ item }) => {
         >
           <Heading marginTop="1">
             <Text textDecoration="none" _hover={{ textDecoration: "none" }}>
-              {item.Title}
+              {item.Title.slice(0, 300)}
             </Text>
           </Heading>
           <Text as="p" marginTop="2" color={"gray"} fontSize="lg">
-            {parse(item.MetaDescription).slice(0, 100)}...
+            {parse(item.MetaDescription.slice(0, 900))}
           </Text>
           {/* {item.description.slice(0, 150)}... */}
-          <BlogAuthor name={item.Author} date={item.date} />
+          {/* <BlogAuthor name={item.Author} date={item.date} /> */}
           <Flex gap={'20px'}>
           <Button
             onClick={() => handleDelete(item._id)}

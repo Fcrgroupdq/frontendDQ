@@ -56,8 +56,9 @@ const BlogView = () => {
     Title: "", // Updated to 'description' to store HTML content
     MetaTitle: "",
     MetaTag: "",
+    MetaDescription:"",
   });
-  const {Url,Title,MetaTitle,MetaTag} = formData
+  const {Url,Title,MetaTitle,MetaTag,MetaDescription} = formData
 
   const [postImage, setPostImage] = useState({ image: "" });
   const [editorState, setEditorState] = useState(EditorState.createEmpty());
@@ -65,7 +66,6 @@ const BlogView = () => {
   const handleFileUpload = async (e) => {
     const file = e.target.files[0];
     const base64 = await convertToBase64(file);
-    console.log(base64);
     setPostImage({ ...postImage, image: base64 });
 
     if (file) {
@@ -116,13 +116,15 @@ const BlogView = () => {
       axios
         .post("https://drab-blue-mite-belt.cyclic.app/blog", {
           ...formData,
-          MetaDescription: draftToHtml(
+         Description: draftToHtml(
             convertToRaw(editorState.getCurrentContent())
           ),
+          
           FeaturedImage: postImage.image,
           Auther:'Admin'
         })
         .then((res) => {
+          console.log(res)
      
           toast({
             title: "New Blog Added Success",
@@ -216,6 +218,17 @@ const BlogView = () => {
               />
             </FormControl>
 
+            <FormControl mt={4}>
+              <FormLabel>Meta Description</FormLabel>
+              <Input
+                type="text"
+                name="MetaDescription"
+                value={MetaDescription}
+                onChange={handleChange}
+                required
+              />
+            </FormControl>
+
             
             <FormControl>
               <FormLabel>Featured Image</FormLabel>
@@ -237,7 +250,7 @@ const BlogView = () => {
             </FormControl>
 
             <FormControl mt={4}>
-              <FormLabel>Meta-Description</FormLabel>
+              <FormLabel>Description</FormLabel>
               <Editor
                 editorState={editorState}
                 onEditorStateChange={onEditorStateChange}

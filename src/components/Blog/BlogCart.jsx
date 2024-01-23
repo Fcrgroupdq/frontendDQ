@@ -11,7 +11,6 @@ const BlogCart = () => {
   const getBlog = () => {
     setLoading(true);
     axios.get(`https://drab-blue-mite-belt.cyclic.app/blog`).then((res) => {
-      console.log(res)
       setBlog(res.data);
       setLoading(false);
     });
@@ -48,7 +47,7 @@ const BlogCart = () => {
                       {item.Title}
                     </h1>
                     <p class="leading-relaxed mb-3">
-                      {parse(item.MetaDescription).slice(0, 100)}...
+                      {parse(item.MetaDescription.slice(0, 100))}...
                       {/* <div dangerouslySetInnerHTML={{ __html: item.MetaDescription.slice(0, 100) }} /> */}
                     </p>
                     <div class="flex items-center flex-wrap ">
