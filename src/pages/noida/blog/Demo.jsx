@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
-import "./index.css";
+import "../../../../index.css";
 
 
 function Generalphy() {
