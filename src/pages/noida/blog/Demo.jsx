@@ -72,7 +72,7 @@ function Generalphy() {
                 physician in Delhi you can trust and who can act as a first
                 point of contact into a health care system. The best general
                 physician
-                <a href="https://www.doctorsqueries.com/doctors"> doctor </a> in
+                <a class="text-red-600" href="https://www.doctorsqueries.com/doctors"> doctor </a> in
                 Delhi can provide preventive care, teach healthy lifestyle
                 choices, identify and treat common medical conditions, and make
                 referrals to medical specialists when needed. 
