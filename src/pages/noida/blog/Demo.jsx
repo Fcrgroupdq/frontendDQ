@@ -3,18 +3,19 @@ import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 
-function Demo() {
+
+function Generalphy() {
   const [doctors, setDoctors] = useState([]);
 
-  useEffect(() => {
-    axios
-      .get(
-        `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${"dentist"}&status=approved&query=${"gurugram"}`
-      )
-      .then((res) => {
-        setDoctors(res.data);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${"dentist"}&status=approved&query=${"gurugram"}`
+  //     )
+  //     .then((res) => {
+  //       setDoctors(res.data);
+  //     });
+  // }, []);
 
   return (
     <>
@@ -72,7 +73,7 @@ function Demo() {
                 physician in Delhi you can trust and who can act as a first
                 point of contact into a health care system. The best general
                 physician
-                <a href="https://www.doctorsqueries.com/doctors"> doctor </a> in
+                <a class="text-red-600" href="https://www.doctorsqueries.com/doctors"> doctor </a> in
                 Delhi can provide preventive care, teach healthy lifestyle
                 choices, identify and treat common medical conditions, and make
                 referrals to medical specialists when needed. 
@@ -265,4 +266,4 @@ function Demo() {
   );
 }
 
-export default Demo;
+export default Generalphy;
