@@ -78,7 +78,7 @@ const BlogView = () => {
         widthDisplay.textContent = `Image Width: ${width} pixels`;
 
 
-        console.log(width)
+        // console.log(width)
         if (width < 150 || width > 1400) {
           alert("Image width must be between 150 and 1400 pixels.");
           e.target.value = "";
@@ -86,7 +86,7 @@ const BlogView = () => {
           setPostImage({ ...postImage, image: null });
           return;
         }
-        console.log(imageSize)
+        // console.log(imageSize)
         if (imageSize < 20480 || imageSize > 512000) {
           alert("Image size must be between 20 KB and 50 KB.");
           e.target.value = "";
