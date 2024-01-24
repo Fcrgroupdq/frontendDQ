@@ -3,7 +3,7 @@ import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 
-function Demo() {
+function Generalphy() {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
@@ -265,4 +265,4 @@ function Demo() {
   );
 }
 
-export default Demo;
+export default Generalphy;
