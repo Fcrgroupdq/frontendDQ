@@ -44,7 +44,7 @@ const SingleBlogPage = () => {
             </div>
             <Heading color={'red'} m={'20px'}>{blog[0].Title}</Heading>
             
-            <p class="leading-relaxed text-lg m-5 mb-4">{parse(blog[0].MetaDescription)}</p>
+            <p class="leading-relaxed text-lg m-5 mb-4">{parse(blog[0].Description)}</p>
             {/* <a class="text-indigo-500 inline-flex items-center" href={blog[0].learnMoreLink}>Learn More */}
               {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>

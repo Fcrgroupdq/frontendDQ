@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import parse from 'html-react-parser'; 
+import parse from "html-react-parser";
+import { Helmet } from "react-helmet";
 
 const BlogCart = () => {
   const [blog, setBlog] = useState();
@@ -24,8 +25,6 @@ const BlogCart = () => {
   //   return <h2>Loading...</h2>;
   // }
 
-
-
   return (
     <div>
       <section class="text-gray-600 body-font">
@@ -33,6 +32,36 @@ const BlogCart = () => {
           <div class="flex flex-wrap -m-4">
             {blog?.map((item) => (
               <div class="p-4 md:w-1/3">
+                <Helmet>
+                  <meta charSet="utf-8" />
+                  <title>{item.Title}</title>
+                  <meta
+                    name="description"
+                    content={item.MetaDescription}
+                  />
+                  <link
+                    rel="canonical"
+                    href="https://www.doctorsqueries.com/Ent-in-Noida"
+                  />
+                  <meta
+                    name="keywords"
+                    content=" Doctors Queries, Partner with Doctors Queries"
+                  />
+                  <meta name="twitter:card" content="summary" />
+                  <meta name="twitter:site" content="@doctorsqueries" />
+                  <meta
+                    name="twitter:title"
+                    content="Become a Partner with Doctors Queries: doctorsqueries.com"
+                  />
+                  <meta
+                    name="twitter:description"
+                    content="Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com."
+                  />
+                  <meta
+                    name="twitter:image"
+                    content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png"
+                  />
+                </Helmet>
                 <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   <img
                     class="lg:h-48 md:h-36 w-full object-cover object-center"
