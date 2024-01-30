@@ -201,7 +201,7 @@ const Allroute = () => {
       <Route path="/blog/:MetaTitle/edit" element={<UpdateBlog />} />
       <Route path="/about" element={<About />} />
 
-      {/* blog page route */}
+      {/* blog page route */}  
       {/* <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy />} />
       <Route path="/gurgaon/blog" element={<gurgaonDemo />} /> */}
       <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy/>} />
