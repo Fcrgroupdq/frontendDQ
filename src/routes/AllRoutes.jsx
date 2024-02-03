@@ -152,7 +152,7 @@ import NoidaUrology from "../pages/noida/Urology";
 
 
 import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
-import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
+import gurgaonDemo from "../pages/gurgaon/blog/Demo";
 import Generalphy from "../pages/noida/blog/Demo";
 import dentistdelhi from "../pages/noida/blog/dentistdelhi";
 
