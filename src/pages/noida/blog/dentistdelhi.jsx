@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 
 
 function dentistdelhi() {
-  const [doctors, setDoctors] = useState([]);
+  // const [doctors, setDoctors] = useState([]);
 
   // useEffect(() => {
   //   axios
