@@ -18,190 +18,53 @@ function Demo() {
 
   return (
     <>
-      
+      {/* SEO Meta */}
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Where to Find the Best General Physician in Delhi?</title>
+          <title>Dentist in Noida | Doctors Queries</title>
           <meta
             name="description"
-            content="Looking for the best general physician in Delhi? Look no further than DoctorsQueries for reliable and experienced doctors in your area."
+            content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
           />
-          <link
-            rel="canonical"
-            href="https://www.doctorsqueries.com/blog/where-to-find-the-best-general-physician-in-delhi"
-          />
+          <link rel="canonical" href="https://www.doctorsqueries.com/Dentist-in-Noida" />
           <meta
             name="keywords"
-            content="general physician in Delhi, best general physician in Delhi, general physician doctor in Delhi, best general physician doctor in Delhi"
+            content=" Doctors Queries, Partner with Doctors Queries"
+          />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@doctorsqueries" />
+          <meta
+            name="twitter:title"
+            content="Become a Partner with Doctors Queries: doctorsqueries.com"
+          />
+          <meta
+            name="twitter:description"
+            content="Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com."
+          />
+          <meta
+            name="twitter:image"
+            content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png"
           />
         </Helmet>
-        <style></style>
       </div>
       {/*End SEO meta  */}
 
       <div>
-        <div class="rounded-md border-2 border-red-500 text-gray-600 body-font">
-          <div class="container px-3 py-12 mx-auto">
-            <div class="flex flex-col text-center w-full mb-6">
-              <h2 class="text-indigo-500 tracking-widest font-medium title-font mb-1">
-                DoctorsQueries
-              </h2>
-             
-              <h1 class="sm:text-5xl font-medium text-gray-900">Who Is the Best General Physician Doctor in Delhi?</h1>
-
-                
-              
-            </div>
-
-            <div class="conatiner-fluid">
-              {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
-
-              <p>
-                Generally speaking, people in good health rarely need
-                medications or need to see a specialist. So it’s natural that
-                most give little thought to selecting a primary care physician
-                or
-                <b>
-                  <i>General physician in Delhi</i>
-                </b>
-                . At some point, though, everyone is going to feel under the
-                weather, which might call for a medical opinion.
-                <br />
-                This is where and when it makes sense to have the best general
-                physician in Delhi you can trust and who can act as a first
-                point of contact into a health care system. The best general
-                physician
-                <a class="text-red-600" href="https://www.doctorsqueries.com/doctors"> doctor </a> in
-                Delhi can provide preventive care, teach healthy lifestyle
-                choices, identify and treat common medical conditions, and make
-                referrals to medical specialists when needed. 
-              </p>
-
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
-                Importance of General Physician in Delhi?
-              </h2>
-              <p>
-                With healthcare now becoming a priority to most, even the
-                smallest signs of sickness receive care. From an itchy throat to
-                a mild cough or a spike in temperature, many rush to clinics to
-                seek care from the general physician. The best General physician
-                in Delhi have become more occupied with the current rise of
-                pollution. General physician in Delhi are also available on a
-                call basis. 
-                <br />A General Physician in Delhi is essential to help an
-                individual navigate to good health and stay healthy. Preventing
-                diseases by identifying the risk factors. Coordinating and
-                managing chronic disease care for longevity and better quality
-                of life. 
-              </p>
-
-            
-              <h3 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
-              Role of a General Physician
-              </h3>
-              <p>
-                A General Physician is a key member of the primary healthcare
-                team. They are trained to provide comprehensive care to
-                individuals and families, from preventive care to
-                the management of acute and chronic illnesses.
-              </p>
-              <h4 class="sm-text-2xl font-medium text-gray-900 mb-5 mt-5">Their role involves:</h4>
-              <ul class="pl-6">
-                <li>
-                  <b>➥ Preventive care:</b> It is an important aspect of primary
-                  healthcare. General Physicians play a crucial role in
-                  promoting health and preventing diseases through.
-                </li>
-                <li>
-                  <b>➥ Regular health check-ups:</b> General Physicians conduct
-                  regular health check-ups to detect health problems early on
-                  and provide appropriate interventions
-                </li>
-                <li>
-                  <b>➥ Immunizations:</b> General Physicians provide vaccinations
-                  to prevent infectious diseases.
-                </li>
-                <li>
-                  <b>➥ Health Education: </b> General Physicians educate patients
-                  about healthy lifestyle choices, such as healthy eating
-                  habits, regular exercise, and avoiding tobacco and alcohol.
-                </li>
-              </ul>
-
-              <h4 class="sm-text-2xl font-medium text-gray-900 mt-6 mb-6">
-                Diagnosis and treatment of illnesses
-              </h4>
-              <p>
-                General Physicians are trained to diagnose and treat a wide
-                range of health conditions, including:
-              </p>
-              <ul class="pl-6">
-                <li> 
-                  <b>➥ Acute illnesses:</b> General Physicians treat acute
-                  illnesses, such as colds, flu, infections, and injuries.
-                </li>
-                <li>
-                  <b> ➥ Chronic illnesses:</b> General Physicians manage chronic
-                  illnesses, such as diabetes, hypertension, asthma, and
-                  arthritis.
-                </li>
-                <li> 
-                  <b> ➥ Mental Health Conditions:</b> General Physicians diagnose
-                  and treat mental health conditions, such as depression,
-                  anxiety, and bipolar disorder.
-                </li>
-              </ul>
-
-              <h3 class="sm-text-3xl font-medium text-gray-900 mt-6">
-                Referral to Specialists of General Physician in Delhi
-              </h3>
-              <p>
-                General Physicians work closely with other healthcare
-                professionals, including specialists, to provide comprehensive
-                care to patients. They refer patients to specialist general
-                physician in Delhi when necessary and coordinate care to ensure
-                that patients receive the appropriate care and treatment.
-
-                <h4 class="sm-text-2xl font-medium text-gray-900 mt-6">Their role involves:</h4>
-                <ul class="pl-6">
-                  <li>
-                    <b>➥ Coordination of care:</b> General Physicians play a key
-                    role in coordinating care for patients with complex health
-                    needs. They work with other healthcare professionals to
-                    develop a care plan that meets the patient's needs and
-                    ensures continuity of care across different healthcare
-                    settings.
-                  </li>
-                  <li>
-                    <b>➥ Patient Advocacy:</b> General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families.
-                  </li>
-                 
-                </ul>
-
-              </p>
-              <p class="mt-6">
-              General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families. <br/>              You may find the best doctors and more information about the best general physician in Delhi which are mentioned below sites –
-              <ul class="pl-6">
-                <b>
-                <li>➥ Lybrate</li>
-                <li>➥ Mediindia</li>
-                <li>➥ Practo</li>
-                <li>➥ <a href="https://www.doctorsqueries.com/" class="text-red-900"> Doctorsqueries</a></li>
-                <li>➥ Ourdoctors</li>
-                </b>
-              </ul>
-              </p>
-              <p class="mt-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
-            </div>
-          </div>
-        </div>
+      <section class="text-gray-600 body-font">
+  <div class="container px-3 py-12 mx-auto">
+    <div class="flex flex-col text-center w-full mb-6">
+      <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">DoctorsQueries</h2>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Best Dentist in Noida</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.DOCTORSQUERIES is a brand new platform, our mission is to make quality healthcare affordable and accessible from anywhere.
+</p>
+    </div>
+  </div>
+</section>
       </div>
-
-
-      {/* {doctors.map((item) => (
+      {doctors.map((item) => (
         <DoctorCart data={item} />
-      ))} */}
+      ))}
 
       {/* Quick Links */}
       {/* <section class="text-gray-600 body-font">
