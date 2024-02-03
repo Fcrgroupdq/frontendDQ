@@ -21,7 +21,7 @@ const Privecy = () => {
         <div  className="privacy-policy" style={containerStyle}>
       <h2 style={headingStyle}>Privacy Policy</h2>
 
-      <h3 style={headingStyle}>Introduction</h3>
+      <h3 style={headingStyle}>Test Introduction</h3>
       <p>
         This privacy policy, according to the Data Protection Act 1988, sets out how any data that you provide us or the data that we collect from you is processed by Doctorsqueries. We are focused on guaranteeing that your security is protected or ensured when utilizing this site. Should we request that you give certain information by which you can be distinguished, then you can be assured that it may be utilized as a part of an agreement along with this security statement. By refreshing this page, We may change this policy every once in a while. You should check this page now and again to guarantee that you are content with any progressions.
       </p>
