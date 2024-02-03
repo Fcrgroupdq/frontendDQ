@@ -7,15 +7,15 @@ import { Helmet } from "react-helmet";
 function dentistdelhi() {
   const [doctors, setDoctors] = useState([]);
 
-  // useEffect(() => {
-  //   axios
-  //     .get(
-  //       `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${"dentist"}&status=approved&query=${"gurugram"}`
-  //     )
-  //     .then((res) => {
-  //       setDoctors(res.data);
-  //     });
-  // }, []);
+  useEffect(() => {
+    axios
+      .get(
+        `https://drab-blue-mite-belt.cyclic.app/doctors/doctors/near/?cat=${"dentist"}&status=approved&query=${"gurugram"}`
+      )
+      .then((res) => {
+        setDoctors(res.data);
+      });
+  }, []);
 
   return (
     <>
