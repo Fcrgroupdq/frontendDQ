@@ -60,7 +60,7 @@ const EachBlogCart = ({ item }) => {
   };
 
   const handleViewBlog = () => {
-     navigate(`/blog/${item._id}`)
+     navigate(`/blog/${item._id}/${item.Title}`)
   }
 
   const handleEditBlog = () => {

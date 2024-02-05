@@ -197,7 +197,7 @@ const Allroute = () => {
       />
       <Route path="/admin/hospital/update/:id" element={<UpdateHospital />} />
       <Route path="/hospitals/:id" element={<SingleHospital />} />
-      <Route path="/blog/:MetaTitle" element={<SingleBlogPage />} />
+      <Route path="/blog/:MetaTitle/:Title" element={<SingleBlogPage />} />
       <Route path="/blog/:MetaTitle/edit" element={<UpdateBlog />} />
       <Route path="/about" element={<About />} />
 
