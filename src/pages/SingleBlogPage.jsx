@@ -1,29 +1,42 @@
 import { Heading } from "@chakra-ui/react";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useLocation } from "react-router-dom";
 import parse from "html-react-parser";
+import { Helmet } from "react-helmet";
 
 
 const SingleBlogPage = () => {
   const { MetaTitle } = useParams();
  
   
-  const [blog, setBlog] = useState(null); // Initialize blog state as null
+  const [blog, setBlog] = useState({}); // Initialize blog state as null
   const [loading, setLoading] = useState(true); // Initialize loading state as true
+
+
+  const location = useLocation();
+
+  // useEffect(() => {
+  //   // Assuming metaTitle is a state or prop
+  //   const newUrl = `/your-base-url/${metaTitle}`;
+  //   window.history.replaceState(null, '', newUrl);
+  // }, [metaTitle, location.pathname]);
+
 
   useEffect(() => {
     axios.get(`https://drab-blue-mite-belt.cyclic.app/blog/${MetaTitle}`)
       .then((res) => {
+        console.log(res.data)
         // Update the blog state with the fetched data
         setBlog(res.data);
-        setLoading(false); // Set loading to false once data is fetched
+        setLoading(false);
+        // Set loading to false once data is fetched
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
         setLoading(false); // Set loading to false in case of an error
       });
-  }, [MetaTitle]); // Include metaUrl as a dependency to re-fetch data when it changes
+  }, []); // Include metaUrl as a dependency to re-fetch data when it changes
 
   if (loading) {
     return <h2 style={{ color: 'red', fontSize: '20px', textAlign: 'center' }}>Loading...</h2>;
@@ -36,6 +49,38 @@ const SingleBlogPage = () => {
   
   return (
     <div>
+
+
+<div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{blog[0].Title}</title>
+          <meta
+            name="description"
+            content=" Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com"
+          />
+          <link rel="canonical" href="https://www.doctorsqueries.com/Dentist-in-Gurgaon" />
+          <meta
+            name="keywords"
+            content=" Doctors Queries, Partner with Doctors Queries"
+          />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@doctorsqueries" />
+          <meta
+            name="twitter:title"
+            content="Become a Partner with Doctors Queries: doctorsqueries.com"
+          />
+          <meta
+            name="twitter:description"
+            content="Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com."
+          />
+          <meta
+            name="twitter:image"
+            content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png"
+          />
+        </Helmet>
+      </div>
+
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-col">
           <div class="lg:w-full mx-auto">

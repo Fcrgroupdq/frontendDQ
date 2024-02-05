@@ -10,7 +10,7 @@ import {
   useToast,
   Flex,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import parse from "html-react-parser";
 import axios from "axios";
 
@@ -28,6 +28,7 @@ const EachBlogCart = ({ item }) => {
   const [deleteLoding, setDeleteLoding] = useState(false);
 
   const toast = useToast();
+  const navigate = useNavigate()
 
   const handleDelete = (id) => {
     setDeleteLoding(true);
@@ -57,6 +58,14 @@ const EachBlogCart = ({ item }) => {
         setDeleteLoding(false);
       });
   };
+
+  const handleViewBlog = () => {
+     navigate(`/blog/${item._id}`)
+  }
+
+  const handleEditBlog = () => {
+    navigate(`/blog/${item._id}/edit`)
+  }
 
   return (
     <div>
@@ -134,16 +143,18 @@ const EachBlogCart = ({ item }) => {
             variant={"outline"}
             colorScheme="blue"
             width={"200px"}
+            onClick={handleViewBlog}
           >
-            <Link to={`/blog/${item.MetaTitle}`}>View</Link>
+            {/* <Link to={`/blog/${item._id}`}>View</Link> */}View
           </Button>
           <Button
             mt={"10px"}
             variant={"solid"}
             colorScheme="teal"
             width={"150px"}
+            onClick={handleEditBlog}
           >
-            <Link to={`/blog/${item.MetaTitle}/edit`}>Edit</Link>
+            {/* <Link to={`/blog/${item._id}/edit`}>Edit</Link> */}Edit
           </Button>
           </Flex>
         </Box>

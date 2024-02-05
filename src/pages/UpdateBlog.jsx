@@ -9,6 +9,7 @@ import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 
 const UpdateBlog = () => {
   const { MetaTitle } = useParams();
+  console.log(MetaTitle)
 
   const [loading, setLoading] = useState(true);
   const [editorState, setEditorState] = useState(EditorState.createEmpty());

@@ -81,7 +81,7 @@ const BlogCart = () => {
                     </p>
                     <div class="flex items-center flex-wrap ">
                       <Button colorScheme="red">
-                        <Link to={`/blog/${item.MetaTitle}`}>
+                        <Link to={`/blog/${item._id}`}>
                           Learn More
                           <svg
                             class="w-4 h-4 ml-2"
