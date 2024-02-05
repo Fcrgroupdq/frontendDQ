@@ -149,9 +149,12 @@ import NoidaRheumatology from "../pages/noida/Rheumatology";
 import NoidaSeniorConsultant from "../pages/noida/SeniorConsultant";
 import NoidaThoracicSurgeon from "../pages/noida/ThoracicSurgeon";
 import NoidaUrology from "../pages/noida/Urology";
+
+
 import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
 import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
 import Generalphy from "../pages/noida/blog/Demo";
+import dentistdelhi from "../pages/noida/blog/dentistdelhi";
 
 
 
@@ -198,10 +201,11 @@ const Allroute = () => {
       <Route path="/blog/:MetaTitle/edit" element={<UpdateBlog />} />
       <Route path="/about" element={<About />} />
 
-      {/* blog page route */}
+      {/* blog page route */}  
       {/* <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy />} />
       <Route path="/gurgaon/blog" element={<gurgaonDemo />} /> */}
       <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy/>} />
+      <Route path="blog/dentist-in-delhi" element={< dentistdelhi/>} />
       {/* <Route path="/de" element={<About2 />} /> */}
 
       <Route path="/doctorappointment" element={<DoctorAppointment />} />
