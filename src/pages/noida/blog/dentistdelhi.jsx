@@ -4,7 +4,7 @@ import axios from "axios";
 import { Helmet } from "react-helmet";
 
 
-function dentistdelhi() {
+function Dentistdelhi() {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
@@ -266,4 +266,4 @@ function dentistdelhi() {
   );
 }
 
-export default dentistdelhi;
+export default Dentistdelhi;
