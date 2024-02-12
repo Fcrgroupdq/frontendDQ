@@ -22,18 +22,23 @@ function Newphy() {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>test New</title>
+          <title> Dental Treatment in Delhi | Best Hospital for Dental</title>
           <meta
-            name="description"
-            content="Looking for the best general physician in Delhi? Look no further than DoctorsQueries for reliable and experienced doctors in your area."
+            name="title"
+            content=" Dental Treatment in Delhi | Best Hospital for Dental"
           />
-          <link
-            rel="canonical"
-            href="https://www.doctorsqueries.com/blog/where-to-find-the-best-general-physician-in-delhi"
+          
+             <meta
+            name="description"
+            content="Looking for the best hospital for dental treatment in Delhi? Visit DoctorsQueries for top-notch dental care and expert doctors."
           />
           <meta
             name="keywords"
-            content="general physician in Delhi, best general physician in Delhi, general physician doctor in Delhi, best general physician doctor in Delhi"
+            content="dental treatment in Delhi"
+          />
+          <link
+            rel="canonical"
+            href="https://www.doctorsqueries.com/blog/dental-treatment-in-delhi"
           />
         </Helmet>
         <style></style>
