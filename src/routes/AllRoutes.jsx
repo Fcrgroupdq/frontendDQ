@@ -155,7 +155,7 @@ import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
 import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
 import Generalphy from "../pages/noida/blog/Demo";
 import dentistdelhi from "../pages/noida/blog/dentistdelhi";
-import Newphy from "../pages/noida/blog/Newphy";
+import Newphy from "../pages/noida/blog/new";
 
 
 
