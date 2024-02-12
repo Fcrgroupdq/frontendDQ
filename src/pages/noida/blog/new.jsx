@@ -22,7 +22,7 @@ function Newphy() {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Dental Treatment in Delhi | Best Hospital for Dental</title>
+          <title>Dental Treatment in Delhi | Best Hospital for Dental</title>
           <meta
             name="title"
             content=" Dental Treatment in Delhi | Best Hospital for Dental"
@@ -54,12 +54,12 @@ function Newphy() {
               </h2>
 
               <h1 class="sm:text-5xl font-medium text-gray-900">
-                Who Is the Best General Physician Doctor in Delhi?
+              Which is the best hospital for dental treatment in Delhi?
               </h1>
             </div>
 
             <div class="conatiner-fluid">
-              <h1>Which is the best hospital for dental treatment in Delhi?</h1>
+           
               <p>
                 The importance of{" "}
                 <strong>
