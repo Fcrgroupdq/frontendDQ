@@ -155,7 +155,7 @@ import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
 import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
 import Generalphy from "../pages/noida/blog/Demo";
 import dentistdelhi from "../pages/noida/blog/dentistdelhi";
-
+import Newphy from "../pages/noida/blog/Newphy";
 
 
 
@@ -205,6 +205,7 @@ const Allroute = () => {
       {/* <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy />} />
       <Route path="/gurgaon/blog" element={<gurgaonDemo />} /> */}
       <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy/>} />
+      <Route path="blog/new" element={< Newphy/>} />
       <Route path="blog/dentist-in-delhi" element={< dentistdelhi/>} />
       {/* <Route path="/de" element={<About2 />} /> */}
 
