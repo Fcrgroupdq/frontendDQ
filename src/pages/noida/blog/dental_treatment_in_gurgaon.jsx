@@ -59,7 +59,7 @@ function Dentaltreatment() {
 
             <div class="conatiner-fluid">
               <p>
-                When it comes to finding the{" "}
+                When it comes to finding the
                 <i>
                   <b>best hospital for dental treatment in Gurgaon</b>
                 </i>
@@ -81,14 +81,14 @@ function Dentaltreatment() {
                 Gurgaon
               </h2>
               <p>
-                Choosing the best hospital for{" "}
+                Choosing the best hospital for
                 <a href="https://www.doctorsqueries.com/dental-treatment-in-gurgaon/">
                   <strong>
                     <em>
                       <u>dental treatment</u>
                     </em>
                   </strong>
-                </a>{" "}
+                </a>
                 in Gurgaon is of utmost importance for several reasons.
                 <p>
                   First, it ensures that you receive the highest quality care
@@ -156,7 +156,7 @@ function Dentaltreatment() {
                 </ol>
                 <p>
                   By carefully considering these factors, you can confidently
-                  select the{" "}
+                  select the
                   <strong>
                     <em>best hospital for dental treatment in Gurgaon</em>
                   </strong>
@@ -179,7 +179,7 @@ function Dentaltreatment() {
                     the best possible treatment.
                   </li>
                   <li>
-                    Official Website:{" "}
+                    Official Website:
                     <a href="https://www.medanta.org/">
                       <u>https://www.medanta.org/</u>
                     </a>
@@ -192,7 +192,7 @@ function Dentaltreatment() {
                     various oral health needs.
                   </li>
                   <li>
-                    Official Website:{" "}
+                    Official Website:
                     <a href="https://www.fortishealthcare.com/">
                       <u>https://www.fortishealthcare.com/</u>
                     </a>
@@ -205,7 +205,7 @@ function Dentaltreatment() {
                     outcomes.
                   </li>
                   <li>
-                    Official Website:{" "}
+                    Official Website:
                     <a href="https://www.artemishospitals.com/">
                       <u>https://www.artemishospitals.com/</u>
                     </a>
@@ -218,7 +218,7 @@ function Dentaltreatment() {
                     choice for dental treatment.
                   </li>
                   <li>
-                    Official Website:{" "}
+                    Official Website:
                     <a href="https://www.maxhealthcare.in/">
                       <u>https://www.maxhealthcare.in/</u>
                     </a>
@@ -310,7 +310,7 @@ function Dentaltreatment() {
               </h2>
 
               <p>
-                In conclusion, choosing the{" "}
+                In conclusion, choosing the
                 <strong>
                   <em>best hospital for dental treatment in Gurgaon</em>
                 </strong>
