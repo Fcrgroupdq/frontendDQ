@@ -154,64 +154,186 @@ function Dentaltreatment() {
                     pricing.
                   </li>
                 </ol>
-
-                <p>By carefully considering these factors, you can confidently select the <strong><em>best hospital for dental treatment in Gurgaon</em></strong>&nbsp;that meets your specific needs and ensures optimal oral health care.</p>
+                <p>
+                  By carefully considering these factors, you can confidently
+                  select the{" "}
+                  <strong>
+                    <em>best hospital for dental treatment in Gurgaon</em>
+                  </strong>
+                  &nbsp;that meets your specific needs and ensures optimal oral
+                  health care.
+                </p>
               </p>
 
-            <h2 class="sm:text-5xl font-medium text-gray-900">
-            The best hospital for dental treatment in Gurgaon
-            </h2>
+              <h2 class="sm:text-5xl font-medium text-gray-900">
+                The best hospital for dental treatment in Gurgaon
+              </h2>
 
               <p>
                 <ol>
-                  <li><strong>Medanta</strong>- The Medicity: Medanta is a renowned multi-specialty hospital that offers top-notch dental care services. Their team of highly skilled dentists and state-of-the-art facilities ensure that patients receive the best possible treatment.</li>
-                  <li>Official Website: <a href="https://www.medanta.org/"><u>https://www.medanta.org/</u></a></li>
-                  <li><strong>Fortis Memorial Research Institute</strong>: Fortis is another leading hospital in Gurgaon that provides excellent dental care. With a team of experienced dentists, they offer a wide range of dental services to cater to various oral health needs.</li>
-                  <li>Official Website: <a href="https://www.fortishealthcare.com/"><u>https://www.fortishealthcare.com/</u></a></li>
-                  <li><strong>Artemis Hospital</strong>: Artemis Hospital is known for its advanced dental treatments and personalized approach to patient care. Their team of specialists is well-equipped to handle complex dental procedures and ensure successful outcomes.</li>
-                  <li>Official Website: <a href="https://www.artemishospitals.com/"><u>https://www.artemishospitals.com/</u></a></li>
-                  <li><strong>Max Hospital</strong>: Max Hospital is a trusted name in the healthcare industry and has a dedicated department for dental care. Their team of experienced dentists and modern infrastructure make them a reliable choice for dental treatment.</li>
-                  <li>Official Website: <a href="https://www.maxhealthcare.in/"><u>https://www.maxhealthcare.in/</u></a></li>
+                  <li>
+                    <strong>Medanta</strong>- The Medicity: Medanta is a
+                    renowned multi-specialty hospital that offers top-notch
+                    dental care services. Their team of highly skilled dentists
+                    and state-of-the-art facilities ensure that patients receive
+                    the best possible treatment.
+                  </li>
+                  <li>
+                    Official Website:{" "}
+                    <a href="https://www.medanta.org/">
+                      <u>https://www.medanta.org/</u>
+                    </a>
+                  </li>
+                  <li>
+                    <strong>Fortis Memorial Research Institute</strong>: Fortis
+                    is another leading hospital in Gurgaon that provides
+                    excellent dental care. With a team of experienced dentists,
+                    they offer a wide range of dental services to cater to
+                    various oral health needs.
+                  </li>
+                  <li>
+                    Official Website:{" "}
+                    <a href="https://www.fortishealthcare.com/">
+                      <u>https://www.fortishealthcare.com/</u>
+                    </a>
+                  </li>
+                  <li>
+                    <strong>Artemis Hospital</strong>: Artemis Hospital is known
+                    for its advanced dental treatments and personalized approach
+                    to patient care. Their team of specialists is well-equipped
+                    to handle complex dental procedures and ensure successful
+                    outcomes.
+                  </li>
+                  <li>
+                    Official Website:{" "}
+                    <a href="https://www.artemishospitals.com/">
+                      <u>https://www.artemishospitals.com/</u>
+                    </a>
+                  </li>
+                  <li>
+                    <strong>Max Hospital</strong>: Max Hospital is a trusted
+                    name in the healthcare industry and has a dedicated
+                    department for dental care. Their team of experienced
+                    dentists and modern infrastructure make them a reliable
+                    choice for dental treatment.
+                  </li>
+                  <li>
+                    Official Website:{" "}
+                    <a href="https://www.maxhealthcare.in/">
+                      <u>https://www.maxhealthcare.in/</u>
+                    </a>
+                  </li>
                 </ol>
               </p>
 
-
-              <p> 
-              These hospitals have consistently delivered exceptional dental care services and have earned a reputation for their expertise and patient-centric approach. Do your research, consider your specific dental needs, and choose the hospital that aligns best with your requirements.
+              <p>
+                These hospitals have consistently delivered exceptional dental
+                care services and have earned a reputation for their expertise
+                and patient-centric approach. Do your research, consider your
+                specific dental needs, and choose the hospital that aligns best
+                with your requirements.
               </p>
 
+              <h2 class="sm:text-5xl font-medium text-gray-900">
+                The best hospital for dental treatment in Gurgaon
+              </h2>
 
+              <p>
+                In addition to the hospitals mentioned above, it is important to
+                consider the range of services offered when choosing the best
+                hospital for dental treatment in Gurgaon. Each hospital may have
+                its own set of specialties and expertise that make them stand
+                out.
+              </p>
+              <p>
+                Some hospitals may specialize in cosmetic dentistry, offering a
+                variety of treatments such as teeth whitening, veneers, and
+                dental implants.
+              </p>
+              <p>
+                Others may focus on orthodontics, providing braces and other
+                alignment treatments. It is crucial to assess your specific
+                dental needs and ensure that the hospital you choose offers the
+                services required for your treatment.
+              </p>
+              <p>
+                It is worth considering if the hospital provides emergency
+                dental care. Dental emergencies can occur unexpectedly, and
+                having access to prompt and efficient treatment can make a
+                significant difference in managing the situation.
+              </p>
+              <p>
+                By understanding the services offered at each hospital, you can
+                make an informed decision, ensuring that your dental care needs
+                are met comprehensively and efficiently.
+              </p>
 
-       <h2 class="sm:text-5xl font-medium text-gray-900">
-       The best hospital for dental treatment in Gurgaon
-            </h2>
+              <h2 class="sm:text-5xl font-medium text-gray-900">
+                Testimonials and reviews from patients
+              </h2>
 
-            <p>In addition to the hospitals mentioned above, it is important to consider the range of services offered when choosing the best hospital for dental treatment in Gurgaon. Each hospital may have its own set of specialties and expertise that make them stand out.</p>
-            <p>Some hospitals may specialize in cosmetic dentistry, offering a variety of treatments such as teeth whitening, veneers, and dental implants.</p>
-            <p>Others may focus on orthodontics, providing braces and other alignment treatments. It is crucial to assess your specific dental needs and ensure that the hospital you choose offers the services required for your treatment.</p>
-            <p>It is worth considering if the hospital provides emergency dental care. Dental emergencies can occur unexpectedly, and having access to prompt and efficient treatment can make a significant difference in managing the situation.</p>
-            <p>By understanding the services offered at each hospital, you can make an informed decision, ensuring that your dental care needs are met comprehensively and efficiently.</p>
-            
+              <p>
+                One of the most effective ways to gauge the quality of dental
+                treatment offered at a hospital in Gurgaon is by reading
+                testimonials and reviews from previous patients. Their
+                first-hand accounts can provide valuable insights into the
+                overall experience and satisfaction level.
+              </p>
+              <p>
+                When researching hospitals, take the time to read online reviews
+                on reputable platforms. Look for consistent positive feedback on
+                factors such as the competence of the dental staff, the
+                cleanliness of the facility, and the effectiveness of the
+                treatment provided.
+              </p>
+              <p>
+                <strong>
+                  Additionally, pay attention to any negative reviews and
+                  evaluate if the concerns raised are deal breakers for you.
+                </strong>
+              </p>
+              <p>
+                It's also worth considering personal recommendations from
+                friends, family, or colleagues who have received dental
+                treatment in Gurgaon. Their feedback can help you make an
+                informed decision based on their real-life experiences.
+              </p>
+              <p>
+                By considering testimonials and reviews from past patients, you
+                can gain a comprehensive understanding of the quality of dental
+                treatment offered by different hospitals in Gurgaon, helping you
+                narrow down your choices further.
+              </p>
 
-            <h2 class="sm:text-5xl font-medium text-gray-900">
-            Testimonials and reviews from patients
-            </h2>
+              <h2 class="sm:text-5xl font-medium text-gray-900">
+                Conclusion and final recommendation
+              </h2>
 
-            <p>One of the most effective ways to gauge the quality of dental treatment offered at a hospital in Gurgaon is by reading testimonials and reviews from previous patients. Their first-hand accounts can provide valuable insights into the overall experience and satisfaction level.</p>
-            <p>When researching hospitals, take the time to read online reviews on reputable platforms. Look for consistent positive feedback on factors such as the competence of the dental staff, the cleanliness of the facility, and the effectiveness of the treatment provided.</p>
-            <p><strong>Additionally, pay attention to any negative reviews and evaluate if the concerns raised are deal breakers for you.</strong></p>
-            <p>It's also worth considering personal recommendations from friends, family, or colleagues who have received dental treatment in Gurgaon. Their feedback can help you make an informed decision based on their real-life experiences.</p>
-            <p>By considering testimonials and reviews from past patients, you can gain a comprehensive understanding of the quality of dental treatment offered by different hospitals in Gurgaon, helping you narrow down your choices further.</p>
-
-            <h2 class="sm:text-5xl font-medium text-gray-900">
-            Conclusion and final recommendation
-            </h2>
-
-            <p>In conclusion, choosing the <strong><em>best hospital for dental treatment in Gurgaon</em></strong>&nbsp;requires careful consideration of testimonials and reviews from previous patients. By taking the time to read feedback on reputable platforms and considering personal recommendations from friends, family, or colleagues, you can make an informed decision that suits your needs.</p>
-            <p>After thorough research, it is now time to make a final recommendation. Based on the positive testimonials and reviews. Patients have commended the competence of the dental staff, the cleanliness of the facility, and the effectiveness of the treatment provided.</p>
-            <p>Overall, the Hospitals are reliable options for dental treatment in Gurgaon, but it's important to schedule a consultation and assess your specific needs before making a final decision. Remember, your oral health is important, and choosing the right hospital can greatly impact your overall well-being.</p>
-       
-
+              <p>
+                In conclusion, choosing the{" "}
+                <strong>
+                  <em>best hospital for dental treatment in Gurgaon</em>
+                </strong>
+                &nbsp;requires careful consideration of testimonials and reviews
+                from previous patients. By taking the time to read feedback on
+                reputable platforms and considering personal recommendations
+                from friends, family, or colleagues, you can make an informed
+                decision that suits your needs.
+              </p>
+              <p>
+                After thorough research, it is now time to make a final
+                recommendation. Based on the positive testimonials and reviews.
+                Patients have commended the competence of the dental staff, the
+                cleanliness of the facility, and the effectiveness of the
+                treatment provided.
+              </p>
+              <p>
+                Overall, the Hospitals are reliable options for dental treatment
+                in Gurgaon, but it's important to schedule a consultation and
+                assess your specific needs before making a final decision.
+                Remember, your oral health is important, and choosing the right
+                hospital can greatly impact your overall well-being.
+              </p>
             </div>
           </div>
         </div>
