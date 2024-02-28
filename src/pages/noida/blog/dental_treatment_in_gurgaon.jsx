@@ -134,58 +134,59 @@ function Dentaltreatment() {
                   Official Website : <a href="https://www.medanta.org/">https://www.medanta.org/</a>
 
                 </li>
-                <li>
-                  <b> ➥ Chronic illnesses:</b> General Physicians manage chronic
-                  illnesses, such as diabetes, hypertension, asthma, and
-                  arthritis.
+                <li> 
+                  <b>➥ Fortis Memorial Research Institute: </b> Fortis is another leading hospital in Gurgaon that provides excellent dental care. With a team of experienced dentists, they offer a wide range of dental services to cater to various oral health needs.<br></br>
+                  Official Website : <a href="https://www.fortishealthcare.com/">https://www.fortishealthcare.com/</a>
+
+                </li>
+           
+                <li> 
+                  <b>➥ Artemis Hospital :  </b> Artemis Hospital is known for its advanced dental treatments and personalized approach to patient care. Their team of specialists is well-equipped to handle complex dental procedures and ensure successful outcomes.<br></br>
+                  Official Website : <a href="https://www.artemishospitals.com/">https://www.artemishospitals.com/</a>
+
                 </li>
                 <li> 
-                  <b> ➥ Mental Health Conditions:</b> General Physicians diagnose
-                  and treat mental health conditions, such as depression,
-                  anxiety, and bipolar disorder.
+                  <b>➥ Max Hospital: </b> Max Hospital is a trusted name in the healthcare industry and has a dedicated department for dental care. Their team of experienced dentists and modern infrastructure make them a reliable choice for dental treatment.<br></br>
+                  Official Website : <a href="https://www.maxhealthcare.in/">https://www.maxhealthcare.in/</a>
+
                 </li>
+
               </ul>
+                <br /><br />
+
+                These hospitals have consistently delivered exceptional dental care services and have earned a reputation for their expertise and patient-centric approach. Do your research, consider your specific dental needs, and choose the hospital that aligns best with your requirements.
 
               <h3 class="sm-text-3xl font-medium text-gray-900 mt-6">
-                Referral to Specialists of General Physician in Delhi
+              Testimonials and reviews from patients
               </h3>
               <p>
-                General Physicians work closely with other healthcare
-                professionals, including specialists, to provide comprehensive
-                care to patients. They refer patients to specialist general
-                physician in Delhi when necessary and coordinate care to ensure
-                that patients receive the appropriate care and treatment.
+              One of the most effective ways to gauge the quality of dental treatment offered at a hospital in Gurgaon is by reading testimonials and reviews from previous patients. Their first-hand accounts can provide valuable insights into the overall experience and satisfaction level.
+                <br /><br />
+                When researching hospitals, take the time to read online reviews on reputable platforms. Look for consistent positive feedback on factors such as the competence of the dental staff, the cleanliness of the facility, and the effectiveness of the treatment provided.
+              
+              <b>Additionally, pay attention to any negative reviews and evaluate if the concerns raised are deal breakers for you.</b>
 
-                <h4 class="sm-text-2xl font-medium text-gray-900 mt-6">Their role involves:</h4>
-                <ul class="pl-6">
-                  <li>
-                    <b>➥ Coordination of care:</b> General Physicians play a key
-                    role in coordinating care for patients with complex health
-                    needs. They work with other healthcare professionals to
-                    develop a care plan that meets the patient's needs and
-                    ensures continuity of care across different healthcare
-                    settings.
-                  </li>
-                  <li>
-                    <b>➥ Patient Advocacy:</b> General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families.
-                  </li>
-                 
-                </ul>
+<br /><br />
+It's also worth considering personal recommendations from friends, family, or colleagues who have received dental treatment in Gurgaon. Their feedback can help you make an informed decision based on their real-life experiences.
+<br /><br />
 
+By considering testimonials and reviews from past patients, you can gain a comprehensive understanding of the quality of dental treatment offered by different hospitals in Gurgaon, helping you narrow down your choices further.
               </p>
-              <p class="mt-6">
-              General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families. <br/>              You may find the best doctors and more information about the best general physician in Delhi which are mentioned below sites –
-              <ul class="pl-6">
-                <b>
-                <li>➥ Lybrate</li>
-                <li>➥ Mediindia</li>
-                <li>➥ Practo</li>
-                <li>➥ <a href="https://www.doctorsqueries.com/" class="text-red-900"> Doctorsqueries</a></li>
-                <li>➥ Ourdoctors</li>
-                </b>
-              </ul>
-              </p>
-              <p class="mt-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
+             
+              <h3 class="sm-text-3xl font-medium text-gray-900 mt-6">
+              Conclusion and final recommendation
+              </h3>
+
+<p>In conclusion, choosing the <b><i>best hospital for dental treatment in Gurgaon</i></b> requires careful consideration of testimonials and reviews from previous patients. By taking the time to read feedback on reputable platforms and considering personal recommendations from friends, family, or colleagues, you can make an informed decision that suits your needs.
+
+<br /><br />
+After thorough research, it is now time to make a final recommendation. Based on the positive testimonials and reviews. Patients have commended the competence of the dental staff, the cleanliness of the facility, and the effectiveness of the treatment provided.
+
+<br /><br />
+
+Overall, the Hospitals are reliable options for dental treatment in Gurgaon, but it's important to schedule a consultation and assess your specific needs before making a final decision. Remember, your oral health is important, and choosing the right hospital can greatly impact your overall well-being.
+</p>
+              
             </div>
           </div>
         </div>
