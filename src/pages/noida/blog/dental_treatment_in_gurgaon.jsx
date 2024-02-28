@@ -131,23 +131,23 @@ function Dentaltreatment() {
               <ul class="pl-6">
                 <li> 
                   <b>➥ Medanta :</b> GThe Medicity: Medanta is a renowned multi-specialty hospital that offers top-notch dental care services. Their team of highly skilled dentists and state-of-the-art facilities ensure that patients receive the best possible treatment. <br></br>
-                  Official Website : <a href="https://www.medanta.org/">https://www.medanta.org/</a>
+                  Official Website : <a href="https://www.medanta.org/">https://www.medanta.org/</a> <br /><br />
 
                 </li>
                 <li> 
                   <b>➥ Fortis Memorial Research Institute: </b> Fortis is another leading hospital in Gurgaon that provides excellent dental care. With a team of experienced dentists, they offer a wide range of dental services to cater to various oral health needs.<br></br>
-                  Official Website : <a href="https://www.fortishealthcare.com/">https://www.fortishealthcare.com/</a>
+                  Official Website : <a href="https://www.fortishealthcare.com/">https://www.fortishealthcare.com/</a> <br /><br />
 
                 </li>
            
                 <li> 
                   <b>➥ Artemis Hospital :  </b> Artemis Hospital is known for its advanced dental treatments and personalized approach to patient care. Their team of specialists is well-equipped to handle complex dental procedures and ensure successful outcomes.<br></br>
-                  Official Website : <a href="https://www.artemishospitals.com/">https://www.artemishospitals.com/</a>
+                  Official Website : <a href="https://www.artemishospitals.com/">https://www.artemishospitals.com/</a> <br /><br />
 
                 </li>
                 <li> 
                   <b>➥ Max Hospital: </b> Max Hospital is a trusted name in the healthcare industry and has a dedicated department for dental care. Their team of experienced dentists and modern infrastructure make them a reliable choice for dental treatment.<br></br>
-                  Official Website : <a href="https://www.maxhealthcare.in/">https://www.maxhealthcare.in/</a>
+                  Official Website : <a href="https://www.maxhealthcare.in/">https://www.maxhealthcare.in/</a> <br /><br />
 
                 </li>
 
