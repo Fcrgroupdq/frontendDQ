@@ -161,7 +161,7 @@ import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 
 
 // Delhi Blog
-import top_5_best_hospital_in_delhi from "../pages/delhi/top_5_best_hospital_in_delhi";
+import top_5_best_hospital_in_delhi from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
 
 
 // Gurgaon Blog
