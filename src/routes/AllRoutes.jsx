@@ -160,6 +160,17 @@ import Newphy from "../pages/noida/blog/new";
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 
 
+// Delhi Blog
+import top_5_best_hospital_in_delhi from "./pages/delhi/top_5_best_hospital_in_delhi";
+
+
+// Gurgaon Blog
+
+
+
+// Noida Blog
+
+
 
 const Allroute = () => {
   return (
@@ -212,7 +223,7 @@ const Allroute = () => {
 
 
       {/* Delhi Blogs Route  */}
-      {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} /> */}
+      <Route path="list-of-top-5-best-hospital-in-delhi" element={<Hospital />} />
 
 
 
