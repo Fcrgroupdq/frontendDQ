@@ -153,6 +153,7 @@ import NoidaUrology from "../pages/noida/Urology";
 
 import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
 import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
+
 import Generalphy from "../pages/noida/blog/Demo";
 import dentistdelhi from "../pages/noida/blog/dentistdelhi";
 import Newphy from "../pages/noida/blog/new";
@@ -208,8 +209,22 @@ const Allroute = () => {
       <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy/>} />
       <Route path="blog/dental-treatment-in-delhi" element={< Newphy/>} />
       <Route path="blog/dentist-in-delhi" element={< dentistdelhi/>} />
+
+
+      {/* Delhi Blogs Route  */}
+      {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} /> */}
+
+
+
+      {/* Gurgaon Blogs Route  */}
       <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} />
 
+      
+
+      {/* Noida Blogs Route  */}
+      {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} /> */}
+
+      
       <Route path="/doctorappointment" element={<DoctorAppointment />} />
       <Route
         path="/doctor-dashboard"
