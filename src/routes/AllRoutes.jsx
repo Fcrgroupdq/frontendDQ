@@ -151,12 +151,12 @@ import NoidaThoracicSurgeon from "../pages/noida/ThoracicSurgeon";
 import NoidaUrology from "../pages/noida/Urology";
 
 
-import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
-import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
+// import {Demo as delhiDemo} from "../pages/delhi/blog/Demo";
+// import {Demo as gurgaonDemo} from "../pages/gurgaon/blog/Demo";
 
-import Generalphy from "../pages/noida/blog/Demo";
-import dentistdelhi from "../pages/noida/blog/dentistdelhi";
-import Newphy from "../pages/noida/blog/new";
+// import Generalphy from "../pages/noida/blog/Demo";
+// import dentistdelhi from "../pages/noida/blog/dentistdelhi";
+// import Newphy from "../pages/noida/blog/new";
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 
 
