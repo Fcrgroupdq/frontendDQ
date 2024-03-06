@@ -217,10 +217,9 @@ const Allroute = () => {
       {/* blog page route */}  
       {/* <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy />} />
       <Route path="/gurgaon/blog" element={<gurgaonDemo />} /> */}
-      <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy/>} />
+      {/* <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Generalphy/>} />
       <Route path="blog/dental-treatment-in-delhi" element={< Newphy/>} />
-      <Route path="blog/dentist-in-delhi" element={< dentistdelhi/>} />
-
+    */}
 
       {/* Delhi Blogs Route  */}
       <Route path="list-of-top-5-best-hospital-in-delhi" element={<Hospital />} />
