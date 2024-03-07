@@ -157,14 +157,15 @@ import NoidaUrology from "../pages/noida/Urology";
 // import Generalphy from "../pages/noida/blog/Demo";
 // import dentistdelhi from "../pages/noida/blog/dentistdelhi";
 // import Newphy from "../pages/noida/blog/new";
-import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 
 
 // Delhi Blog
 import HospitalDelhi from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
 import Genphy from "../pages/delhi/blog/best-general-physician";
+import HospitalDelhi from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
 
 // Gurgaon Blog
+import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 
 
 
