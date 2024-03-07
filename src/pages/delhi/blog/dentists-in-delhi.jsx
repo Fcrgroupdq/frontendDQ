@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
-import dentist from "../../assets/blog/delhi/dentist.webp"
-import dq from "../../assets/Logo Dq.png"
+import dentist from "../../../assets/blog/delhi/dentist.webp"
+import dq from "../../../assets/Logo Dq.png"
 function Dentistsindelhi() {
   const [doctors, setDoctors] = useState([]);
 
