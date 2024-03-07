@@ -162,7 +162,7 @@ import NoidaUrology from "../pages/noida/Urology";
 // Delhi Blog
 import HospitalDelhi from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
 import Genphy from "../pages/delhi/blog/best-general-physician";
-import HospitalDelhi from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
+
 
 // Gurgaon Blog
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";

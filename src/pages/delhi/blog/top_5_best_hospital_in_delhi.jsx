@@ -71,8 +71,8 @@ function HospitalDelhi() {
                   Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><strong><em><u>hospital</u></em></strong></a> in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.
                  <br />
 
-                 <strong>Location:</strong><strong>&nbsp;</strong>Rajinder Nagar, New Delhi, Delhi 110060</p>
-                
+                 <strong>Location:</strong><strong>&nbsp;</strong>Rajinder Nagar, New Delhi, Delhi 110060</p> <br />
+
                  <p><b>➥ Team and Specialities:</b> 
                  <ol style="list-style-type: lower-roman;">
                     <li>Major renal transplantation center with over 650 live-related transplants in 10&nbsp;years.</li>
@@ -81,10 +81,52 @@ function HospitalDelhi() {
                  </ol>
                   
                   </p>
+              
+                  <p><b>➥ Infrastructure:</b> 
+                 <ol style="list-style-type: lower-roman;">
+                    <li>675 bedded multispecialty hospital.</li>
+                    <li>Ambulance available round the clock.</li>
+                    <li>Pharmacy and emergency services are also available</li>
+                 </ol>
+                  
+                  </p>
+
+                  <p>Official Website: <a href="https://sgrh.com/"><strong><u>Sir Ganga Ram Hospital</u></strong></a></p>
 
                 </li>
 
+                <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">The best hospital in Delhi, Sir Ganga Ram Hospital -</h4>
+                  
+                  <p><b>➥ About Hospital:</b> 
+                  Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><strong><em><u>hospital</u></em></strong></a> in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.
+                 <br />
+
+                 <strong>Location:</strong><strong>&nbsp;</strong>Rajinder Nagar, New Delhi, Delhi 110060</p> <br />
+
+                 <p><b>➥ Team and Specialities:</b> 
+                 <ol style="list-style-type: lower-roman;">
+                    <li>Major renal transplantation center with over 650 live-related transplants in 10&nbsp;years.</li>
+                    <li>Department of Nephrology leading center in the country.</li>
+                    <li>Highest success rate of IVF units in India is 25% pregnancy rates.</li>
+                 </ol>
+                  
+                  </p>
               
+                  <p><b>➥ Infrastructure:</b> 
+                 <ol style="list-style-type: lower-roman;">
+                    <li>675 bedded multispecialty hospital.</li>
+                    <li>Ambulance available round the clock.</li>
+                    <li>Pharmacy and emergency services are also available</li>
+                 </ol>
+                  
+                  </p>
+
+                  <p>Official Website: <a href="https://sgrh.com/"><strong><u>Sir Ganga Ram Hospital</u></strong></a></p>
+
+                </li>
+
                 
 
 
