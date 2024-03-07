@@ -60,7 +60,7 @@ function Besthospital() {
               Top 5 Best Hospital in Delhi
               </h2>
         
-              <ul type="1">
+              {/* <ul type="1">
                
                
                 <li>
@@ -222,7 +222,7 @@ function Besthospital() {
 
               </ul>
 
-            
+             */}
             
               <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
               Conclusion
