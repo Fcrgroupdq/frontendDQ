@@ -153,7 +153,7 @@ function Besthospital() {
                   </p>
               
                   <p><b>➥ Infrastructure:</b> 
-                 <ol style="list-style-type: lower-roman;">
+                 <ol >
                     <li>Max Super Specialty Hospital is a 240-bed hospital in Shalimar Bagh. It has a team of over 1000 doctors and 3000 staff. The hospital has a full-fledged laboratory and testing unit</li>
                     
                  </ol>
