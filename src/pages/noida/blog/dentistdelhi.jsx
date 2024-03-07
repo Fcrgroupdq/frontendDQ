@@ -4,7 +4,7 @@ import axios from "axios";
 import { Helmet } from "react-helmet";
 
 
-function Dentistdelhi() {
+function Genphy() {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
@@ -266,4 +266,4 @@ function Dentistdelhi() {
   );
 }
 
-export default Dentistdelhi;
+export default Genphy;
