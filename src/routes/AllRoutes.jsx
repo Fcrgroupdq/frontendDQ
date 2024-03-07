@@ -222,7 +222,7 @@ const Allroute = () => {
     */}
 
       {/* Delhi Blogs Route  */}
-      <Route path="blog/where-to-find-the-best-general-physician-in-delhi" element={< Genphy/>} />
+      <Route path="where-to-find-the-best-general-physician-in-delhi" element={< Genphy/>} />
 
 
       {/* Gurgaon Blogs Route  */}
