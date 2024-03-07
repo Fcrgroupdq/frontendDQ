@@ -22,18 +22,18 @@ function HospitalDelhi() {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Best Hospital for Dental Treatment in Gurgaon</title>
+          <title>List of Top 5 Best Hospital in Delhi- Find the Best</title>
           <meta
             name="description"
-            content="Looking for dental treatment? Look no further! Discover the best hospital for dental treatment in Gurgaon and get the care you deserve."
+            content=" Find the best hospital in Delhi with the list of top 5 hospitals on DoctorsQueries. Get the best medical care and treatment for your needs."
           />
           <link
             rel="canonical"
-            href="https://www.doctorsqueries.com/best-hospital-for-dental-treatment-in-gurgaon"
+            href="https://www.doctorsqueries.com/list-of-top-5-best-hospital-in-delhi"
           />
           <meta
             name="keywords"
-            content="best hospital for dental treatment in Gurgaon"
+            content="hospital in delhi, best hospital in delhi, top 5 hospital in delhi, top 5 hospital in delh"
           />
         </Helmet>
         <style></style>
@@ -48,65 +48,46 @@ function HospitalDelhi() {
                 DoctorsQueries
               </h2>
              
-              <h1 class="sm:text-5xl font-medium text-gray-900">Which is the best hospital for dental treatment in Gurgaon?</h1>
+              <h1 class="sm:text-5xl font-medium text-gray-900">Top 5 Best Hospitals in Delhi - Updated List 2024</h1>
 
-                
               
             </div>
 
             <div class="conatiner-fluid">
               {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
 
-              <p>
-              When it comes to finding the <b><i>best hospital for dental treatment in Gurgaon,</i></b> can be troublesome. With so many options to choose from, how do you know which hospital will provide the highest quality care and the best outcomes for your specific needs?
+              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
+              Top 5 Best Hospital in Delhi
+              </h2>
+        
+              <ul type="1">
+               
+               
+                <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">The best hospital in Delhi, Sir Ganga Ram Hospital -</h4>
+                  
+                  <p><b>➥ About Hospital:</b> 
+                  Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><strong><em><u>hospital</u></em></strong></a> in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.
+                 <br />
+
+                 <strong>Location:</strong><strong>&nbsp;</strong>Rajinder Nagar, New Delhi, Delhi 110060</p>
+                
+                 <p><b>➥ Team and Specialities:</b> 
+                 <ol style="list-style-type: lower-roman;">
+                    <li>Major renal transplantation center with over 650 live-related transplants in 10&nbsp;years.</li>
+                    <li>Department of Nephrology leading center in the country.</li>
+                    <li>Highest success rate of IVF units in India is 25% pregnancy rates.</li>
+                 </ol>
+                  
+                  </p>
+
+                </li>
+
+              
                 
 
-                <br />
-                In this blog post, we will explore the factors to consider when selecting the best dental hospital in Gurgaon and highlight some of the top hospitals known for their excellence in dental care.
 
-                <br />
-
-                Whether you need a routine dental check-up or a more complex procedure, finding the right hospital is crucial for your oral health. Read on to discover the best options available in Gurgaon.
-              </p>
-
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
-              Importance of choosing the best hospital for dental treatment in Gurgaon
-              </h2>
-              <p>
-              Choosing the best hospital for <a href="https://www.doctorsqueries.com/dental-treatment-in-gurgaon/"><strong><em><u>dental treatment</u></em></strong></a>&nbsp;in Gurgaon is of utmost importance for several reasons
-                <br />
-                First, it ensures that you receive the highest quality care and treatment for your dental needs. The right hospital will have a team of experienced and skilled dentists who can provide accurate diagnoses and effective treatments.
-              </p>
-              Second, selecting the best hospital guarantees a comfortable and hassle-free experience for you as a patient. From the moment you walk in, you should feel at ease and confident in the care you are receiving
-            
-            <br />
-
-            Finally, choosing the best hospital for dental treatment in Gurgaon gives you peace of mind, knowing that your oral health is in capable hands. With a hospital renowned for its excellence in dental care, you can trust that you are receiving the best possible treatment and that your oral health is in good hands.
-              
-              
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
-              Factors to consider when choosing a hospital for dental treatment
-              </h2>
-              <p>
-              There are several factors that you should consider. These factors will help you make an informed decision and ensure that you receive the highest quality care for your dental needs.
-              </p>
-             
-              <ul>
-                <li>
-                  <b>➥ Reputation:</b> Look for hospitals that have a strong reputation in the dental field. Consider their track record, patient reviews, and success rates
-                </li>
-                <li>
-                  <b>➥ Expertise of the Dentists: </b> Check the qualifications and experience of the dentists working at the hospital. Make sure they have the necessary expertise to provide the specific treatment you require
-                </li>
-                <li>
-                  <b>➥ Facilities and Technology:</b> A hospital equipped with modern facilities and advanced technology can offer more accurate diagnoses and more effective treatments. Look for hospitals that prioritize staying up-to-date with the latest advancements in dental care.
-                </li>
-                <li>
-                  <b>➥ Range of Services:</b> Consider the range of dental services offered by the hospital. It's beneficial to choose a hospital that provides comprehensive dental treatments and specialists in various areas of dentistry.
-                </li>
-                <li>
-                  <b>➥ Cost:</b> While quality of care should be your top priority, it's essential to consider the cost of dental treatment as well. Compare the prices of different hospitals and ensure that the hospital you choose offers competitive pricing.
-                </li>
               </ul>
 
               <p>

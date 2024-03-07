@@ -224,7 +224,7 @@ const Allroute = () => {
 
       {/* Delhi Blogs Route  */}
       <Route path="where-to-find-the-best-general-physician-in-delhi" element={< Genphy/>} />
-
+      <Route path="list-of-top-5-best-hospital-in-delhi" element={< HospitalDelhi/>} />
 
       {/* Gurgaon Blogs Route  */}
       {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<HospitalDelhi />} /> */}
