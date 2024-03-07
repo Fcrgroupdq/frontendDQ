@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
-import dq from "../../assets/blog/delhi/dentist.webp"
+import dentist from "../../assets/blog/delhi/dentist.webp"
 function Dentistsindelhi() {
   const [doctors, setDoctors] = useState([]);
 
