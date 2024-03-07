@@ -3,6 +3,7 @@ import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import dentist from "../../assets/blog/delhi/dentist.webp"
+import dq from "../../assets/Logo Dq.png"
 function Dentistsindelhi() {
   const [doctors, setDoctors] = useState([]);
 
@@ -58,6 +59,11 @@ function Dentistsindelhi() {
               <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" />
 
               <img class="w-full my-4" src="{dentist}" alt="Sunset in the mountains" />
+              <img
+                      className="h-11 w-auto"
+                      src={dq}
+                      alt="Your Company"
+                    />
               <p>
               Dentists in Delhi&nbsp;offer world-class dental services at a fraction of the cost without compromising on quality, making it an ideal choice for dental tourists. Delhi boasts state-of-the-art <a href="https://www.doctorsqueries.com/doctors"><strong><em><u>dental facilities</u></em></strong></a>&nbsp;that adhere to international standards of hygiene and safety.<br /> <br />
               Delhi has become famous for Cosmetic dentistry and smile makeovers. Cosmetic dentistry allows you to talk, smile, laugh, and eat in front of others without worrying about having your teeth judged. As you become more outgoing, people will be drawn to your positive attitude. This encourages you to socialize more, further boosting your self-confidence.
