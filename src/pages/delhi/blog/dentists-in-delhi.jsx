@@ -55,7 +55,7 @@ function Dentistsindelhi() {
             </div>
 
             <div class="conatiner-fluid">
-              {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
+              <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" />
 
               <p>
               Dentists in Delhi&nbsp;offer world-class dental services at a fraction of the cost without compromising on quality, making it an ideal choice for dental tourists. Delhi boasts state-of-the-art <a href="https://www.doctorsqueries.com/doctors"><strong><em><u>dental facilities</u></em></strong></a>&nbsp;that adhere to international standards of hygiene and safety.<br /> <br />
