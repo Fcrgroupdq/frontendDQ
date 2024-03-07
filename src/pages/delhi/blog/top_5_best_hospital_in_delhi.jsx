@@ -60,7 +60,7 @@ function Besthospital() {
               Top 5 Best Hospital in Delhi
               </h2>
         
-              {/* <ul type="1">
+              <ul>
                
                
                 <li>
@@ -74,7 +74,7 @@ function Besthospital() {
                  <b>Location:</b> Rajinder Nagar, New Delhi, Delhi 110060</p> <br />
 
                  <p><b>➥ Team and Specialities:</b> 
-                 <ol style="list-style-type: lower-roman;">
+                 <ol >
                     <li>Major renal transplantation center with over 650 live-related transplants in 10&nbsp;years.</li>
                     <li>Department of Nephrology leading center in the country.</li>
                     <li>Highest success rate of IVF units in India is 25% pregnancy rates.</li>
@@ -83,7 +83,7 @@ function Besthospital() {
                   </p>
               
                   <p><b>➥ Infrastructure:</b> 
-                 <ol style="list-style-type: lower-roman;">
+                 <ol >
                     <li>675 bedded multispecialty hospital.</li>
                     <li>Ambulance available round the clock.</li>
                     <li>Pharmacy and emergency services are also available</li>
@@ -111,7 +111,7 @@ function Besthospital() {
                   </p>
               
                   <p><b>➥ Infrastructure:</b> 
-                 <ol style="list-style-type: lower-roman;">
+                 <ol >
                     <li>Spread over 15 acres, the hospital has 710 beds.</li>
                     <li>6 beds dedicated to bone marrow transplant units with very strict infection control practices</li>
                     <li>64-Slice Scan coupled with data acquisition which provides the highest temporal resolution</li>
@@ -144,7 +144,7 @@ function Besthospital() {
                  
                  <p><b>➥ Team and Specialities:</b> 
                  
-                 <ol style="list-style-type: lower-roman;">
+                 <ol >
                     <li>Max Super Specialty Hospital in Shalimar Bagh is a 350-bed hospital that offers world-class treatment in all specialties. With 70% of its doctors holding an overseas qualification, the hospital offers cutting-edge treatment and the latest technology.</li>
                     <li>Some of the key specialties offered at Max Super Specialty Hospital Shalimar Bagh include cardiology, neurology, oncology, orthopedics, and urology.</li>
                     
@@ -222,7 +222,7 @@ function Besthospital() {
 
               </ul>
 
-             */}
+             
             
               <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
               Conclusion
