@@ -68,10 +68,10 @@ function Besthospital() {
                   <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">The best hospital in Delhi, Sir Ganga Ram Hospital -</h4>
                   
                   <p><b>➥ About Hospital:</b> 
-                  Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><strong><em><u>hospital</u></em></strong></a> in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.
+                  Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><b><em><u>hospital</u></em></b></a> in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.
                  <br />
 
-                 <strong>Location:</strong><strong>&nbsp;</strong>Rajinder Nagar, New Delhi, Delhi 110060</p> <br />
+                 <b>Location:</b> Rajinder Nagar, New Delhi, Delhi 110060</p> <br />
 
                  <p><b>➥ Team and Specialities:</b> 
                  <ol style="list-style-type: lower-roman;">
@@ -91,7 +91,7 @@ function Besthospital() {
                   
                   </p>
 
-                  <p>Official Website: <a href="https://sgrh.com/"><strong><u>Sir Ganga Ram Hospital</u></strong></a></p>
+                  <p><b>Official Website:</b> <a href="https://sgrh.com/">Sir Ganga Ram Hospital</a></p>
 
                 </li>
 
@@ -103,7 +103,7 @@ function Besthospital() {
                   Indraprastha Apollo, the best Hospital in New Delhi was established in 1996 and is NABH, NABL & JCI accredited. This hospital includes and offers 10,000 beds across 64 hospitals, more than 2,200 pharmacies, over 100 primary care & and diagnostic clinics, and 115 telemedicine units across 9 countries. Indraprastha Apollo Hospital, the best hospital in New Delhi is the first hospital in India to perform a Paediatric Liver Transplant in 1998.
                  <br />
 
-                 <strong>Location:</strong><strong>&nbsp;</strong>Indraprastha Apollo Hospitals, Sarita Vihar, Delhi Mathura Road New Delhi Delhi 110076 India</p> <br />
+                 <b>Location:</b> Indraprastha Apollo Hospitals, Sarita Vihar, Delhi Mathura Road New Delhi Delhi 110076 India</p> <br />
 
                  <p><b>➥ Team and Specialities:</b> 
                  The Indraprastha Apollo Hospital ranked first in Neurosciences, Renal Sciences, Oncology, Paediatrics, Gynaecology, and Obstetrics and Emergency in The Times of India Healthcare Survey 2016.
@@ -119,7 +119,7 @@ function Besthospital() {
                   
                   </p>
 
-                  <p>Official Website: <a href="https://www.apollohospitals.com/delhi/"><strong><u>Indraprastha Apollo Hospital</u></strong></a></p>
+                  <p>Official Website: <a href="https://www.apollohospitals.com/delhi/"><b>Indraprastha Apollo Hospital</b></a></p>
 
                 </li>
 
@@ -160,7 +160,7 @@ function Besthospital() {
                   
                   </p>
 
-                  <p>Official Website: <a href="https://www.maxhealthcare.in/"><strong><u>Max Super Specialty Hospital</u></strong></a></p>
+                  <p>Official Website: <a href="https://www.maxhealthcare.in/"><b>Max Super Specialty Hospital</b></a></p>
 
                 </li>
 
@@ -189,7 +189,7 @@ function Besthospital() {
                   Spread across five acres of land, with a capacity of approximately 650 beds, BLK Super Speciality Hospital is the largest tertiary care private hospital in the country; the outpatient services are spread over two floors with around 80 consultation rooms. 
                   </p>
 
-                  <p>Official Website: <a href="https://www.blkmaxhospital.com/"><strong><u>BLK Super Speciality Hospital</u></strong></a></p>
+                  <p>Official Website: <a href="https://www.blkmaxhospital.com/"><b>BLK Super Speciality Hospital</b></a></p>
 
                 </li>
 
@@ -215,7 +215,7 @@ function Besthospital() {
                   The hospital has a total of 575 beds, which makes it one of the largest hospitals in Delhi. The hospital offers a wide range of medical services, including cardiology, neurology, nephrology, and oncology
                   </p>
 
-                  <p>Official Website: <a href="https://www.fortishealthcare.com/"><strong><u>Fortis Escorts Heart Institute</u></strong></a></p>
+                  <p>Official Website: <a href="https://www.fortishealthcare.com/"><b>Fortis Escorts Heart Institute</b></a></p>
 
                 </li>
 
