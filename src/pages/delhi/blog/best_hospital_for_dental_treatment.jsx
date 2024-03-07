@@ -127,75 +127,47 @@ function DentaltreatmentD() {
                   <li><b>Website:</b><a href="https://www.axissdental.com/"><u>&nbsp;</u><strong><u>Axiss Dental</u></strong></a></li>
                 </li>
                
-                
-                
-                
-              </ul>
-
-              <h4 class="sm-text-2xl font-medium text-gray-900 mt-6 mb-6">
-                Diagnosis and treatment of illnesses
-              </h4>
-              <p>
-                General Physicians are trained to diagnose and treat a wide
-                range of health conditions, including:
-              </p>
-              <ul class="pl-6">
-                <li> 
-                  <b>➥ Acute illnesses:</b> General Physicians treat acute
-                  illnesses, such as colds, flu, infections, and injuries.
-                </li>
                 <li>
-                  <b> ➥ Chronic illnesses:</b> General Physicians manage chronic
-                  illnesses, such as diabetes, hypertension, asthma, and
-                  arthritis.
+                  <b>3. Clove Dental:</b> 
+                  <li><b>Locations:</b>Multiple locations in Delhi</li>
+                  <li><b>Website:</b><a href="https://www.clovedental.in/"><u>&nbsp;</u><strong><u>Clove Dental</u></strong></a></li>
                 </li>
-                <li> 
-                  <b> ➥ Mental Health Conditions:</b> General Physicians diagnose
-                  and treat mental health conditions, such as depression,
-                  anxiety, and bipolar disorder.
+                
+                <li>
+                  <b>4. Dr. Dental Dental Clinic :</b> 
+                  <li><b>Locations:</b>E-143, East of Kailash, Delhi</li>
+                  <li><b>Website:</b><a href="http://drdentist.co.in/"><u>&nbsp;</u><strong><u>Dr. Dental Dental Clinic</u></strong></a></li>
+                </li>
+                
+
+                <li>
+                  <b>5. Smile Delhi - The Dental Clinic :</b> 
+                  <li><b>Locations:</b>D-1065, Lower Ground Floor, Opposite Mata Ka Mandir, New Friends Colony, Delhi</li>
+                  <li><b>Website:</b><a href="https://www.dentalclinicdelhi.com/"><u>&nbsp;</u><strong><u>Smile Delhi</u></strong></a></li>
+                </li>
+                
+               
+                <li>
+                  <b>6. Dent Ally :</b> 
+                  <li><b>Locations:</b> B-81, Defence Colony, New Delhi</li>
+                  <li><b>Website:</b> <a href="https://www.dentally.in/"><u>&nbsp;</u><strong><u>Dent Ally</u></strong></a></li>
+                </li>
+
+                <li>
+                  <b>7. Dental Renaissance :</b> 
+                  <li><b>Locations:</b> E20, Defence Colony, New Delhi</li>
+                  <li><b>Website:</b> <a href="https://www.dentalrenaissance.in/"><u></u><strong><u>Dental Renaissance</u></strong></a></li>
+                </li>
+
+                <li>
+                  <b>8. Max Multi Speciality Centre - Panchsheel Park :</b> 
+                  <li><b>Locations:</b> N-110, Panchsheel Park, Delhi</li>
+                  <li><b>Website:</b> <a href="https://www.maxhealthcare.in/"><u>&nbsp;</u><strong><u>Max Healthcare</u></strong></a></li>
                 </li>
               </ul>
 
-              <h3 class="sm-text-3xl font-medium text-gray-900 mt-6">
-                Referral to Specialists of General Physician in Delhi
-              </h3>
-              <p>
-                General Physicians work closely with other healthcare
-                professionals, including specialists, to provide comprehensive
-                care to patients. They refer patients to specialist general
-                physician in Delhi when necessary and coordinate care to ensure
-                that patients receive the appropriate care and treatment.
-
-                <h4 class="sm-text-2xl font-medium text-gray-900 mt-6">Their role involves:</h4>
-                <ul class="pl-6">
-                  <li>
-                    <b>➥ Coordination of care:</b> General Physicians play a key
-                    role in coordinating care for patients with complex health
-                    needs. They work with other healthcare professionals to
-                    develop a care plan that meets the patient's needs and
-                    ensures continuity of care across different healthcare
-                    settings.
-                  </li>
-                  <li>
-                    <b>➥ Patient Advocacy:</b> General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families.
-                  </li>
-                 
-                </ul>
-
-              </p>
-              <p class="mt-6">
-              General Physicians are advocates for their patients. They help patients navigate the healthcare system and ensure that their rights and needs are met. They also advocate for policies and programs that promote health equity and access to healthcare for all individuals and families. <br/>              You may find the best doctors and more information about the best general physician in Delhi which are mentioned below sites –
-              <ul class="pl-6">
-                <b>
-                <li>➥ Lybrate</li>
-                <li>➥ Mediindia</li>
-                <li>➥ Practo</li>
-                <li>➥ <a href="https://www.doctorsqueries.com/" class="text-red-900"> Doctorsqueries</a></li>
-                <li>➥ Ourdoctors</li>
-                </b>
-              </ul>
-              </p>
-              <p class="mt-3" >Also, you can find information on all doctors around Delhi in depth on our website <a href="https://www.doctorsqueries.com/doctors"></a>Doctors Queries</p>
+              <p>Remember to check their current status, services offered, and reviews before scheduling any appointments for <strong><em>dental treatment in Delhi</em></strong>. Additionally, it's a good idea to contact the <a href="https://www.instagram.com/doctorsqueries/"><strong><em><u>clinics</u></em></strong></a>&nbsp;directly for the most up-to-date information.</p>
+        
             </div>
           </div>
         </div>
