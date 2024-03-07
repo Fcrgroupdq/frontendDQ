@@ -22,23 +22,21 @@ function Hospital() {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title> List of Top 5 Best Hospital in Delhi- Find the Best</title>
+          <title>Where to Find the Best General Physician in Delhi?</title>
           <meta
             name="description"
-            content="Find the best hospital in Delhi with the list of top 5 hospitals on DoctorsQueries. Get the best medical care and treatment for your needs."
+            content="Looking for the best general physician in Delhi? Look no further than DoctorsQueries for reliable and experienced doctors in your area."
           />
           <link
             rel="canonical"
-            href="https://www.doctorsqueries.com/list-of-top-5-best-hospital-in-delhi"
+            href="https://www.doctorsqueries.com/blog/where-to-find-the-best-general-physician-in-delhi"
           />
           <meta
             name="keywords"
-            content="hospital in delhi, best hospital in delhi, top 5 hospital in delhi, top 5 hospital in delhi"
+            content="general physician in Delhi, best general physician in Delhi, general physician doctor in Delhi, best general physician doctor in Delhi"
           />
         </Helmet>
-        <style>
-          
-        </style>
+        <style></style>
       </div>
       {/*End SEO meta  */}
 
@@ -50,7 +48,7 @@ function Hospital() {
                 DoctorsQueries
               </h2>
              
-              <h1 class="sm:text-5xl font-medium text-gray-900">Top 5 Best Hospitals in Delhi - Updated List 2024</h1>
+              <h1 class="sm:text-5xl font-medium text-gray-900">Who Is the Best General Physician Doctor in Delhi?</h1>
 
                 
               
@@ -58,71 +56,6 @@ function Hospital() {
 
             <div class="conatiner-fluid">
               {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
-                <h2 class="sm:text-4xl font-medium text-gray-900">Top 5 Best Hospital in Delhi</h2>
-                <h3>1. The best hospital in Delhi, Sir Ganga Ram Hospital -</h3>
-<p><strong>About Hospital</strong></p>
-<p>Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><strong><em><u>hospital</u></em></strong></a>&nbsp;in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.</p>
-<p><strong>Location:</strong><strong>&nbsp;</strong>Rajinder Nagar, New Delhi, Delhi 110060</p>
-<p><strong>Team and Specialities</strong></p>
-<ul>
-<li>Major renal transplantation center with over 650 live-related transplants in 10&nbsp;years.</li>
-<li>Department of Nephrology leading center in the country.</li>
-<li>Highest success rate of IVF units in India is 25% pregnancy rates.</li>
-</ul>
-<p><strong>Infrastructure</strong></p>
-<ul>
-<li>675 bedded multispecialty hospital.</li>
-<li>Ambulance available round the clock.</li>
-<li>Pharmacy and emergency services are also available.</li>
-</ul>
-<p>Official Website: <a href="https://sgrh.com/"><strong><u>Sir Ganga Ram Hospital</u></strong></a></p>
-<h3>2. Indraprastha Apollo Hospital</h3>
-<p>Indraprastha Apollo, the best Hospital in New Delhi was established in 1996 and is NABH, NABL &amp; JCI accredited. This hospital includes and offers 10,000 beds across 64 hospitals, more than 2,200 pharmacies, over 100 primary care &amp; and diagnostic clinics, and 115 telemedicine units across 9 countries.&nbsp;Indraprastha Apollo Hospital, the best hospital in New Delhi is the first hospital in India to perform a Paediatric Liver Transplant in 1998.</p>
-<p><strong>Location</strong>:&nbsp;Indraprastha Apollo Hospitals, Sarita Vihar, Delhi Mathura Road New Delhi Delhi 110076 India</p>
-<p><strong>Team and Specialities</strong></p>
-<p>The Indraprastha Apollo Hospital ranked first in Neurosciences, Renal Sciences, Oncology, Paediatrics, Gynaecology, and Obstetrics and Emergency in The Times of India Healthcare Survey 2016.</p>
-<p><strong>Infrastructure</strong></p>
-<ul>
-<li>Spread over 15 acres, the hospital has 710 beds.</li>
-<li>6 beds dedicated to bone marrow transplant units with very strict infection control practices.</li>
-<li>64-Slice Scan coupled with data acquisition which provides the highest temporal resolution</li>
-</ul>
-<p>Official Website: <a href="https://www.apollohospitals.com/delhi/"><strong><u>Indraprastha Apollo Hospital</u></strong></a></p>
-<h3>3. Max Super Speciality Hospital, the best hospital in Delhi</h3>
-<ul>
-<li>Max Super Specialty Hospital is a multi-specialty hospital situated in Shalimar Bagh, one of the best hospital in Delhi. It offers services in various medical specialties such as cardiology, gastroenterology, neurology, oncology, and renal transplant.</li>
-<li>Additionally, it has a blood bank and pathology laboratory. The hospital has tie-ups with some of the best hospitals in India for tertiary care.</li>
-</ul>
-<p><strong>Location</strong>: Max Super Specialty Hospital is located in Shalimar Bagh.</p>
-<p><strong>Team and Specialities</strong></p>
-<ul>
-<li>Max Super Specialty Hospital in Shalimar Bagh is a 350-bed hospital that offers world-class treatment in all specialties. With 70% of its doctors holding an overseas qualification, the hospital offers cutting-edge treatment and the latest technology.</li>
-<li>Some of the key specialties offered at Max Super Specialty Hospital Shalimar Bagh include cardiology, neurology, oncology, orthopedics, and urology.</li>
-</ul>
-<p><strong>Infrastructure</strong></p>
-<ul>
-<li>Max Super Specialty Hospital is a 240-bed hospital in Shalimar Bagh. It has a team of over 1000 doctors and 3000 staff. The hospital has a full-fledged laboratory and testing unit.&nbsp;</li>
-</ul>
-<p>Official Website: <a href="https://www.maxhealthcare.in/"><strong><u>Max Super Specialty Hospital</u></strong></a></p>
-<h3>4. BLK Super Speciality Hospital, Best hospital in Delhi</h3>
-<p>BLK Super<strong>&nbsp;</strong>Speciality Hospital is one of the best largest stand-alone private sector hospital headquartered in New Delhi, India. It was established by B.L. Kapur on 2 January 1959. It is also accredited by the NABH and National Accreditation Board for its Testing and Calibration Laboratories.</p>
-<p><strong>Location:&nbsp;</strong>803, Tower B4, Spaze iTech Park, Sec &ndash; 49, Gurgaon, India</p>
-<p><strong>Team and Specialities</strong></p>
-<p>Dr. B L Kapur, a reputed Obstetrician and Gynaecologist settled a Charitable Hospital in 1930 at Lahore. In 1947, after moving to post-partition India, and settled in a Maternity Hospital at Ludhiana. In 1956 on the invitation of Prime Minister, Dr. B L Kapur started the project for setting up a 200-bed hospital in Delhi.</p>
-<p><strong>Infrastructure</strong></p>
-<p>Spread across five acres of land, with a capacity of approximately 650 beds, BLK Super Speciality Hospital is the largest tertiary care private hospital in the country; the outpatient services are spread over two floors with around 80 consultation rooms.</p>
-<p>Official Website: <a href="https://www.blkmaxhospital.com/"><strong><u>BLK Super Speciality Hospital</u></strong></a></p>
-<h3>5. Fortis Escorts Heart Institute</h3>
-<p>Fortis Escorts Heart Institute is one of the best hospital in Delhi. It is a multispecialty hospital that provides world-class healthcare services to patients from all over the world.</p>
-<p><strong>Location</strong>:</p>
-<p>Fortis Escorts Heart Institute is located in the heart of Delhi, the capital of India. The hospital has been operational for over 25 years and is one of the most advanced cardiac care facilities in the country.</p>
-<p><strong>Team and Specialities</strong></p>
-<p>Fortis Escorts Heart Institute is one of the leading hospitals in Delhi for cardiac care. It offers a wide range of specialties such as interventional cardiology, electrophysiology, cardiac surgery, and others.</p>
-<p><strong>Infrastructure</strong></p>
-<p>The hospital has a total of 575 beds, which makes it one of the largest hospitals in Delhi. The hospital offers a wide range of medical services, including cardiology, neurology, nephrology, and oncology.</p>
-<p>Official Website: <a href="https://www.fortishealthcare.com/"><strong><u>Fortis Escorts Heart Institute</u></strong></a></p>
-
-
 
               <p>
                 Generally speaking, people in good health rarely need
