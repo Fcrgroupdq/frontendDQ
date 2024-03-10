@@ -76,7 +76,7 @@ const Appointment = () => {
   const [appointment, setAppointment] = useState(AppointmentModel);
   const [loading, setLoading] = useState(false);
   const [booking, setBooking] = useState(false);
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
   const [otpVisible, setOtpVisible] = useState(false);
   const [pinValues, setPinValues] = useState(["", "", "", ""]);
   const [otpLoding, setOtpLoding] = useState(false);
@@ -94,13 +94,13 @@ const Appointment = () => {
       });
   }, []);
 
-  useEffect(() => {
-    if (booking) {
-      interval.current = setInterval(() => {
-        setCount((pre) => pre + 1);
-      }, 1000);
-    }
-  }, [booking]);
+  // useEffect(() => {
+  //   if (booking) {
+  //     interval.current = setInterval(() => {
+  //       setCount((pre) => pre + 1);
+  //     }, 1000);
+  //   }
+  // }, [booking]);
 
   const sendNotifaction = (data) => {
     axios
@@ -128,7 +128,7 @@ const Appointment = () => {
           setBooking(true);
           axios
             .post(
-              `https://zany-bikini-hare.cyclic.cloud/appointment`,
+              `https://drab-blue-mite-belt.cyclic.app/appointment`,
               {
                 ...appointment,
                 token: localStorage.getItem("dqAuthTo"),
@@ -137,9 +137,7 @@ const Appointment = () => {
                 date: getCurrentTime(),
               },
               {
-                headers: {
-                  token: localStorage.getItem("dqAuthTo"),
-                },
+               
               }
             )
             .then((res) => {
@@ -238,10 +236,7 @@ const Appointment = () => {
       });
   };
 
-  if (count >= 5) {
-    clearInterval(interval.current);
-    navigate("/");
-  }
+  
 
   const handleChange = (e) => {
     setAppointment({ ...appointment, [e.target.name]: e.target.value });
@@ -343,7 +338,7 @@ const Appointment = () => {
           </Text>
 
           <Box fontSize={35} color={"red.600"} marginTop={22}>
-            {count}
+            {}
           </Box>
         </Box>
       </>
