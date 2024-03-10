@@ -193,9 +193,8 @@ const Allroute = () => {
       <Route
         path="/doctors/:id/appointment"
         element={
-          <PrivateRouteUser>
             <Appointment />
-          </PrivateRouteUser>
+
         }
       />
       <Route path="/admin/login" element={<AdminLogin />} />
