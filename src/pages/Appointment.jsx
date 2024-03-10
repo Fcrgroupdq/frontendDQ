@@ -240,7 +240,7 @@ const Appointment = () => {
 
   if (count >= 5) {
     clearInterval(interval.current);
-    navigate("/user-dashboard");
+    navigate("/");
   }
 
   const handleChange = (e) => {
