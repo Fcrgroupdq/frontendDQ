@@ -25,7 +25,7 @@ const Footer = () => {
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png" />
             </Helmet>
-      <HospitaltopSection />
+  
 
 
       <div>
