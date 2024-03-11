@@ -59,18 +59,18 @@ const Appointment = () => {
 
   const AppointmentModel = {
     doctorName: param.id,
-    // date: "",
-    // appointmentDay: "",
+    date: "",
+    appointmentDay: "",
     specilaty: "",
     reason: "",
-    // checkup: "",
+    checkup: "",
     name: "",
-    // age: "",
-    // address: "",
+    age: "",
+    address: "",
     email: "",
     mobile: "",
-    // gender: "",
-    // times: "",
+    gender: "",
+    times: "",
   };
 
   const [appointment, setAppointment] = useState(AppointmentModel);
@@ -157,9 +157,10 @@ const Appointment = () => {
                   massage: `
                   Dear ${name},
 
-                  We are pleased to confirm your appointment with ${doctor.name} on  at . Below are the appointment details: https://doctorsquery.vercel.app/user-dashboard
+                  We are pleased to confirm your appointment with ${doctor.name} on  at ${date}. Below are the appointment details: https://doctorsquery.vercel.app/user-dashboard
 
-                 
+                  - Date: ${date}
+                  - Time: ${time}
                   - Doctor: ${doctor.name}
                   - Clinic/Location: ${doctor.location}
 
@@ -181,7 +182,8 @@ const Appointment = () => {
                   You have a new appointment scheduled with you:
 
                   - Patient Name: ${name}
-             
+                  - Date: ${date}
+                  - Time: ${time}
                   - Clinic/Location: ${doctor.location}
 
                   Please make sure to be available and prepared for the appointment. If you have any questions or need additional information, please contact the patient at ${email}.
@@ -203,7 +205,8 @@ const Appointment = () => {
 
                    - Patient Name: ${name}
                    - Doctor: ${doctor.name}
-              
+                   - Date: ${date}
+                   - Time: ${time}
                    - Clinic/Location:${doctor.location}
 
                    Please review and confirm this appointment in our system. If you have any questions or need to make adjustments, please take the necessary actions accordingly.
@@ -252,17 +255,17 @@ const Appointment = () => {
 
     if (
       doctorName === "" ||
-      // appointmentDay === "" ||
+      appointmentDay === "" ||
       specilaty == "" ||
       reason == "" ||
-      // checkup == "" ||
+      checkup == "" ||
       name === "" ||
-      // age === "" ||
-      // address === "" ||
+      age === "" ||
+      address === "" ||
       email === "" ||
-      mobile === "" 
-      // gender === "" ||
-      // time === ""
+      mobile === "" ||
+      gender === "" ||
+      time === ""
     ) {
       toast({
         title: "All inputs are required!",
@@ -307,18 +310,18 @@ const Appointment = () => {
 
   const {
     doctorName,
-    // date,
+    date,
     specilaty,
     reason,
-    // checkup,
+    checkup,
     name,
-    // age,
-    // address,
+    age,
+    address,
     email,
     mobile,
-    // gender,
-    // time,
-    // appointmentDay,
+    gender,
+    time,
+    appointmentDay,
   } = appointment;
 
   if (booking) {
@@ -381,9 +384,42 @@ const Appointment = () => {
               {/* </FormControl> */}
               <br />
 
+              <FormControl id="time" isRequired>
+                <FormLabel>Available Time slots</FormLabel>
+                <Select
+                  value={time}
+                  name="time"
+                  onChange={handleChange}
+                  placeholder="Select appointment time"
+                  fontSize="lg"
+                  mt={2}
+                >
+                  {" "}
+                  {/* Increased font size and added more spacing */}
+                  {doctor?.timeSlots?.map((item) => (
+                    <option value={item}>{item}</option>
+                  ))}
+                </Select>
+              </FormControl>
               <br />
 
-              
+              <FormControl id="time" isRequired>
+                <FormLabel>Appointment Date</FormLabel>
+                <Select
+                  value={appointmentDay}
+                  name="appointmentDay"
+                  onChange={handleChange}
+                  placeholder="Select appointment date"
+                  fontSize="lg"
+                  mt={2}
+                >
+                  {" "}
+                  {/* Increased font size and added more spacing */}
+                  {doctor?.Availability?.map((item) => (
+                    <option value={item}>{item}</option>
+                  ))}
+                </Select>
+              </FormControl>
               <br />
 
               <FormControl id="specialty" isRequired>
@@ -416,10 +452,25 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-             
+              <FormControl id="checkupType" isRequired>
+                <FormLabel>Checkup Type</FormLabel>
+                <Select
+                  value={checkup}
+                  name="checkup"
+                  onChange={handleChange}
+                  placeholder="Select checkup type"
+                  fontSize="lg"
+                  mt={2}
+                >
+                  {" "}
+                  {/* Increased font size and added more spacing */}
+                  <option value="regular">Regular Checkup</option>
+                  <option value="specialist">Specialist Consultation</option>
+                  <option value="follow-up">Follow-up</option>
+                </Select>
+              </FormControl>
               <br />
             </Box>
-
             {/* Right Section */}
             <Box colSpan={1}>
               <FormControl id="name" isRequired>
@@ -437,10 +488,33 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-             
+              <FormControl id="age" isRequired>
+                <FormLabel>Age</FormLabel>
+                <Input
+                  name="age"
+                  value={age}
+                  onChange={handleChange}
+                  type="number"
+                  placeholder="Enter age"
+                  fontSize="lg"
+                  mt={2}
+                />{" "}
+                {/* Increased font size and added more spacing */}
+              </FormControl>
               <br />
 
-              
+              <FormControl id="address" isRequired>
+                <FormLabel>Address</FormLabel>
+                <Textarea
+                  value={address}
+                  name="address"
+                  onChange={handleChange}
+                  placeholder="Enter address"
+                  fontSize="lg"
+                  mt={2}
+                />{" "}
+                {/* Increased font size and added more spacing */}
+              </FormControl>
               <br />
 
               <FormControl id="email" isRequired>
@@ -473,7 +547,23 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              
+              <FormControl id="Gender" isRequired>
+                <FormLabel>Gender</FormLabel>
+                <Select
+                  value={gender}
+                  name="gender"
+                  onChange={handleChange}
+                  placeholder="Select gender type"
+                  fontSize="lg"
+                  mt={2}
+                >
+                  {" "}
+                  {/* Increased font size and added more spacing */}
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </Select>
+              </FormControl>
               <br />
             </Box>
           </SimpleGrid>
