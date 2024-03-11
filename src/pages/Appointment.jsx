@@ -62,14 +62,14 @@ const Appointment = () => {
     // date: "",
     // appointmentDay: "",
     specilaty: "",
-    // reason: "",
+    reason: "",
     // checkup: "",
     name: "",
     // age: "",
     // address: "",
     email: "",
     mobile: "",
-    gender: "",
+    // gender: "",
     // times: "",
   };
 
@@ -255,17 +255,17 @@ const Appointment = () => {
 
     if (
       doctorName === "" ||
-      appointmentDay === "" ||
+      // appointmentDay === "" ||
       specilaty == "" ||
       reason == "" ||
-      checkup == "" ||
+      // checkup == "" ||
       name === "" ||
-      age === "" ||
-      address === "" ||
+      // age === "" ||
+      // address === "" ||
       email === "" ||
-      mobile === "" ||
-      gender === "" ||
-      time === ""
+      mobile === "" 
+      // gender === "" ||
+      // time === ""
     ) {
       toast({
         title: "All inputs are required!",
@@ -310,18 +310,18 @@ const Appointment = () => {
 
   const {
     doctorName,
-    date,
+    // date,
     specilaty,
     reason,
-    checkup,
+    // checkup,
     name,
-    age,
-    address,
+    // age,
+    // address,
     email,
     mobile,
-    gender,
-    time,
-    appointmentDay,
+    // gender,
+    // time,
+    // appointmentDay,
   } = appointment;
 
   if (booking) {
@@ -384,42 +384,9 @@ const Appointment = () => {
               {/* </FormControl> */}
               <br />
 
-              <FormControl id="time" isRequired>
-                <FormLabel>Available Time slots</FormLabel>
-                <Select
-                  value={time}
-                  name="time"
-                  onChange={handleChange}
-                  placeholder="Select appointment time"
-                  fontSize="lg"
-                  mt={2}
-                >
-                  {" "}
-                  {/* Increased font size and added more spacing */}
-                  {doctor?.timeSlots?.map((item) => (
-                    <option value={item}>{item}</option>
-                  ))}
-                </Select>
-              </FormControl>
               <br />
 
-              <FormControl id="time" isRequired>
-                <FormLabel>Appointment Date</FormLabel>
-                <Select
-                  value={appointmentDay}
-                  name="appointmentDay"
-                  onChange={handleChange}
-                  placeholder="Select appointment date"
-                  fontSize="lg"
-                  mt={2}
-                >
-                  {" "}
-                  {/* Increased font size and added more spacing */}
-                  {doctor?.Availability?.map((item) => (
-                    <option value={item}>{item}</option>
-                  ))}
-                </Select>
-              </FormControl>
+              
               <br />
 
               <FormControl id="specialty" isRequired>
@@ -452,25 +419,10 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="checkupType" isRequired>
-                <FormLabel>Checkup Type</FormLabel>
-                <Select
-                  value={checkup}
-                  name="checkup"
-                  onChange={handleChange}
-                  placeholder="Select checkup type"
-                  fontSize="lg"
-                  mt={2}
-                >
-                  {" "}
-                  {/* Increased font size and added more spacing */}
-                  <option value="regular">Regular Checkup</option>
-                  <option value="specialist">Specialist Consultation</option>
-                  <option value="follow-up">Follow-up</option>
-                </Select>
-              </FormControl>
+             
               <br />
             </Box>
+
             {/* Right Section */}
             <Box colSpan={1}>
               <FormControl id="name" isRequired>
@@ -488,33 +440,10 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="age" isRequired>
-                <FormLabel>Age</FormLabel>
-                <Input
-                  name="age"
-                  value={age}
-                  onChange={handleChange}
-                  type="number"
-                  placeholder="Enter age"
-                  fontSize="lg"
-                  mt={2}
-                />{" "}
-                {/* Increased font size and added more spacing */}
-              </FormControl>
+             
               <br />
 
-              <FormControl id="address" isRequired>
-                <FormLabel>Address</FormLabel>
-                <Textarea
-                  value={address}
-                  name="address"
-                  onChange={handleChange}
-                  placeholder="Enter address"
-                  fontSize="lg"
-                  mt={2}
-                />{" "}
-                {/* Increased font size and added more spacing */}
-              </FormControl>
+              
               <br />
 
               <FormControl id="email" isRequired>
@@ -547,23 +476,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="Gender" isRequired>
-                <FormLabel>Gender</FormLabel>
-                <Select
-                  value={gender}
-                  name="gender"
-                  onChange={handleChange}
-                  placeholder="Select gender type"
-                  fontSize="lg"
-                  mt={2}
-                >
-                  {" "}
-                  {/* Increased font size and added more spacing */}
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="other">Other</option>
-                </Select>
-              </FormControl>
+              
               <br />
             </Box>
           </SimpleGrid>
