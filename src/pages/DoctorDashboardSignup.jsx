@@ -193,7 +193,7 @@ const DoctorDashboardSignup = () => {
                 marginTop={"12px"}
                 // display={"flex"}
                 justifyContent={"space-between"}
-                width={"400px"}
+                // width={"400px"}
               >
                 <HStack>
                   <PinInput>
