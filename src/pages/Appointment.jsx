@@ -598,7 +598,7 @@ const Appointment = () => {
                   ))}
                 </PinInput>
               </HStack>
-              <Button style="margin-top:30px;" onClick={handleOtpVerify} colorScheme="red">
+              <Button onClick={handleOtpVerify} colorScheme="red">
                 {otpLoding ? <Spinner /> : "verify OTP"}
               </Button>
             </Box>
