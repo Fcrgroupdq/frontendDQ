@@ -212,133 +212,151 @@ function Govthospital() {
 
                  <p>Website: <a href="https://www.aiims.edu/index.php?lang=en"><b>AIIMS - All India Institute Of Medical Science</b></a></p>
 
-                  <p><b>➥ Infrastructure:</b> 
-                 <ol >
-                    <li>Spread over 15 acres, the hospital has 710 beds.</li>
-                    <li>6 beds dedicated to bone marrow transplant units with very strict infection control practices</li>
-                    <li>64-Slice Scan coupled with data acquisition which provides the highest temporal resolution</li>
-                 </ol>
+            </li>
+
+
+            <li>
                   
-                  </p>
-
-                  <p>Official Website: <a href="https://www.apollohospitals.com/delhi/"><b>Indraprastha Apollo Hospital</b></a></p>
-
-                </li>
-
-                <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">Max Super Speciality Hospital, the best hospital in Delhi</h4>
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">2. Safdarjung Hospital</h4>
                   
                   <p>
                   
-                 <ul>
-                  <li>
-                  Max Super Specialty Hospital is a multi-specialty hospital situated in Shalimar Bagh, one of the best hospital in Delhi. It offers services in various medical specialties such as cardiology, gastroenterology, neurology, oncology, and renal transplant.
-                  </li>
-                  <li>Additionally, it has a blood bank and pathology laboratory. The hospital has tie-ups with some of the best hospitals in India for tertiary care.</li>
-                 </ul>
-                 
-                 </p> <br />
+                 <br />
 
-                 <p><b>Location:</b> 
-                 Max Super Specialty Hospital is located in Shalimar Bagh                  
-                  </p>
-                 
-                 <p><b>➥ Team and Specialities:</b> 
-                 
-                 <ol >
-                    <li>Max Super Specialty Hospital in Shalimar Bagh is a 350-bed hospital that offers world-class treatment in all specialties. With 70% of its doctors holding an overseas qualification, the hospital offers cutting-edge treatment and the latest technology.</li>
-                    <li>Some of the key specialties offered at Max Super Specialty Hospital Shalimar Bagh include cardiology, neurology, oncology, orthopedics, and urology.</li>
-                    
-                 </ol>
-                   
-                  </p>
-              
-                  <p><b>➥ Infrastructure:</b> 
-                 <ol >
-                    <li>Max Super Specialty Hospital is a 240-bed hospital in Shalimar Bagh. It has a team of over 1000 doctors and 3000 staff. The hospital has a full-fledged laboratory and testing unit</li>
-                    
-                 </ol>
+                 <b>Location:</b> Ansari Nagar, Ring Road, New Delhi</p> <br />
+
+                 <p>Website: <a href="https://vmmc-sjh.nic.in/"><b>SJH AND VMMC (vmmc-sjh.nic.in)</b></a></p>
+
+            </li>
+            
+    
+            <li>
                   
-                  </p>
-
-                  <p>Official Website: <a href="https://www.maxhealthcare.in/"><b>Max Super Specialty Hospital</b></a></p>
-
-                </li>
-
-
-                <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">BLK Super Speciality Hospital, Best hospital in Delhi</h4>
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">3. Dr. Ram Manohar Lohia Hospital</h4>
                   
                   <p>
-                  BLK Super Speciality Hospital is one of the best largest stand-alone private sector hospital headquartered in New Delhi, India. It was established by B.L. Kapur on 2 January 1959. It is also accredited by the NABH and National Accreditation Board for its Testing and Calibration Laboratories
-
-                 
-                 </p> <br />
-
-                 <p><b>Location:</b> 
-                 803, Tower B4, Spaze iTech Park, Sec – 49, Gurgaon, India                  
-                  </p>
-                 
-                 <p><b>➥ Team and Specialities:</b> 
-                 Dr. B L Kapur, a reputed Obstetrician and Gynaecologist settled a Charitable Hospital in 1930 at Lahore. In 1947, after moving to post-partition India, and settled in a Maternity Hospital at Ludhiana. In 1956 on the invitation of Prime Minister, Dr. B L Kapur started the project for setting up a 200-bed hospital in Delhi.
-
-                   
-                  </p>
-              
-                  <p><b>➥ Infrastructure:</b> 
-                  Spread across five acres of land, with a capacity of approximately 650 beds, BLK Super Speciality Hospital is the largest tertiary care private hospital in the country; the outpatient services are spread over two floors with around 80 consultation rooms. 
-                  </p>
-
-                  <p>Official Website: <a href="https://www.blkmaxhospital.com/"><b>BLK Super Speciality Hospital</b></a></p>
-
-                </li>
-
-                <li>
                   
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">Fortis Escorts Heart Institute</h4>
+                 <br />
+
+                 <b>Location:</b> Baba Kharak Singh Marg, New Delhi</p> <br />
+
+                 <p>Website: <a href="https://rmlh.nic.in"><b>Dr. Ram Manohar Lohia Hospital and Post Graduate Institute of Medical Education and Research, New Delhi, India, A central government hospital (English Version) (rmlh.nic.in)</b></a></p>
+
+            </li>
+
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">4. Lok Nayak Hospital</h4>
                   
                   <p>
-                  Fortis Escorts Heart Institute is one of the best hospital in Delhi. It is a multispecialty hospital that provides world-class healthcare services to patients from all over the world.
-                 
-                 </p> <br />
+                  
+                 <br />
 
-                 <p><b>Location:</b> 
-                 Fortis Escorts Heart Institute is located in the heart of Delhi, the capital of India. The hospital has been operational for over 25 years and is one of the most advanced cardiac care facilities in the country  
-                 </p>
-                 
-                 <p><b>➥ Team and Specialities:</b> 
-                 Fortis Escorts Heart Institute is one of the leading hospitals in Delhi for cardiac care. It offers a wide range of specialties such as interventional cardiology, electrophysiology, cardiac surgery, and others.
-                   
-                  </p>
-              
-                  <p><b>➥ Infrastructure:</b> 
-                  The hospital has a total of 575 beds, which makes it one of the largest hospitals in Delhi. The hospital offers a wide range of medical services, including cardiology, neurology, nephrology, and oncology
-                  </p>
+                 <b>Location:</b> Jawaharlal Nehru Marg, New Delhi</p> <br />
 
-                  <p>Official Website: <a href="https://www.fortishealthcare.com/"><b>Fortis Escorts Heart Institute</b></a></p>
+                 <p>Website: <a href="https://lnjp.delhi.gov.in"><b>Home | Lok Nayak Hospital (delhi.gov.in)</b></a></p>
 
-                </li>
+            </li>
+
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">5. Lady Hardinge Medical College and Associated Hospitals</h4>
+                  
+                  <p>
+                  
+                 <br />
+
+                 <b>Location:</b> Connaught Place, New Delhi</p> <br />
+
+                 <p>Website: <a href="http://www.lhmc-hosp.gov.in"><b>www.lhmc-hosp.gov.in</b></a></p>
+
+            </li>
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">6. Din Dayal Upadhyay Hospital</h4>
+                  
+                  <p>
+                  
+                 <br />
+
+                 <b>Location:</b> Hari Nagar, New Delhi</p> <br />
+
+                 <p>Website: <a href="https://dduh.delhi.gov.in/en"><b>Home | Deen Dayal Upadhyay Hospital (delhi.gov.in)</b></a></p>
+
+            </li>
+
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">7. Guru Teg Bahadur Hospital (GTB Hospital)</h4>
+                  
+                  <p>
+                  
+                 <br />
+
+                 <b>Location:</b> Dilshad Garden, Shahdara, Delhi</p> <br />
+
+                 <p>Website: <a href="https://gtbh.delhi.gov.in"><b>https://gtbh.delhi.gov.in/</b></a></p>
+
+            </li>
+
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">8. GB Pant Institute of Postgraduate Medical Education & Research</h4>
+                  
+                  <p>
+                  
+                 <br />
+
+                 <b>Location:</b> Jawaharlal Nehru Marg, New Delhi</p> <br />
+
+                 <p>Website: <a href="https://gbpant.delhi.gov.in/"><b>https://gbpant.delhi.gov.in//</b></a></p>
+
+            </li>
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">9. Institute of Liver and Biliary Sciences (ILBS)</h4>
+                  
+                  <p>
+                  
+                 <br />
+
+                 <b>Location:</b> D-1, Vasant Kunj, New Delhi</p> <br />
+
+                 <p>Website: <a href="http://www.ilbs.in"><b>ILBS</b></a></p>
+
+            </li>
+
+
+            <li>
+                  
+                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">10. Chacha Nehru Bal Chikitsalaya</h4>
+                  
+                  <p>
+                  
+                 <br />
+
+                 <b>Location:</b> Geeta Colony, New Delhi</p> <br />
+
+                 <p>Website: <a href="http://www.cnbchospital.in"><b>CNBC Hospital</b></a></p>
+
+            </li>
+
+
+
+
 
 
               </ul>
 
              
             
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
-              Conclusion
-              </h2>
-              <p>
-              In summary, the <b><i>top 5 best hospital in Delhi </i></b>have been carefully curated based on their quality of care, expertise, and facilities. This updated list for 2024 is a reliable resource for individuals seeking the best hospital in Delhi.
-              <br /><br />
-              Whether you need specialized treatment, advanced medical procedures, or exceptional patient care, these hospitals have proven their excellence. When it comes to your health, choose from the top 5 best hospitals in Delhi for the best possible medical care and outcomes. <br /><br />
-              
-              Visit DoctorsQueries to find the best hospital in Delhi that suits your needs.
-              </p>
-   
-       
-       
+           <p>Please check the official websites of these hospitals for the latest information on services, facilities, and any changes in rankings or quality of care and DQ is here to help you always</p>
             
               
             </div>
