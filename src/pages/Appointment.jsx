@@ -384,7 +384,7 @@ const Appointment = () => {
               {/* </FormControl> */}
               <br />
 
-              <FormControl id="time" isRequired>
+              <FormControl id="time" >
                 <FormLabel>Available Time slots</FormLabel>
                 <Select
                   value={time}
@@ -403,7 +403,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="time" isRequired>
+              <FormControl id="time" >
                 <FormLabel>Appointment Date</FormLabel>
                 <Select
                   value={appointmentDay}
@@ -422,7 +422,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="specialty" isRequired>
+              <FormControl id="specialty" >
                 <FormLabel>Specialty</FormLabel>
                 <Input
                   name="specilaty"
@@ -438,7 +438,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="reason" isRequired>
+              <FormControl id="reason" >
                 <FormLabel>Reason for Appointment</FormLabel>
                 <Textarea
                   value={reason}
@@ -452,7 +452,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="checkupType" isRequired>
+              <FormControl id="checkupType" >
                 <FormLabel>Checkup Type</FormLabel>
                 <Select
                   value={checkup}
@@ -473,7 +473,7 @@ const Appointment = () => {
             </Box>
             {/* Right Section */}
             <Box colSpan={1}>
-              <FormControl id="name" isRequired>
+              <FormControl id="name" >
                 <FormLabel>Name</FormLabel>
                 <Input
                   name="name"
@@ -488,7 +488,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="age" isRequired>
+              <FormControl id="age" >
                 <FormLabel>Age</FormLabel>
                 <Input
                   name="age"
@@ -503,7 +503,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="address" isRequired>
+              <FormControl id="address" >
                 <FormLabel>Address</FormLabel>
                 <Textarea
                   value={address}
@@ -517,7 +517,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="email" isRequired>
+              <FormControl id="email" >
                 <FormLabel>Email</FormLabel>
                 <Input
                   name="email"
@@ -532,7 +532,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="mobile" isRequired>
+              <FormControl id="mobile" >
                 <FormLabel>Mobile Number</FormLabel>
                 <Input
                   name="mobile"
@@ -547,7 +547,7 @@ const Appointment = () => {
               </FormControl>
               <br />
 
-              <FormControl id="Gender" isRequired>
+              <FormControl id="Gender" >
                 <FormLabel>Gender</FormLabel>
                 <Select
                   value={gender}
