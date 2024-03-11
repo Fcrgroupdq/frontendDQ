@@ -164,6 +164,7 @@ import Genphy from "../pages/delhi/blog/best-general-physician";
 import Besthospital from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
 import DentaltreatmentD from "../pages/delhi/blog/best_hospital_for_dental_treatment";
 import Dentistsindelhi from "../pages/delhi/blog/dentists-in-delhi";
+import Govthospital from "../pages/delhi/blog/govt-hospital-in-delhi";
 
 // Gurgaon Blog
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
@@ -227,7 +228,7 @@ const Allroute = () => {
       <Route path="list-of-top-5-best-hospital-in-delhi" element={< Besthospital/>} />
       <Route path="dental-treatment-in-delhi" element={< DentaltreatmentD/>} />
       <Route path="dentists-in-delhi" element={< Dentistsindelhi/>} />
-      
+      <Route path="govt-hospital-in-delhi" element={< Govthospital/>} />
 
       {/* Gurgaon Blogs Route  */}
       {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<HospitalDelhi />} /> */}
