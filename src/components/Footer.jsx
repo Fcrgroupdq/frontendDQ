@@ -238,7 +238,7 @@ export default function Footer() {
                 Privacy Policy
               </Box>
             </Stack>
-            <Stack align={"flex-start"}>
+            {/* <Stack align={"flex-start"}>
               <ListHeader>Stay up to date</ListHeader>
               <Stack direction={"row"}>
                 <Input
@@ -259,7 +259,7 @@ export default function Footer() {
                   icon={<BiMailSend />}
                 />
               </Stack>
-            </Stack>
+            </Stack> */}
           </SimpleGrid>
         </Container>
       </Box>
