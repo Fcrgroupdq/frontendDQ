@@ -191,7 +191,7 @@ const DoctorDashboardSignup = () => {
             {otpVisible ? (
               <Box
                 marginTop={"12px"}
-                display={"flex"}
+                // display={"flex"}
                 justifyContent={"space-between"}
                 width={"400px"}
               >
