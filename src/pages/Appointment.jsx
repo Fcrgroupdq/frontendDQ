@@ -59,18 +59,18 @@ const Appointment = () => {
 
   const AppointmentModel = {
     doctorName: param.id,
-    date: "",
-    appointmentDay: "",
+    // date: "",
+    // appointmentDay: "",
     specilaty: "",
-    reason: "",
-    checkup: "",
+    // reason: "",
+    // checkup: "",
     name: "",
-    age: "",
-    address: "",
+    // age: "",
+    // address: "",
     email: "",
     mobile: "",
     gender: "",
-    times: "",
+    // times: "",
   };
 
   const [appointment, setAppointment] = useState(AppointmentModel);
