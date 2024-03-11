@@ -582,10 +582,10 @@ const Appointment = () => {
 
           {otpVisible ? (
             <Box
-              marginTop={"12px"}
-              display={"flex"}
+              marginTop={"30px"}
+              // display={"flex"}
               justifyContent={"space-between"}
-              width={"400px"}
+              // width={"400px"}
             >
               <HStack>
                 <PinInput>
