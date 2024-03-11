@@ -157,10 +157,9 @@ const Appointment = () => {
                   massage: `
                   Dear ${name},
 
-                  We are pleased to confirm your appointment with ${doctor.name} on  at ${date}. Below are the appointment details: https://doctorsquery.vercel.app/user-dashboard
+                  We are pleased to confirm your appointment with ${doctor.name} on  at . Below are the appointment details: https://doctorsquery.vercel.app/user-dashboard
 
-                  - Date: ${date}
-                  - Time: ${time}
+                 
                   - Doctor: ${doctor.name}
                   - Clinic/Location: ${doctor.location}
 
@@ -182,8 +181,7 @@ const Appointment = () => {
                   You have a new appointment scheduled with you:
 
                   - Patient Name: ${name}
-                  - Date: ${date}
-                  - Time: ${time}
+             
                   - Clinic/Location: ${doctor.location}
 
                   Please make sure to be available and prepared for the appointment. If you have any questions or need additional information, please contact the patient at ${email}.
@@ -205,8 +203,7 @@ const Appointment = () => {
 
                    - Patient Name: ${name}
                    - Doctor: ${doctor.name}
-                   - Date: ${date}
-                   - Time: ${time}
+              
                    - Clinic/Location:${doctor.location}
 
                    Please review and confirm this appointment in our system. If you have any questions or need to make adjustments, please take the necessary actions accordingly.
