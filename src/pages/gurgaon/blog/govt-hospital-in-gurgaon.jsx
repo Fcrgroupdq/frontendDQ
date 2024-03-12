@@ -206,174 +206,112 @@ function Govthospitalgurgaon() {
 
 </ul>
 
+</p>
+
+{/* New */}
+
+
+
+ 
+<h3 class="sm:text-3xl font-medium text-blue-900 mt-6 mb-2">Top 5 Government Hospital in Gurgaon</h3>
+
+
+
 
 <p>
-The <b><i>Government hospital in Gurgaon</i></b>, like other government healthcare facilities in India, generally provides a range of medical services and facilities. However, specific services and facilities can vary based on the hospital and its capacity.
+
+<ul>
+<li>
+     
+   
+<li>
+     <p><b>1. Civil Hospital Gurgaon </b> 
+   
+    <br /> <br />
+
+ 
+     <b>Location: </b> Sector 10A, Gurgaon, Haryana.
+    <br />
+
+    <b>Description: </b> Civil Hospital Gurgaon is a well-known government hospital that provides a wide range of medical services to the community.
+    <br />   
+     </p>
+    </li>
+ 
+
+
+
+
+    <li>
+     <p><b>2. General Hospital, Manesar </b> 
+
+    <br /> <br />
+
+ 
+     <b>Location: </b> Manesar, Gurgaon, Haryana.
+    <br />
+
+    <b>Description: </b> The General Hospital in Manesar is a government healthcare facility that offers various medical treatments and services.
+    <br />   
+     </p>
+    </li>
+
+    <li>
+     <p><b>3. <a href="https://www.esic.gov.in/hospitals"> ESIC Hospital </a> </b> 
+
+    <br /> <br />
+
+ 
+     <b>Location: </b> Sector 3, IMT Manesar, Gurgaon, Haryana.
+    <br />
+
+    <b>Description: </b> ESIC Hospital in Gurgaon is a government hospital that caters to the healthcare needs of workers and employees under the Employee State Insurance Corporation (ESIC) scheme.
+    <br />   
+     </p>
+    </li>
+
+
+
+    <li>
+     <p><b>4.  Primary Centre, Pataudi </b> 
+
+    <br /> <br />
+
+ 
+     <b>Location: </b> Pataudi, Gurgaon, Haryana.
+    <br />
+
+    <b>Description: </b> The primary health center in Pataudi is a government healthcare facility that offers basic medical services to the residents of Pataudi and nearby areas.
+    <br />   
+     </p>
+    </li>
+
+
+
+    <li>
+     <p><b>5. Primary Centre, Farrukhnagar </b> 
+
+    <br /> <br />
+
+ 
+     <b>Location: </b> Farrukhnagar, Gurgaon, Haryana.
+    <br />
+
+    <b>Description: </b> The primary health center in Pataudi is a government healthcare facility that offers basic medical services to the residents of Pataudi and nearby areas.
+    <br />   
+     </p>
+    </li>
+
+   </li>
+
+</ul>
+
 </p>
-</p>
 
 
+         
             
-              <ul>
-                <p>Government hospitals in Delhi provide affordable healthcare, critical care services, public health programs, medical education and research, modern medical facilities, qualified staff, accessibility, patient feedback, and cost-effective options for medical treatments and services.</p> <br /><br />
-
-                <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">1. All India Institute of Medical Sciences (AIIMS)</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Ansari Nagar, New Delhi</p> <br />
-
-                 <p>Website: <a href="https://www.aiims.edu/index.php?lang=en"><b>AIIMS - All India Institute Of Medical Science</b></a></p>
-
-            </li>
-
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">2. Safdarjung Hospital</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Ansari Nagar, Ring Road, New Delhi</p> <br />
-
-                 <p>Website: <a href="https://vmmc-sjh.nic.in/"><b>SJH AND VMMC (vmmc-sjh.nic.in)</b></a></p>
-
-            </li>
-            
-    
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">3. Dr. Ram Manohar Lohia Hospital</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Baba Kharak Singh Marg, New Delhi</p> <br />
-
-                 <p>Website: <a href="https://rmlh.nic.in"><b>Dr. Ram Manohar Lohia Hospital and Post Graduate Institute of Medical Education and Research, New Delhi, India, A central government hospital (English Version) (rmlh.nic.in)</b></a></p>
-
-            </li>
-
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">4. Lok Nayak Hospital</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Jawaharlal Nehru Marg, New Delhi</p> <br />
-
-                 <p>Website: <a href="https://lnjp.delhi.gov.in"><b>Home | Lok Nayak Hospital (delhi.gov.in)</b></a></p>
-
-            </li>
-
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">5. Lady Hardinge Medical College and Associated Hospitals</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Connaught Place, New Delhi</p> <br />
-
-                 <p>Website: <a href="http://www.lhmc-hosp.gov.in"><b>www.lhmc-hosp.gov.in</b></a></p>
-
-            </li>
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">6. Din Dayal Upadhyay Hospital</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Hari Nagar, New Delhi</p> <br />
-
-                 <p>Website: <a href="https://dduh.delhi.gov.in/en"><b>Home | Deen Dayal Upadhyay Hospital (delhi.gov.in)</b></a></p>
-
-            </li>
-
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">7. Guru Teg Bahadur Hospital (GTB Hospital)</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Dilshad Garden, Shahdara, Delhi</p> <br />
-
-                 <p>Website: <a href="https://gtbh.delhi.gov.in"><b>https://gtbh.delhi.gov.in/</b></a></p>
-
-            </li>
-
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">8. GB Pant Institute of Postgraduate Medical Education & Research</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Jawaharlal Nehru Marg, New Delhi</p> <br />
-
-                 <p>Website: <a href="https://gbpant.delhi.gov.in/"><b>https://gbpant.delhi.gov.in//</b></a></p>
-
-            </li>
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">9. Institute of Liver and Biliary Sciences (ILBS)</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> D-1, Vasant Kunj, New Delhi</p> <br />
-
-                 <p>Website: <a href="http://www.ilbs.in"><b>ILBS</b></a></p>
-
-            </li>
-
-
-            <li>
-                  
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">10. Chacha Nehru Bal Chikitsalaya</h4>
-                  
-                  <p>
-                  
-                 <br />
-
-                 <b>Location:</b> Geeta Colony, New Delhi</p> <br />
-
-                 <p>Website: <a href="http://www.cnbchospital.in"><b>CNBC Hospital</b></a></p>
-
-            </li>
-
-
-
-
-
-
-              </ul>
-
-             
-            
-           <p>Please check the official websites of these hospitals for the latest information on services, facilities, and any changes in rankings or quality of care and DQ is here to help you always</p>
+           <p>These government hospitals in Gurgaon play a crucial role in providing affordable and accessible healthcare services to the residents of Gurgaon and its surrounding areas.</p>
             
               
             </div>
