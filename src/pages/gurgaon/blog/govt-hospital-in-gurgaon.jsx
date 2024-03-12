@@ -239,7 +239,7 @@ function Govthospitalgurgaon() {
     </li>
  
 
-
+<br /><br />
 
 
     <li>
@@ -270,7 +270,7 @@ function Govthospitalgurgaon() {
      </p>
     </li>
 
-
+    <br /><br />
 
     <li>
      <p><b>4.  Primary Centre, Pataudi </b> 
@@ -286,7 +286,7 @@ function Govthospitalgurgaon() {
      </p>
     </li>
 
-
+    <br /><br />
 
     <li>
      <p><b>5. Primary Centre, Farrukhnagar </b> 
@@ -309,7 +309,7 @@ function Govthospitalgurgaon() {
 </p>
 
 
-         
+<br /><br />
             
            <p>These government hospitals in Gurgaon play a crucial role in providing affordable and accessible healthcare services to the residents of Gurgaon and its surrounding areas.</p>
             
