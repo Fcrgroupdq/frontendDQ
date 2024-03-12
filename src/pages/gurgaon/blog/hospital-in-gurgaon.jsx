@@ -62,26 +62,26 @@ function Hospitalgurgaon() {
                       Gurgaon's population and average per capita income are growing steadily, leading to an increasing demand for <b><i><a href="https://www.doctorsqueries.com/doctors">healthcare services.</a></i></b>
                       <br />
                     </p>
-
+<br /><br />
                     <p>
                       <b>➥ Medical Tourism: </b>
                       India has emerged as a popular destination for medical tourism due to its world-class healthcare facilities, skilled doctors, and affordable treatment options. Gurgaon, being a prominent city in India, attracts a significant number of medical tourists.
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ Educational Institutions: </b>
                       Gurgaon is home to several universities and colleges, which attract a large number of students. The presence of the best hospital in Gurgaon area ensures that students and working professionals have access to healthcare facilities in case of emergencies. <br />
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ Manufacturing Hub:: </b>
                       Gurgaon has been a manufacturing hub since its inception, and the presence of hospitals in the area is crucial for the well-being of the workers employed in these industries.
                       <br />
                       <br />
                     </p>
-
+                   
                     <p>
                       <b>➥ State of Art Facilities: </b>
                       Many hospital in Gurgaon are equipped with advanced medical equipment and technology, providing patients with top-notch medical care.
@@ -123,48 +123,48 @@ function Hospitalgurgaon() {
                       Best Hospital in Gurgaon are equipped with state-of-the-art medical equipment and technology, ensuring that patients receive the best possible care.
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ Speciality Departments:: </b>
                       Hospitals offer specialized departments, such as Mother and Child Care, Orthopaedics, Joint Replacement & Spinal Surgery, Kidney Transplantation & Renal Diseases, Oncology, General Surgery, and Cardiology.
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ NABH & NABL Accreditation: </b>
                       Many best hospitals in Gurgaon are accredited by the National Accreditation Board for Hospitals & Healthcare Providers (NABH) and the National Accreditation Board for Testing & Calibration Laboratories (NABL), ensuring adherence to the highest standards of healthcare.
                       <br />
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ ISO Certification: </b>
                       Some hospitals are certified by the International Organization for Standardization (ISO), demonstrating their commitment to quality and patient safety.
                       <br />
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ 24*7 Emergency Services: </b>
                         Best hospital in Gurgaon offer round-the-clock emergency services, ensuring that patients receive prompt attention in case of medical emergencies.
                       <br />
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ Comfortable Patient Rooms: </b>
                       Have comfortable patient rooms, equipped with modern amenities to ensure a comfortable stay for patients.
                       <br />
                       <br />
                     </p>
-
+                    <br /><br />
                     <p>
                       <b>➥ Support Services: </b>
                       Best hospitals in Gurgaon provide support services such as pharmacy, laboratory, and radiology services, ensuring that patients have access to comprehensive medical care.
                       <br />
                       <br />
                     </p>
-
+                    <br /><br />
                <p>
                These facilities make best hospital in Gurgaon well-equipped to cater to the diverse medical needs of the population and provide high-quality healthcare services.
                </p>
@@ -210,7 +210,7 @@ function Hospitalgurgaon() {
                     </li>
 
     <br />
-
+    <br /><br />
                     
                     <li>
                       <p>
@@ -251,7 +251,7 @@ function Hospitalgurgaon() {
                         <br />
                       </p>
                     </li>
-
+                    <br /><br />
                   </li>
                 </ul>
               </p>
