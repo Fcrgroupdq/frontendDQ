@@ -170,7 +170,7 @@ import Hairtransplanttreatment from "../pages/delhi/blog/hair-transplant-treatme
 // Gurgaon Blog
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 import Govthospitalgurgaon from "../pages/gurgaon/blog/govt-hospital-in-gurgaon";
-
+import Hospitalgurgaon from "../pages/gurgaon/blog/hospital-in-gurgaon";
 
 
 // Noida Blog
@@ -238,7 +238,7 @@ const Allroute = () => {
       {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<HospitalDelhi />} /> */}
       <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} />
       <Route path="govt-hospital-in-gurgaon" element={<Govthospitalgurgaon />} />
-      
+      <Route path="hospital-in-gurgaon" element={<Hospitalgurgaon />} />
 
       {/* Noida Blogs Route  */}
       {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} /> */}
