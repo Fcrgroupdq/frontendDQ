@@ -131,72 +131,44 @@ function Hospitalgurgaon() {
                     </p>
 
                     <p>
-                      <b>➥ Emergency & Trauma Care: </b>
-                      Immediate medical attention for accidents, injuries, and
-                      critical medical conditions.
+                      <b>➥ NABH & NABL Accreditation: </b>
+                      Many best hospitals in Gurgaon are accredited by the National Accreditation Board for Hospitals & Healthcare Providers (NABH) and the National Accreditation Board for Testing & Calibration Laboratories (NABL), ensuring adherence to the highest standards of healthcare.
                       <br />
                       <br />
                     </p>
 
                     <p>
-                      <b>➥ Diagnostic Services: </b>
-                      Including laboratory tests, imaging services (X-rays, CT
-                      scans, etc.), and other diagnostic procedures.
+                      <b>➥ ISO Certification: </b>
+                      Some hospitals are certified by the International Organization for Standardization (ISO), demonstrating their commitment to quality and patient safety.
                       <br />
                       <br />
                     </p>
 
                     <p>
-                      <b>➥ Maternity & Child Care: </b>
-                      Services related to pregnancy, childbirth, and pediatric
-                      care.
+                      <b>➥ 24*7 Emergency Services: </b>
+                        Best hospital in Gurgaon offer round-the-clock emergency services, ensuring that patients receive prompt attention in case of medical emergencies.
                       <br />
                       <br />
                     </p>
 
                     <p>
-                      <b>➥ Surgery Services: </b>
-                      Both minor and major surgical procedures.
+                      <b>➥ Comfortable Patient Rooms: </b>
+                      Have comfortable patient rooms, equipped with modern amenities to ensure a comfortable stay for patients.
                       <br />
                       <br />
                     </p>
 
                     <p>
-                      <b>➥ Pharmacy Services: </b>
-                      Dispensing of medications prescribed by hospital doctors
+                      <b>➥ Support Services: </b>
+                      Best hospitals in Gurgaon provide support services such as pharmacy, laboratory, and radiology services, ensuring that patients have access to comprehensive medical care.
                       <br />
                       <br />
                     </p>
 
-                    <p>
-                      <b>➥ Vaccination & Immunization: </b>
-                      Providing vaccines for preventable diseases.
-                      <br />
-                      <br />
-                    </p>
+               
+                 
 
-                    <p>
-                      <b>➥ Specialty Clinics: </b>
-                      Depending on the hospital, there may be specialized
-                      clinics for specific medical conditions or specialties.
-                      <br />
-                      <br />
-                    </p>
-
-                    <p>
-                      <b>➥ Rehabilitation Services: </b>
-                      Physiotherapy and rehabilitation services for patients
-                      recovering from surgeries or injuries.
-                      <br />
-                      <br />
-                    </p>
-
-                    <p>
-                      <b>➥ Community Health Services: </b>
-                      Outreach programs and health camps for the community.
-                      <br />
-                      <br />
-                    </p>
+              
                   </li>
                 </ul>
               </p>
