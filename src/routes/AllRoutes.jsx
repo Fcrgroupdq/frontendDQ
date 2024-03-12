@@ -165,7 +165,7 @@ import Besthospital from "../pages/delhi/blog/top_5_best_hospital_in_delhi";
 import DentaltreatmentD from "../pages/delhi/blog/best_hospital_for_dental_treatment";
 import Dentistsindelhi from "../pages/delhi/blog/dentists-in-delhi";
 import Govthospital from "../pages/delhi/blog/govt-hospital-in-delhi";
-
+import Hairtransplanttreatment from "../pages/delhi/blog/hair-transplant-treatment-in-delhi";
 
 // Gurgaon Blog
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
@@ -231,6 +231,8 @@ const Allroute = () => {
       <Route path="dental-treatment-in-delhi" element={< DentaltreatmentD/>} />
       <Route path="dentists-in-delhi" element={< Dentistsindelhi/>} />
       <Route path="govt-hospital-in-delhi" element={< Govthospital/>} />
+      <Route path="hair-transplant-treatment-in-delhi" element={< Hairtransplanttreatment/>} />
+
 
       {/* Gurgaon Blogs Route  */}
       {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<HospitalDelhi />} /> */}
