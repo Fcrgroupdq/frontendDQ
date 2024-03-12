@@ -165,7 +165,9 @@ function Hospitalgurgaon() {
                       <br />
                     </p>
 
-               
+               <p>
+               These facilities make best hospital in Gurgaon well-equipped to cater to the diverse medical needs of the population and provide high-quality healthcare services.
+               </p>
                  
 
               
@@ -176,7 +178,7 @@ function Hospitalgurgaon() {
               {/* New */}
 
               <h3 class="sm:text-3xl font-medium text-blue-900 mt-6 mb-2">
-                Top 5 Government Hospital in Gurgaon
+              Top 5 Best Hospital in Gurgaon are : 
               </h3>
 
               <p>
@@ -184,13 +186,11 @@ function Hospitalgurgaon() {
                   <li>
                     <li>
                       <p>
-                        <b>1. Civil Hospital Gurgaon </b>
+                        <b>1. Fortis Memorial Research Institute </b>
                         <br /> <br />
-                        <b>Location: </b> Sector 10A, Gurgaon, Haryana.
+                        <b>Location: </b> Sector - 44, Opposite HUDA City Centre, Gurgaon, Haryana.
                         <br />
-                        <b>Description: </b> Civil Hospital Gurgaon is a
-                        well-known government hospital that provides a wide
-                        range of medical services to the community.
+                        <b>Specialities: </b> Multi-specialty hospital with a wide range of services including cardiac, bone & joint, renal, gastro and neurosciences, critical care, and organ transplants.
                         <br />
                       </p>
                     </li>
@@ -200,34 +200,25 @@ function Hospitalgurgaon() {
 
                     <li>
                       <p>
-                        <b>2. General Hospital, Manesar </b>
+                        <b>2. Artemis Hospital </b>
                         <br /> <br />
-                        <b>Location: </b> Manesar, Gurgaon, Haryana.
+                        <b>Location: </b> Sector - 51, Gurgaon, Haryana.
                         <br />
-                        <b>Description: </b> The General Hospital in Manesar is
-                        a government healthcare facility that offers various
-                        medical treatments and services.
+                        <b>Specialities: </b> Multi-specialty hospital known for its advanced medical facilities and services.
                         <br />
                       </p>
                     </li>
 
+    <br />
+
+                    
                     <li>
                       <p>
-                        <b>
-                          3.{" "}
-                          <a href="https://www.esic.gov.in/hospitals">
-                            {" "}
-                            ESIC Hospital{" "}
-                          </a>{" "}
-                        </b>
+                        <b>3. Medanta- the Medicity </b>
                         <br /> <br />
-                        <b>Location: </b> Sector 3, IMT Manesar, Gurgaon,
-                        Haryana.
+                        <b>Location: </b> Sector - 38, Gurgaon, Haryana.
                         <br />
-                        <b>Description: </b> ESIC Hospital in Gurgaon is a
-                        government hospital that caters to the healthcare needs
-                        of workers and employees under the Employee State
-                        Insurance Corporation (ESIC) scheme.
+                        <b>Specialities: </b> Multi-specialty hospital known for its advanced medical facilities and services.
                         <br />
                       </p>
                     </li>
@@ -237,34 +228,30 @@ function Hospitalgurgaon() {
 
                     <li>
                       <p>
-                        <b>4. Primary Centre, Pataudi </b>
+                        <b>4. <a href="https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-saket">Max Super Speciality Hospital </a></b>
                         <br /> <br />
-                        <b>Location: </b> Pataudi, Gurgaon, Haryana.
+                        <b>Location: </b> Near Unitech Cyber park, Sector 51, Gurgaon, Haryana.
                         <br />
-                        <b>Description: </b> The primary health center in
-                        Pataudi is a government healthcare facility that offers
-                        basic medical services to the residents of Pataudi and
-                        nearby areas.
+                        <b>Specialities: </b> Multi-specialty hospital with a focus on providing specialized medical care.
                         <br />
                       </p>
                     </li>
+
 
                     <br />
                     <br />
 
                     <li>
                       <p>
-                        <b>5. Primary Centre, Farrukhnagar </b>
+                        <b>5.  CK Birla Hospital</b>
                         <br /> <br />
-                        <b>Location: </b> Farrukhnagar, Gurgaon, Haryana.
+                        <b>Location: </b> Block J, Mayfield Garden, Sector 51, Gurgaon, Haryana.
                         <br />
-                        <b>Description: </b> The primary health center in
-                        Pataudi is a government healthcare facility that offers
-                        basic medical services to the residents of Pataudi and
-                        nearby areas.
+                        <b>Specialities: </b> Multi-specialty hospital known for its comprehensive healthcare services.
                         <br />
                       </p>
                     </li>
+
                   </li>
                 </ul>
               </p>
@@ -273,9 +260,7 @@ function Hospitalgurgaon() {
               <br />
 
               <p>
-                These government hospitals in Gurgaon play a crucial role in
-                providing affordable and accessible healthcare services to the
-                residents of Gurgaon and its surrounding areas.
+              These best hospital in Gurgaon are known for their advanced medical facilities, specialized services, and a wide range of medical specialities, making them the top choices for healthcare in Gurgaon.
               </p>
             </div>
           </div>
