@@ -2,6 +2,7 @@ import React from 'react'
 // import BlogCart from '../components/Blog/BlogCart'
 // import BlogModel from '../components/Blog/BlogModel'
 // import LetestBlog from '../components/About/LetestBlog'
+import dentist from "../assets/blog/delhi/dentist.webp"
 import {Helmet} from "react-helmet";
 
 const Blog = () => {
