@@ -29,7 +29,7 @@ const Blog = () => {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-        <img class="w-full my-4" src={dentist} alt="Sunset in the mountains" />
+        <img class="w-full my-4 object-fill" src={dentist} alt="Sunset in the mountains" />
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
@@ -58,7 +58,7 @@ const Blog = () => {
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-        <img class="w-full my-4" src={dentist} alt="Sunset in the mountains" />
+        <img class="w-full my-4 object-fill" src={dentist} alt="Sunset in the mountains" />
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
@@ -87,7 +87,7 @@ const Blog = () => {
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-        <img class="w-full my-4" src={dentist} alt="Sunset in the mountains" />
+        <img class="w-full my-4 object-fill" src={dentist} alt="Sunset in the mountains" />
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
