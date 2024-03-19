@@ -50,7 +50,7 @@ function Hospitalnoida() {
             </div>
 
             <div class="conatiner-fluid">
-             <img class="w-full my-4" src="" alt="Sunset in the mountains" />
+             <img class="w-full my-4" src="" alt="Hospital in Noida | Best Hospitals in Noida" />
          
               <p>
               <b><i>Hospital in Noida </i></b>are important due to the rising healthcare demand, the presence of educational institutions, the manufacturing sector, the potential for medical tourism, the diverse range of specialties, state-of-the-art facilities, and experienced medical professionals.
