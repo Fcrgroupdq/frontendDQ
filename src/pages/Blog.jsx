@@ -1,7 +1,7 @@
 import React from 'react'
-import BlogCart from '../components/Blog/BlogCart'
-import BlogModel from '../components/Blog/BlogModel'
-import LetestBlog from '../components/About/LetestBlog'
+// import BlogCart from '../components/Blog/BlogCart'
+// import BlogModel from '../components/Blog/BlogModel'
+// import LetestBlog from '../components/About/LetestBlog'
 import {Helmet} from "react-helmet";
 
 const Blog = () => {
