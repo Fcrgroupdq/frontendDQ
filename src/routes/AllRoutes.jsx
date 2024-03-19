@@ -174,7 +174,7 @@ import Hospitalgurgaon from "../pages/gurgaon/blog/hospital-in-gurgaon";
 
 
 // Noida Blog
-
+import Hospitalnoida from "../pages/noida/blog/hospital-in-noida";
 
 
 const Allroute = () => {
@@ -241,7 +241,7 @@ const Allroute = () => {
       <Route path="hospital-in-gurgaon" element={<Hospitalgurgaon />} />
 
       {/* Noida Blogs Route  */}
-      {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} /> */}
+      <Route path="hospital-in-noida" element={<Hospitalnoida />} />
 
       
       <Route path="/doctorappointment" element={<DoctorAppointment />} />
