@@ -173,7 +173,7 @@ import Cosmetiicsurgeon from "../pages/delhi/blog/cosmetic-surgeons-in-south-del
 import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
 import Govthospitalgurgaon from "../pages/gurgaon/blog/govt-hospital-in-gurgaon";
 import Hospitalgurgaon from "../pages/gurgaon/blog/hospital-in-gurgaon";
-
+import Cosmeticgurgaon from "../pages/cosmetic-surgeon-in-gurgaon";
 
 // Noida Blog
 import Hospitalnoida from "../pages/noida/blog/hospital-in-noida";
@@ -241,6 +241,7 @@ const Allroute = () => {
       <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<Dentaltreatment />} />
       <Route path="govt-hospital-in-gurgaon" element={<Govthospitalgurgaon />} />
       <Route path="hospital-in-gurgaon" element={<Hospitalgurgaon />} />
+      <Route path="cosmetic-surgeon-in-gurgaon" element={<Cosmeticgurgaon />} />
 
       {/* Noida Blogs Route  */}
       <Route path="hospital-in-noida" element={<Hospitalnoida />} />
