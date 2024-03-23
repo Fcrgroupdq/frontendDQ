@@ -234,7 +234,7 @@ const Allroute = () => {
       <Route path="dentists-in-delhi" element={< Dentistsindelhi/>} />
       <Route path="govt-hospital-in-delhi" element={< Govthospital/>} />
       <Route path="hair-transplant-treatment-in-delhi" element={< Hairtransplanttreatment/>} />
-      <Route path="cosmetic-surgeons-in-south-delhi" element={< Hairtransplanttreatment/>} />
+      <Route path="cosmetic-surgeons-in-south-delhi" element={< Cosmetiicsurgeon/>} />
 
       {/* Gurgaon Blogs Route  */}
       {/* <Route path="best-hospital-for-dental-treatment-in-gurgaon" element={<HospitalDelhi />} /> */}
