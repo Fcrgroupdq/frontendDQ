@@ -61,38 +61,38 @@ function Cosmeticgurgaon() {
               <p>
              
               These days finding the <b><i>best cosmetic surgeon in Gurgaon </i></b>is a hard nut to crack. But you are lucky enough as we are here to guide you on the same so that you can get the best treatment followed by high-class care and many more.
-                
+                <br />
                 <br />
                 With the help of the <b><i><a href="https://www.doctorsqueries.com/cosmetic-surgeons-in-south-delhi">best cosmetic surgeon</a></i></b>, you can get your cosmetic surgery done in the right manner and get the right guidance so that everything goes as you want it. Now, let us take you on a tour of some of the best cosmetic surgeons in Gurgaon. 
                 <br />
                 In this blog post, we will explore the factors to consider when selecting the best dental hospital in Gurgaon and highlight some of the top hospitals known for their excellence in dental care.             
                 
               </p>
-
+              <br /><br />
             
          
               <ul class="pl-6">
                 <li>
                   <b>➥ Dr Ritesh Anand:</b> With over 22 years of experience, Dr Ritesh Anand is a highly renowned cosmetic surgeon in Gurgaon. In addition to this, he has expertise in performing multiple successful cosmetic surgeries. Furthermore, many patients have seen the visible results and found cosmetic surgeries to be extremely helpful.
-                </li>
+                </li> <br />
                 <li>
                   <b>➥ Dr Anmol Chugh: </b> Best known for plastic surgery, Dr Anmol Chugh is recognized for plastic surgery. Up until now, he has gained hundreds of successful patient stories and positive reviews as well. In addition to this, you get to pay an affordable consultation fee and the right guidance.
-                </li>
+                </li> <br />
                 <li>
                   <b>➥ Dr Ashit Gupta:</b> With an overall 23 years of experience, Dr Ashit Gupta holds expertise in cosmetic surgeries like hair transplant, laser surgery, and many more. Furthermore, you can easily book your appointment and get the right guidance for your cosmetic surgery.
-                </li>
+                </li> <br />
                 <li>
                   <b>➥ Dr Shiksha Bansal: </b> Equipped with over 10 years of experience, Dr Shiksha Bansal can be reached at South City-I, Gurgaon with a nominal consultation fee. In addition to this, you should know that she has assisted many patients in getting the desirable look and guided them in the right manner.
-                </li>
+                </li> <br />
                 <li>
                   <b>➥ Dr Preeti Yadav: </b> Known for her expertise in plastic surgery and many other cosmetic surgeries, Dr Preeti Yadav holds 13 years of experience in total and is available for consultation in Sector-57, Gurgaon. Also, she is available for online consultation so that you can get your consultation done at your house.
-                </li>
+                </li> <br />
                 <li>
                   <b>➥ Dr Raghav Mantri: </b> Highly recognized for expertise in all types of cosmetic surgeries, Dr Raghav Mantri holds 22 years of experience and can be consulted at Sushant Lok I, Gurgaon in Max Hospital. His appointments can be easily booked and one can get expert guidance from him.
-                </li>
+                </li> <br />
                 <li>
                   <b>➥ Dr Lokesh: </b> One of the most senior and best cosmetic surgeons in Gurgaon, Dr Lokesh is highly reliable when it comes to performing any kind of cosmetic surgery. You can easily reach him and share your concerns for a reliable solution.
-                </li>
+                </li> <br />
                 
 
               </ul>
