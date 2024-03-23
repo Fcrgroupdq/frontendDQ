@@ -68,24 +68,24 @@ function Cosmetiicsurgeon() {
               <ul class="pl-6">
                 <li>
                   <b>➥ Dr Manisha Kapoor Aesthetic: </b> With over 22 years of experience in the field of cosmetics, Dr Manisha is a highly reputed name specializing in plastic surgery. In addition to this, she brings to the table more than 280 patient stories.
-                </li>
+                </li><br />
                 <li>
                   <b>➥ Dr Anil Kumar Kaler: </b> Mainly known for Rhinoplasty surgery, Dr Anil Kumar Kaler delivers the best treatment and best patient care to assist patients in feeling good about themselves through a safe transformation. Up until now, many patients have been successfully treated.
-                </li>
+                </li><br />
                 <li>
                   <b>➥ Dr Amit Gupta :</b> The next reliable option for you is Dr Amit Gupta who brings you specialization in hair transplant and many other cosmetic surgeries. Situated in South Extension, you can easily get his appointment with an affordable consultation fee.
-                </li>
+                </li><br />
                 <li>
                   <b>➥ Dr. (Col) Vijay Langer : </b> With multiple degrees and a gold medal in plastic surgery, Dr Vijay is highly reputed for body contouring, non-operative facial rejuvenation, hair treatment, hand surgery, and many more. With him, no issue is a barrier and you get best-in-class treatment for your cosmetic surgery.
-                  <br /><br />
+                 
                   <b>Official Website: <a href="https://www.langersculpt.com/">Dr. (Col) Vijay Langer</a></b>
-                </li>
-                <li>
+                </li><br />
+                <li> 
                   <b>➥ Dr SK Chawla:  </b> With over 29 years of experience, Dr SK Chawla is another reputed name in the field of cosmetic surgery. You can easily reach out to him at his clinic, South Delhi Cosmetic Clinic at any time between 10 AM to 7:30 PM. So, better to reach him if you are located near the clinic.
-                </li>
+                </li><br />
                 <li>
                   <b>➥ Dr Shilpi Bhadani:  </b> The next name for you is Dr Shipli Bhadani with over 19 years of experience in cosmetic surgeries. She is usually consulted by patients for hair transplants, skin scars, and other related surgeries. In addition to this, you can reach her anytime between 10 AM to 6 PM.
-                </li>
+                </li><br />
                 
               </ul>
 
