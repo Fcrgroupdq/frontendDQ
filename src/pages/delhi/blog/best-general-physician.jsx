@@ -62,7 +62,7 @@ function Genphy() {
                 Generally speaking, people in good health rarely need
                 medications or need to see a specialist. So it’s natural that
                 most give little thought to selecting a primary care physician
-                or
+                or 
                 <b>
                   <i>General physician in Delhi</i>
                 </b>
