@@ -25,7 +25,7 @@ function Besthospital() {
           <title>List of Top 5 Best Hospital in Delhi- Find the Best</title>
           <meta
             name="description"
-            content=" Find the best hospital in Delhi with the list of top 5 hospitals on DoctorsQueries. Get the best medical care and treatment for your needs."
+            content="Find the best hospital in Delhi with the list of top 5 hospitals on DoctorsQueries. Get the best medical care and treatment for your needs."
           />
           <link
             rel="canonical"
