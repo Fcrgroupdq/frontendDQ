@@ -40,7 +40,7 @@ const Blog = () => {
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Top 5 Best Hospitals in Delhi - Updated List 2024</h1>
             <p class="leading-relaxed mb-3">Find the best hospital in Delhi with the list of top 5 hospitals on DoctorsQueries. Get the best medical care and treatment for your needs.</p>
             <div class="flex items-center flex-wrap ">
-              <a href='https://www.doctorsqueries.com/list-of-top-5-best-hospital-in-delhi' class="text-indigo-500 hover:text-red-900 inline-flex items-center md:mb-2 lg:mb-0">Read More
+              <a href='https://www.doctorsqueries.com/list-of-top-5-best-hospital-in-delhi' class="text-indigo-500 hover:text-red inline-flex items-center md:mb-2 lg:mb-0">Read More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
