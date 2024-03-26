@@ -58,7 +58,7 @@ function DentaltreatmentD() {
             </div>
 
             <div class="conatiner-fluid">
-              <img class="w-full my-4" src={hospitaldent} alt="Sunset in the mountains" />
+              <img class="w-full my-4" src={hospitaldent} alt="Which is the best hospital for dental treatment in Delhi?" />
 
               <p>
               The importance of <b><i>dental treatment in Delhi</i></b> lies in its comprehensive and specialized approach, advanced facilities, preventive focus, and the commitment of experienced professionals to promote optimal oral health and well-being.
