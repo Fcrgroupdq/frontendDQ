@@ -3,7 +3,7 @@ import React from 'react'
 // import BlogModel from '../components/Blog/BlogModel'
 // import LetestBlog from '../components/About/LetestBlog'
 import dentist from "../assets/blog/delhi/dentist.webp"
-import hospitaltop5 from "../assets/blog/list-of-top-5-best-hospital-in-delhi.webp"
+import hospitaltop5 from "../assets/blog/delhi/list-of-top-5-best-hospital-in-delhi.webp"
 import wheregenphy from "../assets/blog/delhi/where_to_find_the_best_general_physician_in_delhi.webp"
 
 import {Helmet} from "react-helmet";

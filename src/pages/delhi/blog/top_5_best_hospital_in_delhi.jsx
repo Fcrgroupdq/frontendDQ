@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import hospitaltop5 from "../../../assets/blog/delhi/list-of-top-5-best-hospital-in-delhi.webp"
 
 function Besthospital() {
   const [doctors, setDoctors] = useState([]);
@@ -48,15 +49,16 @@ function Besthospital() {
                 DoctorsQueries
               </h2>
              
-              <h1 class="sm:text-5xl font-medium text-gray-900">Top 5 Best Hospitals in Delhi - Updated List 2024</h1>
+              <h1 class="sm:text-5xl text-4xl font-medium text-gray-900">Top 5 Best Hospitals in Delhi - Updated List 2024</h1>
 
               
             </div>
 
             <div class="conatiner-fluid">
-              {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
+            <img class="w-full my-4" src={hospitaltop5} alt="Sunset in the mountains" />
 
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
+
+              <h2 class="sm:text-4xl text-3xl font-medium text-gray-900 mt-6 mb-2">
               Top 5 Best Hospital in Delhi
               </h2>
         
@@ -65,7 +67,7 @@ function Besthospital() {
                
                 <li>
                   
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">The best hospital in Delhi, Sir Ganga Ram Hospital -</h4>
+                  <h4 class="sm:text-2xl text-1xl font-medium text-blue-900 mt-6 mb-2">The best hospital in Delhi, Sir Ganga Ram Hospital -</h4>
                   
                   <p><b>➥ About Hospital:</b> 
                   Sir Ganga Ram Hospital, one of the best <a href="https://www.doctorsqueries.com/hospitals"><b><em><u>hospital</u></em></b></a> in Delhi takes pride in its cutting-edge facilities and innovative medical technology, which demonstrate its commitment to providing the highest level of treatment. Its medical centers have 35 perfectly equipped operating rooms that adhere to the highest standards for the best surgical results.
@@ -97,7 +99,7 @@ function Besthospital() {
 
                 <li>
                   
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">Indraprastha Apollo Hospital</h4>
+                  <h4 class="sm:text-2xl text-1xl font-medium text-blue-900 mt-6 mb-2">Indraprastha Apollo Hospital</h4>
                   
                   <p>
                   Indraprastha Apollo, the best Hospital in New Delhi was established in 1996 and is NABH, NABL & JCI accredited. This hospital includes and offers 10,000 beds across 64 hospitals, more than 2,200 pharmacies, over 100 primary care & and diagnostic clinics, and 115 telemedicine units across 9 countries. Indraprastha Apollo Hospital, the best hospital in New Delhi is the first hospital in India to perform a Paediatric Liver Transplant in 1998.
@@ -125,7 +127,7 @@ function Besthospital() {
 
                 <li>
                   
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">Max Super Speciality Hospital, the best hospital in Delhi</h4>
+                  <h4 class="sm:text-2xl text-1xl font-medium text-blue-900 mt-6 mb-2">Max Super Speciality Hospital, the best hospital in Delhi</h4>
                   
                   <p>
                   
@@ -167,7 +169,7 @@ function Besthospital() {
 
                 <li>
                   
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">BLK Super Speciality Hospital, Best hospital in Delhi</h4>
+                  <h4 class="sm:text-2xl text-1xl font-medium text-blue-900 mt-6 mb-2">BLK Super Speciality Hospital, Best hospital in Delhi</h4>
                   
                   <p>
                   BLK Super Speciality Hospital is one of the best largest stand-alone private sector hospital headquartered in New Delhi, India. It was established by B.L. Kapur on 2 January 1959. It is also accredited by the NABH and National Accreditation Board for its Testing and Calibration Laboratories
@@ -195,7 +197,7 @@ function Besthospital() {
 
                 <li>
                   
-                  <h4 class="sm:text-2xl font-medium text-blue-900 mt-6 mb-2">Fortis Escorts Heart Institute</h4>
+                  <h4 class="sm:text-2xl text-1xl font-medium text-blue-900 mt-6 mb-2">Fortis Escorts Heart Institute</h4>
                   
                   <p>
                   Fortis Escorts Heart Institute is one of the best hospital in Delhi. It is a multispecialty hospital that provides world-class healthcare services to patients from all over the world.
@@ -224,7 +226,7 @@ function Besthospital() {
 
              
             
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
+              <h2 class="sm:text-4xl text-3xl font-medium text-gray-900 mt-6 mb-2">
               Conclusion
               </h2>
               <p>
