@@ -49,7 +49,7 @@ function Genphy() {
                 DoctorsQueries
               </h2>
              
-              <h1 class="sm:text-5xl font-medium text-gray-900">Who Is the Best General Physician Doctor in Delhi?</h1>
+              <h1 class="sm:text-5xl text-4xl font-medium text-gray-900">Who Is the Best General Physician Doctor in Delhi?</h1>
 
                 
               
@@ -79,7 +79,7 @@ function Genphy() {
                 referrals to medical specialists when needed. 
               </p>
 
-              <h2 class="sm:text-4xl font-medium text-gray-900 mt-6 mb-2">
+              <h2 class="sm:text-4xl text-3xl font-medium text-gray-900 mt-6 mb-2">
                 Importance of General Physician in Delhi?
               </h2>
               <p>
@@ -107,7 +107,7 @@ function Genphy() {
                 individuals and families, from preventive care to
                 the management of acute and chronic illnesses.
               </p>
-              <h4 class="sm-text-2xl font-medium text-gray-900 mb-5 mt-5">Their role involves:</h4>
+              <h4 class="sm-text-2xl text-1xl font-medium text-gray-900 mb-5 mt-5">Their role involves:</h4>
               <ul class="pl-6">
                 <li>
                   <b>➥ Preventive care:</b> It is an important aspect of primary
@@ -130,7 +130,7 @@ function Genphy() {
                 </li>
               </ul>
 
-              <h4 class="sm-text-2xl font-medium text-gray-900 mt-6 mb-6">
+              <h4 class="sm-text-2xl text-1xl font-medium text-gray-900 mt-6 mb-6">
                 Diagnosis and treatment of illnesses
               </h4>
               <p>
@@ -154,7 +154,7 @@ function Genphy() {
                 </li>
               </ul>
 
-              <h3 class="sm-text-3xl font-medium text-gray-900 mt-6">
+              <h3 class="sm-text-3xl text-2xl font-medium text-gray-900 mt-6">
                 Referral to Specialists of General Physician in Delhi
               </h3>
               <p>
@@ -164,7 +164,7 @@ function Genphy() {
                 physician in Delhi when necessary and coordinate care to ensure
                 that patients receive the appropriate care and treatment.
 
-                <h4 class="sm-text-2xl font-medium text-gray-900 mt-6">Their role involves:</h4>
+                <h4 class="sm-text-2xl text-1xl font-medium text-gray-900 mt-6">Their role involves:</h4>
                 <ul class="pl-6">
                   <li>
                     <b>➥ Coordination of care:</b> General Physicians play a key
