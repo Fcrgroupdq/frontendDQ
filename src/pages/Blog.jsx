@@ -3,6 +3,7 @@ import React from 'react'
 // import BlogModel from '../components/Blog/BlogModel'
 // import LetestBlog from '../components/About/LetestBlog'
 import dentist from "../assets/blog/delhi/dentist.webp"
+import wheregenphy from "../assets/blog/delhi/where_to_find_the_best_general_physician_in_delhi.webp"
 import {Helmet} from "react-helmet";
 
 const Blog = () => {
@@ -30,7 +31,7 @@ const Blog = () => {
 
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-        <img class="w-full my-4 object-fill" src={dentist} alt="Sunset in the mountains" />
+        <img class="w-full my-4 object-fill" src={wheregenphy} alt="Sunset in the mountains" />
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">DoctorsQueries</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Who Is the Best General Physician Doctor in Delhi?</h1>
