@@ -35,13 +35,13 @@ const Blog = () => {
 
     <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-        <img class="w-full my-0 object-fill" src={hospitaldent} alt="List of Top 5 Best Hospital in Delhi- Find the Best" />
+        <img class="w-full my-0 object-fill" src={dentist} alt="How to Find the Best Dentists in Delhi? Doctorsqueries" />
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">DoctorsQueries</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Which is the best hospital for dental treatment in Delhi?</h1>
-            <p class="leading-relaxed mb-3">The importance of dental treatment in Delhi lies in its comprehensive and specialized approach, advanced facilities, preventive focus, and the commitment of experienced professionals to promote optimal oral health and well-being.</p>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">What are some good dentists in Delhi?</h1>
+            <p class="leading-relaxed mb-3">Dentists in Delhi offer world-class dental services at a fraction of the cost without compromising on quality, making it an ideal choice for dental tourists. Delhi boasts state-of-the-art dental facilities that adhere to international standards of hygiene and safety.</p>
             <div class="flex items-center flex-wrap ">
-              <a href='https://www.doctorsqueries.com/dental-treatment-in-delhi' class="text-indigo-500 hover:text-red inline-flex items-center md:mb-2 lg:mb-0">Read More
+              <a href='https://www.doctorsqueries.com/dentists-in-delhi' class="text-indigo-500 hover:text-red inline-flex items-center md:mb-2 lg:mb-0">Read More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
