@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import noida_hospital from "../../../assets/blog/noida/hospital-in-noida.jpg"
 
 function Hospitalnoida() {
   const [doctors, setDoctors] = useState([]);
@@ -50,7 +51,7 @@ function Hospitalnoida() {
             </div>
 
             <div class="conatiner-fluid">
-             <img class="w-full my-4" src="" alt="Hospital in Noida | Best Hospitals in Noida" />
+             <img class="w-full my-4" src={noida_hospital} alt="Hospital in Noida | Best Hospitals in Noida" />
          
               <p>
               <b><i>Hospital in Noida </i></b>are important due to the rising healthcare demand, the presence of educational institutions, the manufacturing sector, the potential for medical tourism, the diverse range of specialties, state-of-the-art facilities, and experienced medical professionals.
