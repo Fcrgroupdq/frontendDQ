@@ -4,7 +4,7 @@ import React from 'react'
 // import LetestBlog from '../components/About/LetestBlog'
 // Gurgaon
 
-import gov_hospital from "../assets/blog/gurgaon/gurgaon/govt-hospital-in-gurgaon.jpg"
+import gov_hospital from "../assets/blog/gurgaon/govt-hospital-in-gurgaon.jpg"
 import gurgaondentist from "../assets/blog/gurgaon/best-hospital-for-dental-treatment-in-gurgaon.jpg"
 
 // Delhi
