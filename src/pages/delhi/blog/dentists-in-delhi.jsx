@@ -3,7 +3,7 @@ import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
 import dentist from "../../../assets/blog/delhi/dentist.webp"
-import hospitaldent from "../../../assets/blog/delhi/dental-treatment-in-delhi.webp"
+
 
 
 function Dentistsindelhi() {

@@ -2,6 +2,7 @@ import React from 'react'
 // import BlogCart from '../components/Blog/BlogCart'
 // import BlogModel from '../components/Blog/BlogModel'
 // import LetestBlog from '../components/About/LetestBlog'
+import govhospital from "../assets/blog/delhi/govt-hospital-in-delhi.webp"
 import dentist from "../assets/blog/delhi/dentist.webp"
 import hospitaldent from "../assets/blog/delhi/dental-treatment-in-delhi.webp"
 import hospitaltop5 from "../assets/blog/delhi/list-of-top-5-best-hospital-in-delhi.webp"
@@ -31,6 +32,47 @@ const Blog = () => {
  <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4">
+
+    <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <img class="w-full my-0 object-fill" src={govhospital} alt="List of the Best Government Hospital in Delhi" />
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">DoctorsQueries</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">List of the Best Government Hospital in Delhi</h1>
+            <p class="leading-relaxed mb-3">Government hospital in Delhi play a crucial role in the healthcare system, catering to the diverse and substantial population of the national capital. </p>
+            <div class="flex items-center flex-wrap ">
+              <a href='https://www.doctorsqueries.com/govt-hospital-in-delhi' class="text-indigo-500 hover:text-red inline-flex items-center md:mb-2 lg:mb-0">Read More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <img class="w-full my-0 object-fill" src={govhospital} alt="List of the Best Government Hospital in Delhi" />
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">DoctorsQueries</h2>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">List of the Best Government Hospital in Delhi</h1>
+            <p class="leading-relaxed mb-3">Government hospital in Delhi play a crucial role in the healthcare system, catering to the diverse and substantial population of the national capital. </p>
+            <div class="flex items-center flex-wrap ">
+              <a href='https://www.doctorsqueries.com/govt-hospital-in-delhi' class="text-indigo-500 hover:text-red inline-flex items-center md:mb-2 lg:mb-0">Read More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 
     <div class="p-4 md:w-1/3">
