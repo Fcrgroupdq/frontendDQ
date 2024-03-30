@@ -2,7 +2,7 @@ import React from 'react'
 // import BlogCart from '../components/Blog/BlogCart'
 // import BlogModel from '../components/Blog/BlogModel'
 // import LetestBlog from '../components/About/LetestBlog'
-import govhospital from "../assets/blog/delhi/govt-hospital-in-delhi.webp"
+import govhospital from "../assets/blog/delhi/govt_hospital_in_delhi.jpg"
 import dentist from "../assets/blog/delhi/dentist.webp"
 import hospitaldent from "../assets/blog/delhi/dental-treatment-in-delhi.webp"
 import hospitaltop5 from "../assets/blog/delhi/list-of-top-5-best-hospital-in-delhi.webp"
