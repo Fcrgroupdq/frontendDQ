@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import gov_hospital from "../../../assets/blog/gurgaon/govt-hospital-in-gurgaon.jpg"
 
 function Govthospitalgurgaon() {
   const [doctors, setDoctors] = useState([]);
@@ -54,7 +55,7 @@ function Govthospitalgurgaon() {
             </div>
 
             <div class="conatiner-fluid">
-              {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
+              <img class="w-full my-4" src={gov_hospital} alt="List of the Best Government Hospital in Gurgaon" />
 
             <p>
             Government <a href="https://www.doctorsqueries.com/hospital-in-gurgaon/"><b><i>hospital in Gurgaon</i></b></a>&nbsp;are important for providing affordable healthcare, and critical care services, implementing public health programs, contributing to medical education and research, and relieving the burden on private hospitals.
