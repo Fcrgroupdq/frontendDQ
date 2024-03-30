@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import top_gov_hospital from "../../../assets/blog/gurgaon/hospital-in-gurgaon.jpg"
+
 
 function Hospitalgurgaon() {
   const [doctors, setDoctors] = useState([]);
@@ -51,7 +53,7 @@ function Hospitalgurgaon() {
             </div>
 
             <div class="conatiner-fluid">
-              {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
+              <img class="w-full my-4" src={top_gov_hospital} alt="Sunset in the mountains" />
 
               <p>
                 Hospital in Gurgaon are important for several reasons:

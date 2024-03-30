@@ -170,7 +170,7 @@ import Cosmetiicsurgeon from "../pages/delhi/blog/cosmetic-surgeons-in-south-del
 
 
 // Gurgaon Blog
-// import Dentaltreatment from "../pages/noida/blog/dental_treatment_in_gurgaon";
+
 import Dentaltreatment from "../pages/gurgaon/blog/dental_treatment_in_gurgaon";
 import Govthospitalgurgaon from "../pages/gurgaon/blog/govt-hospital-in-gurgaon";
 import Hospitalgurgaon from "../pages/gurgaon/blog/hospital-in-gurgaon";
