@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
-// import govhospital from "../../../assets/blog/delhi/govt-hospital-in-delhi.jpg"
-
+import govhospital from "../../../assets/blog/delhi/govt_hospital_in_delhi.jpg"
 
 function Govthospital() {
   const [doctors, setDoctors] = useState([]);
