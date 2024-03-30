@@ -2,6 +2,7 @@ import React from 'react'
 // import BlogCart from '../components/Blog/BlogCart'
 // import BlogModel from '../components/Blog/BlogModel'
 // import LetestBlog from '../components/About/LetestBlog'
+import cosmeticsouth from "../assets/blog/delhi/cosmetic-surgeons-in-south-delhi.jpg"
 import govhospital from "../assets/blog/delhi/govt_hospital_in_delhi.jpg"
 import dentist from "../assets/blog/delhi/dentist.webp"
 import hospitaldent from "../assets/blog/delhi/dental-treatment-in-delhi.webp"
@@ -35,7 +36,7 @@ const Blog = () => {
 
     <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-        <img class="w-full my-0 object-fill" src={govhospital} alt="List of the Best Government Hospital in Delhi" />
+        <img class="w-full my-0 object-fill" src={cosmeticsouth} alt="List of the Best Government Hospital in Delhi" />
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">DoctorsQueries</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">List of the Best Government Hospital in Delhi</h1>

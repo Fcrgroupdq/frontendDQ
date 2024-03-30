@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import DoctorCart from "../../../components/doctors/doctorCart";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import cosmeticsouth from "../../../assets/blog/delhi/cosmetic-surgeons-in-south-delhi.jpg"
+
+
 
 function Cosmetiicsurgeon() {
   const [doctors, setDoctors] = useState([]);
@@ -55,7 +58,7 @@ function Cosmetiicsurgeon() {
             </div>
 
             <div class="conatiner-fluid">
-              {/* <img class="w-full my-4" src="https://images.pexels.com/photos/5120892/pexels-photo-5120892.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=625.0&sharp=10&w=1500" alt="Sunset in the mountains" /> */}
+              <img class="w-full my-4" src={cosmeticsouth} alt="Top Cosmetic Surgeons in South Delhi: Updated List 2024" />
 
               <p>
               Are you looking for a top cosmetic surgeon? If yes, then you’ll be glad to know we have brought you some reliable <b><i>cosmetic surgeons in South Delhi</i></b>! With best-in-class service and specialization in various aspects of cosmetics, you are bound to experience visible results within the stipulated time frame.
