@@ -156,6 +156,11 @@ export default function HomeMain() {
       <div style={{ margin: "20px",marginTop:'0px' }}>
         <GetStarted />
       </div>
+
+
+      <div>
+        <marquee behavior="smooth" direction="left"><b>Disclaimer:</b> All doctor profiles listed on the website are taken from the Internet. If you have any concerns or suggestions, drop us a mail at support@doctorsqueries.com.</marquee>
+      </div>
     </main>
   );
 }
