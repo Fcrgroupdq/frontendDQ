@@ -159,7 +159,7 @@ export default function HomeMain() {
 
 
       <div>
-        <marquee behavior="smooth" direction="left"><b>Disclaimer:</b> All doctor profiles listed on the website are taken from the Internet. If you have any concerns or suggestions, drop us a mail at support@doctorsqueries.com.</marquee>
+        <marquee behavior="smooth" direction="left"><b>Disclaimer:</b> All doctor profiles listed on the website are taken from the Internet. If you have any concerns or suggestions, drop us a mail at <b><i> <a href="mailto:support@doctorsqueries.com">support@doctorsqueries.com</a></i></b>.</marquee>
       </div>
     </main>
   );
