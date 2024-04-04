@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   ChakraProvider,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { BiMailSend } from "react-icons/bi";
 import dq from "../assets/Logo Dq.png"
 
@@ -94,7 +94,7 @@ export default function Footer() {
               </Text>
               <Stack direction={"row"} spacing={6}>
                 <SocialButton label={"Facebook"} href={"https://www.facebook.com/doctorsqueries/"}>
-                  <FaTwitter />
+                  <FaFacebook />
                 </SocialButton>
                 <SocialButton label={"YouTube"} href={"https://youtube.com/@doctorsqueries2601"}>
                   <FaYoutube />
