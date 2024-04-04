@@ -91,10 +91,10 @@ export default function Footer() {
                 quality healthcare affordable and accessible from anywhere.
               </Text>
               <Stack direction={"row"} spacing={6}>
-                <SocialButton label={"Twitter"} href={"#"}>
+                <SocialButton label={"Facebook"} href={"https://www.facebook.com/doctorsqueries/"}>
                   <FaTwitter />
                 </SocialButton>
-                <SocialButton label={"YouTube"} href={"#"}>
+                <SocialButton label={"YouTube"} href={"https://youtube.com/@doctorsqueries2601"}>
                   <FaYoutube />
                 </SocialButton>
                 <SocialButton label={"Instagram"} href={"https://www.instagram.com/doctorsqueries/"}>
