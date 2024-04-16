@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 import TypeDives from "./TypeDives";
 import Homeadd from "./Homeadd";
 import BlogCart from "../Blog/BlogCart";
+import faq from "./faq";
 
 export default function HomeMain() {
   const navigate = useNavigate();
