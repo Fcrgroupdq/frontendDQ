@@ -13,6 +13,8 @@ import { useNavigate } from "react-router-dom";
 import TypeDives from "./TypeDives";
 import Homeadd from "./Homeadd";
 import BlogCart from "../Blog/BlogCart";
+import Dq_Faq from "../assets/Dq_faq.png"
+
 
 export default function HomeMain() {
   const navigate = useNavigate();
@@ -167,7 +169,9 @@ export default function HomeMain() {
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-      <img alt="feature" class="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500">
+      <img alt="FAq" class="object-cover object-center h-full w-full" src={Dq_Faq} />
+      
+
     </div>
     <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
       <div class="flex flex-col mb-10 lg:items-start items-center">
