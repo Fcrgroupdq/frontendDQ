@@ -17,9 +17,10 @@ const Home = () => {
                 <meta name="twitter:title" content="Become a Partner with Doctors Queries: doctorsqueries.com" />
                 <meta name="twitter:description" content="Become a Partner with Doctors Queries and join our network of medical professionals. Expand your network with our trusted platform. Visit at doctorsqueries.com." />
                 <meta name="twitter:image" content="https://www.doctorsqueries.com/static/media/Logo%20Dq.c72f55a0d4f93a4b7578.png" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
             </Helmet>
       <HomeMain />
-      
+
     </div>
   );
 };
