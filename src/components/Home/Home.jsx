@@ -148,6 +148,10 @@ export default function HomeMain() {
         <Homeadd/>
       </div>
 
+      <div>
+        <faq/>
+      </div>
+
       {/* <div style={{ margin: "20px",marginBottom:'0px' }}> */}
         {/* <ClientSpeak /> */}
         {/* <BlogCart /> */}
