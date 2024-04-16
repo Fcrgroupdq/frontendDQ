@@ -180,9 +180,10 @@ export default function HomeMain() {
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Booking after what happens</h2>
         </div>
         <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Booking after what happens</h2>
+         
           <p class="leading-relaxed text-base">After Booking our team will contact you. </p>
        
         </div>
