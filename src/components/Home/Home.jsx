@@ -181,13 +181,9 @@ export default function HomeMain() {
           </svg>
         </div>
         <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Booking after what happens</h2>
+          <p class="leading-relaxed text-base">After Booking our team will contact you. </p>
+       
         </div>
       </div>
       <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -199,13 +195,9 @@ export default function HomeMain() {
           </svg>
         </div>
         <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Is Login nesscesry?</h2>
+          <p class="leading-relaxed text-base">Yes, Login is necessary for Providing you Best Treatment services.</p>
+         
         </div>
       </div>
       <div class="flex flex-col mb-10 lg:items-start items-center">
@@ -216,13 +208,11 @@ export default function HomeMain() {
           </svg>
         </div>
         <div class="flex-grow">
-          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
-          <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
-          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Hospital don't have any Doctor search?</h2>
+          <p class="leading-relaxed text-base">Sometimes it may occur due to server load or may be webiste is not loaded properly , reload website and try. <br />
+          if  u still face issue drop us a mail at <a href="mailto:support@doctorsqueries.com">support@doctorsqueries.com</a> 
+          </p>
+        
         </div>
       </div>
     </div>
